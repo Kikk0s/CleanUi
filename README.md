@@ -38,7 +38,7 @@ Author: kikk0s
 * Based on: [Carbon](https://github.com/fabricecaruso/es-theme-carbon) theme by @fabricecaruso
 * Controller artwork originally based on: [Carbon](https://github.com/fabricecaruso/es-theme-carbon) theme by @fabricecaruso
 * Sistems description from: [Ckau-Book](https://github.com/CkauNui/ckau-book) theme by Ckau (@CkauNui)
-* Menu icons by Freepik from Flaticon
+* Menu icons by Freepik from [Flaticon](https://www.flaticon.com/)
 
 ###  License
 ALLOWED: 
