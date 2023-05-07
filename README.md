@@ -73,9 +73,9 @@ PROHIBITED:
 
 ## Screenshots
 
-|                                    |                                    |
-| :--------------------------------: | :--------------------------------: |
-| ![](https://i.imgur.com/9YceSQw.png) | ![](https://i.imgur.com/TUVzJiK.png) | 
-| ![](https://i.imgur.com/zFJmiyn.png) | ![](https://i.imgur.com/1gnJNJq.png) |
-| ![](https://i.imgur.com/47K7vcp.png) | ![](https://i.imgur.com/qW7NExp.png) |
-
+![](https://i.imgur.com/gsf9J0q.png) 
+![](https://i.imgur.com/l5fjok8.png)
+![](https://i.imgur.com/BUmhtMu.png)
+![](https://i.imgur.com/MSrHmu7.png)
+![](https://i.imgur.com/AQTW61b.png)
+![](https://i.imgur.com/puwiAaZ.png)
