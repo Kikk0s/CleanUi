@@ -79,3 +79,7 @@ PROHIBITED:
 ![](https://i.imgur.com/MSrHmu7.png)
 ![](https://i.imgur.com/AQTW61b.png)
 ![](https://i.imgur.com/puwiAaZ.png)
+![](https://i.imgur.com/i7s9oLQ.png)
+![](https://i.imgur.com/IO1nSdj.png)
+![](https://i.imgur.com/uyKQxrb.png)
+![](https://i.imgur.com/8aE3IAS.png) 
