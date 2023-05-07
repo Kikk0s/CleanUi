@@ -73,7 +73,7 @@ PROHIBITED:
 
 ## Video
 
-https://youtu.be/ZbLsxkb_uXw
+https://youtu.be/6yL7AOrnISI
 
 ## Screenshots
 
