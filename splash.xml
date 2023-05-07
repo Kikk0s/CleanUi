@@ -11,10 +11,16 @@
 		</splash>
 		<image name="background">
 			<path>./tema/images/splasharcade.jpg</path>
+			 <origin>0.5 0.5</origin>
+			 <pos>0.5 0.5</pos>
+			 <minSize>1 1</minSize>
 		</image>
 		<image name="splashaccento" extra="true">
 			<path>./tema/images/splasharcadeaccento.png</path>
 			<color>${accent}</color>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<minSize>1 1</minSize>
 			<zIndex>7</zIndex>
 		</image>
 
