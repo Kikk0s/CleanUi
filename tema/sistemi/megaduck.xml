@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+		<text name="DataRilascio" extra="true">
+			<text>1993</text>
+		</text>
+		<text name="Produttore" extra="true">
+			<text>Creatonic/Videojet/Timlex</text>
+		</text>
+		<text name="nomesistema_nu" extra="true">
+			<text>Mega Duck</text>
+		</text>
+		<text name="Descrizione" extra="true">
+			<text>The Mega Duck was released by Creatronic, Videojet and Timlex in 1993 mainly in Germany and France. Looks alike a Game Boy with the monochrome green screen, it's "start", "Select", "A" and "B" buttons and directional pad but that's were the similiraties ends.
+The carts are about 2 1/8 inchs by 2 1/2 inchs with 36 pins to connect with the cartridge slot of the Mega Duck (unlike the 32-pins of the Game Boy or the 40-pins of the Supervision).</text>
+			<text lang="pl">Mega Duck został wydany przez Creatronic, Videojet i Timlex w 1993 roku głównie w Niemczech i Francji. Wygląda podobnie jak Game Boy z monochromatycznym zielonym ekranem, przyciskami "Start", "Select", "A" i "B" oraz klawiaturą kierunkową, ale na tym podobieństwa się kończą.
+Carts są około 2 1/8 cala na 2 1/2 cala z 36 pinami, aby połączyć się z gniazdem kartridża Mega Duck (w przeciwieństwie do 32-pinów Game Boy lub 40-pinów Supervision).</text>
+			<text lang="ru">Mega Duck был выпущен компаниями Creatronic, Videojet и Timlex в 1993 году в основном в Германии и Франции. Похож на Game Boy с монохромным зеленым экраном, кнопками "Start", "Select", "A" и "B" и джойстиком, но на этом сходство заканчивается.</text>
+			<text lang="it">Il Mega Duck è stato distribuito da Creatronic, Videojet e Timlex nel 1993, principalmente in Germania e Francia. Assomiglia a un Game Boy con lo schermo verde monocromatico, i tasti "start", "Select", "A" e "B" e il pad direzionale, ma le somiglianze finiscono qui.
+Le cartucce sono di circa 2,8 pollici per 2,5 pollici con 36 pin da collegare allo slot per cartucce del Mega Duck (a differenza dei 32 pin del Game Boy o dei 40 pin del Supervision).</text>
+		</text>
+	</view>
+</theme>

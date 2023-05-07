@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+		<text name="DataRilascio" extra="true">
+			<text>2021</text>
+		</text>
+		<text name="nomesistema_nu" extra="true">
+			<text>Mr. Boom</text>
+		</text>
+		<text name="Descrizione" extra="true">
+			<text>Mr.Boom is a Bomberman clone for the RetroArch platform ported to the libretro API, converted from DOS assembly using asm2c.
+Mr.Boom supports up to 8 players and features like netplay, AI bots (new C++ feature), pushing bombs, remote controls and kangaroo riding.</text>
+			<text lang="pl">Mr.Boom jest klonem Bombermana na platformę RetroArch, przeportowanym na libretro API, przekonwertowanym z DOS-owego asemblera przy użyciu asm2c.
+Mr.Boom obsługuje do 8 graczy i posiada takie funkcje jak netplay, AI boty (nowa funkcja w C++), pchanie bomb, zdalne sterowanie i jazda na kangurach.</text>
+			<text lang="ru">Mr.Boom — клон Bomberman для платформы RetroArch, портированный на API libretro и сконвертированный из DOS-сборки с помощью asm2c.
+Mr.Boom поддерживает до 8 игроков и такие функции, как сетевая игра, боты с искусственным интеллектом (новая функция C++), толкание бомб, дистанционное управление и езда на кенгуру.</text>
+			<text lang="it">Mr.Boom è un clone di Bomberman per la piattaforma RetroArch, adattato alle API libretro e convertito dall'assembly DOS con asm2c.
+Mr.Boom supporta fino a 8 giocatori e caratteristiche come il netplay, i bot AI (nuova caratteristica C++), la spinta delle bombe, i controlli remoti e la guida dei canguri.</text>
+		</text>
+	</view>
+</theme>

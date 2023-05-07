@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+		<text name="DataRilascio" extra="true">
+			<text/>
+		</text>
+		<text name="nomesistema_nu" extra="true">
+			<text>vitaQuake 2</text>
+		</text>
+		<text name="Descrizione" extra="true">
+			<text>vitaQuake 2 is a port of a Quake II engine source port made originally for the PS Vita.
+It's based on glQuake but has several features from different source ports such as ProQuake and similars.</text>
+			<text lang="pl">vitaQuake 2 to port źródłowego silnika gry Quake II stworzony pierwotnie dla PS Vita.
+Bazuje na glQuake, ale posiada kilka elementów z innych portów takich, jak ProQuake i podobne.</text>
+			<text lang="ru">Порт Quake 2 и трёх его официальных дополнений: The Reckoning, Ground Zero, Netpack I: Extremities.
+WinQuake используется как движок у порта. Так же в качестве базы порта Rinnegatamante использовал Quake2CTR, автором которого является MasterFeizz.</text>
+			<text lang="it">vitaQuake 2 è un port di un motore sorgente di Quake II realizzato originariamente per PS Vita.
+È basato su glQuake, ma presenta diverse caratteristiche di diversi port di origine, come ProQuake e simili.</text>
+		</text>
+	</view>
+</theme>

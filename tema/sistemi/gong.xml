@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+		<text name="DataRilascio" extra="true">
+			<text>2018</text>
+		</text>
+		<text name="nomesistema_nu" extra="true">
+			<text>Gong</text>
+		</text>
+		<text name="Descrizione" extra="true">
+			<text>Libretro Gong is an open-ended recreation of Pong written by Dan Zeitan in 2018.</text>
+			<text lang="pl">Libretro Gong to otwarte odwzorowanie gry Pong napisane przez Dana Zeitana w 2018 roku.</text>
+			<text lang="ru">Libretro Gong — открытый вариант Pong, написанный Дэном Зейтаном в 2018 году.</text>
+			<text lang="it">Libretro Gong è una ricreazione aperta di Pong scritta da Dan Zeitan nel 2018.</text>
+		</text>
+	</view>
+</theme>

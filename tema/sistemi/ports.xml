@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+	<text name="DataRilascio" extra="true">			
+			<text>Various</text>
+			<text lang="it">Varie </text>
+		</text>
+		<text name="Produttore" extra="true">
+			<text>Various</text>
+			<text lang="it">Vari </text>
+		</text>
+
+		<text name="Descrizione" extra="true">
+
+			<text>Instead of a full system emulator, Ports focus on a particular game or game engine. 
+			
+			In this section you will find the games or game engines emulated by your system</text>
+
+			<text lang="it">Invece di un emulatore di sistema completo, i Ports si concentrano su un particolare gioco o motore di gioco. 
+			
+			In questa sezione troverai i giochi o i motori di gioco emulati dal tuo sistema </text>
+
+		</text>
+	</view>
+</theme>

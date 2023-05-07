@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+		<text name="DataRilascio" extra="true">
+			<text>1995</text>
+		</text>
+		<text name="Produttore" extra="true">
+			<text>CAVE Interactive Co.</text>
+		</text>
+		<text name="nomesistema_nu" extra="true">
+			<text>Cave</text>
+		</text>
+		<text name="Descrizione" extra="true">
+			<text>CAVE Interactive Co., Ltd. is a Japanese video game company founded in 1994 by former employees of Toaplan following its bankruptcy. They are known primarily for their "bullet hell" shoot 'em ups; from 1995 up to 2013, CAVE was one of the most prolific shoot 'em up developers in the Japanese market. Alongside this, CAVE has produced a variety of other types games for arcades, home consoles, PCs, and smartphones, also dating back to 1995.
+"CAVE" is an acronym for "Computer Art Visual Entertainment".</text>
+			<text lang="pl">CAVE Interactive Co., Ltd. to japońska firma zajmująca się grami wideo, założona w 1994 roku przez byłych pracowników firmy Toaplan po jej bankructwie.  Znane jest przede wszystkim z produkcji shoot 'em upów typu "bullet hell"; od 1995 do 2013 roku CAVE było jednym z najbardziej płodnych twórców shoot 'em upów na japońskim rynku. Oprócz tego, CAVE produkowało wiele innych rodzajów gier dla salonów gier, konsol domowych, komputerów PC i smartfonów, również od 1995 roku.
+"CAVE" jest skrótem od "Computer Art Visual Entertainment".</text>
+			<text lang="ru">CAVE CO., LTD. — японская компания, разработчик компьютерных игр. Специализируется на «маниакальных» скролл-шутерах для аркадных игровых автоматов, оставаясь одним из самых активных разработчиков игр этого жанра на японском рынке. Компания была создана бывшими сотрудниками Toaplan, и многие из её ранних игр являются «духовными наследниками» некоторых игр Toaplan — в частности, Truxton и Batsugun. В настоящее время компания занимается разработкой игр для игровых автоматов, мобильных телефонов, Xbox 360, PC а также онлайновыми компьютерными играми.
+Компания не является издателем, её игры распространялись рядом различных компаний. У CAVE есть 3 дочерние компании. MINI4WD Networks Co, Declease ltd., Beads Mania Ltd. основана совместно с Tamiya в феврале 2006 года.
+TABOT, Inc. занимается играми, музыкой и разработкой контента для онлайна. Beads Mania занимается выпуском аксессуаров.</text>
+			<text lang="it">CAVE Interactive Co., Ltd. è una società giapponese di videogiochi fondata nel 1994 da ex dipendenti di Toaplan in seguito al suo fallimento. È nota soprattutto per i suoi sparatutto "bullet hell"; dal 1995 al 2013, CAVE è stata uno degli sviluppatori di sparatutto più prolifici del mercato giapponese. Oltre a questo, CAVE ha prodotto una serie di altri tipi di giochi per sale giochi, console domestiche, PC e smartphone, sempre a partire dal 1995.
+"CAVE" è l'acronimo di "Computer Art Visual Entertainment".</text>
+		</text>
+	</view>
+</theme>

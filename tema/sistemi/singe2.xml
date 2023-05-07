@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+		<text name="DataRilascio" extra="true">
+			<text>2020</text>
+		</text>
+		<text name="Produttore" extra="true">
+			<text>Kangaroo Punch Studios</text>
+		</text>
+		<text name="nomesistema_nu" extra="true">
+			<text>SINGE 2</text>
+		</text>
+		<text name="Descrizione" extra="true">
+			<text>SINGE, the Somewhat Interactive Nostalgic Game Engine, (named after the dragon in Dragon's Lair) is a Lua-based scripting system that allows for rapid prototyping of new laserdisc games, or the creation of entirely new games.
+SINGE provides numerous features to the game developer, such as Object-Oriented Programming Language, Sprites, TrueType Font Support, 32-bit Color Space with Transparency, Multi-channel, Overlapping, Stereo Sound, Analog and Digital Input Device Support, Multiple codec support for video and audio.
+Since the original release of SINGE back in 2006, several revisions have been released, both officially and unofficially. In 2020, SINGE 2.0 was released. This is a total rewrite from the ground up adding numerous features while staying compatible with existing 1.x games.</text>
+			<text lang="pl">SINGE, Somewhat Interactive Nostalgic Game Engine (nazwa pochodzi od smoka w Dragon's Lair) jest systemem skryptowym opartym na Lua, który pozwala na szybkie tworzenie prototypów nowych gier na płyty laserowe lub tworzenie zupełnie nowych gier.
+SINGE oferuje wiele funkcji dla twórców gier, takich jak obiektowy język programowania, sprite'y, obsługa czcionek TrueType, 32-bitowa przestrzeń kolorów z przezroczystością, wielokanałowy, nakładający się na siebie, stereofoniczny dźwięk, obsługa analogowych i cyfrowych urządzeń wejściowych, obsługa wielu kodeków wideo i audio.
+Od oryginalnego wydania SINGE w 2006 roku, wydano kilka rewizji, zarówno oficjalnie jak i nieoficjalnie. W 2020 roku wydany został SINGE 2.0. Jest to całkowite przepisanie od podstaw, dodanie wielu funkcji przy jednoczesnym zachowaniu kompatybilności z istniejącymi grami 1.x.</text>
+			<text lang="fr"></text>
+			<text lang="ru">SINGE, Somewhat Interactive Nostalgic Game Engine, (названный в честь дракона из Dragon's Lair) - это система сценариев на основе Lua, которая позволяет быстро создавать прототипы новых игр для лазердисков или совершенно новые игры.
+SINGE предоставляет разработчику игр множество возможностей, таких как объектно-ориентированный язык программирования, спрайты, поддержка шрифтов TrueType, 32-битное цветовое пространство с прозрачностью, многоканальный, перекрывающийся, стереозвук, поддержка аналоговых и цифровых устройств ввода, поддержка нескольких кодеков для видео и аудио.
+С момента первоначального выпуска SINGE в 2006 году было выпущено несколько версий, как официальных, так и неофициальных. В 2020 году была выпущена версия SINGE 2.0. Это полная переработка с нуля, добавляющая множество функций, но при этом сохраняющая совместимость с существующими играми версии 1.x.</text>
+			<text lang="it">SINGE, acronimo di Somewhat Interactive Nostalgic Game Engine (dal nome del drago di Dragon's Lair) è un sistema di scripting basato su Lua che consente la prototipazione rapida di nuovi giochi laserdisc o la creazione di giochi completamente nuovi.
+SINGE offre numerose funzionalità agli sviluppatori, come un linguaggio di programmazione orientato agli oggetti, gli sprite, il supporto per i font TrueType, lo spazio colore a 32 bit con trasparenza, il suono multicanale, sovrapposto e stereo, il supporto per i dispositivi di ingresso analogici e digitali, il supporto per i codec multipli per video e audio.
+Dal rilascio originale di SINGE nel 2006, sono state rilasciate diverse revisioni, sia ufficiali che non. Nel 2020 è stato rilasciato SINGE 2.0. Si tratta di una riscrittura totale da zero che aggiunge numerose funzionalità pur rimanendo compatibile con i giochi 1.x esistenti.</text>
+		</text>
+	</view>
+</theme>

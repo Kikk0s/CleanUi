@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+		<text name="DataRilascio" extra="true">
+			<text>1999</text>
+		</text>
+		<text name="Produttore" extra="true">
+			<text>Bandai</text>
+		</text>
+		<text name="nomesistema_nu" extra="true">
+			<text>WonderSwan</text>
+		</text>
+		<text name="Descrizione" extra="true">
+			<text>The WonderSwan is a handheld game console released in Japan by Bandai. It was developed by Gunpei Yokoi's company Koto Laboratory and Bandai, and was the last piece of hardware Yokoi developed before his death in 1997.
+Released in 1999 in the fifth generation of video game consoles, the WonderSwan and its two later models, the WonderSwan Color and SwanCrystal were officially supported until being discontinued by Bandai in 2003. During its lifespan, no variation of the WonderSwan was released outside of Japan.</text>
+			<text lang="pl">WonderSwan – przenośna konsola stworzona przez Bandai. Wydana została 4 marca 1999 roku w Japonii.
+System stworzyli: firma Gunpei Yokoia (współtworca Game Boya) Koto oraz Bandai. W założeniach WonderSwan miał konkurować z konsolkami Neo Geo Pocket Color oraz liderem rynku Nintendo Game Boy Color (mimo że Gunpei Yokoi był współtworcą Game Boya).
+Wonderswana zastąpiono później Wonderswanem Color. Niektóre gry WonderSwan Color były kompatybilne z wcześniejszą wersją konsoli, choć większość była wydawana konkretnie na nową platformę. Wonderswan był dostępny w dziesięciu różnych wersjach kolorowych, można było na nim grać trzymając sprzęt poziomo lub pionowo i posiadał przyzwoitą bibliotekę tytułów, z których znaczna część ukazała się tylko w Japonii.
+Podczas, gdy Game Boye miały problemy z walką z pirackimi kopiami gier, na Wonderswanie nie stwierdzono ani jednego przypadku piractwa. Prawdopodobnie było to spowodowane niewielką popularnością konsoli.
+</text>
+			<text lang="fr">Le WonderSwan est une console de jeux vidéo 16 bits, portable, créée par Koto Laboratory — fondé par Gunpei Yokoi — et vendue par Bandai.
+Le WonderSwan sort en mars 1999 au Japon, où il rencontre un succès certain. C'est une console monochrome qui se vend bien malgré la sortie un an plus tôt de la Game Boy Color grâce à un atout : sa petite taille. Ainsi, il présente une grande autonomie, tout en étant performant.
+L'inventeur de cette console est Gunpei Yokoi, le géniteur de la Game Boy.
+Le WonderSwan connaît deux évolutions : le WonderSwan Color qui apporte un écran couleur et le SwanCrystal qui est une déclinaison du WonderSwan Color avec un meilleur écran.
+Ces trois modèles se sont vendus à 2 061 193 exemplaires au Japon, leur unique marché.</text>
+			<text lang="ru">Портативная игровая консоль компании Bandai, выпущенная в 1999 году в Японии. Её разработкой занималась сама компания Bandai, при содействии компании Koto Гумпэя Ёкои. WonderSwan должна была стать соперником таких портативных консолей как Neo Geo Pocket Color и Game Boy Color (и это несмотря на то, что разработчик WonderSwan, Гумпэй Ёкои, также разработал для Nintendo оригинальный Game Boy).
+Консоль WonderSwan была позднее заменена на WonderSwan Color. И хотя некоторые игры для WonderSwan Color были совместимы с WonderSwan, многие были разработаны специально для неё и выдавали сообщение об ошибке, когда их пытались использовать вместе с WonderSwan. Для WonderSwan было выпущено достаточно большое количество игр, в которые можно было играть с вертикальным или горизонтальным экраном. Однако, поскольку консоль была нацелена в первую очередь на японский рынок, то только небольшое количество игр имеет английский текст.</text>
+			<text lang="it">Il WonderSwan è una console portatile rilasciata in Giappone da Bandai. È stata sviluppata dalla società di Gunpei Yokoi, Koto Laboratory, e da Bandai, ed è stata l'ultima console sviluppata da Yokoi prima della sua morte nel 1997.
+Uscito nel 1999 nella quinta generazione di console per videogiochi, il WonderSwan e i suoi due modelli successivi, il WonderSwan Color e lo SwanCrystal, sono stati ufficialmente supportati fino alla loro dismissione da parte di Bandai nel 2003. Durante la sua vita, nessuna variante del WonderSwan è stata rilasciata al di fuori del Giappone.</text>
+		</text>
+	</view>
+</theme>

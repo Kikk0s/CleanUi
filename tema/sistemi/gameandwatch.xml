@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+		<text name="DataRilascio" extra="true">
+			<text>1980</text>
+		</text>
+		<text name="Produttore" extra="true">
+			<text>Nintendo</text>
+		</text>
+		<text name="nomesistema_nu" extra="true">
+			<text>Game &amp; Watch</text>
+		</text>
+		<text name="Descrizione" extra="true">
+			<text>The Game &amp; Watch brand is a series of handheld electronic games developed, manufactured, released and marketed by Nintendo from 1980 to 1991. Created by game designer Gunpei Yokoi, the product derived its name from its featuring a single game as well as a clock on a LCD screen. The models from 1981 onwards featured an alarm in addition. It was the earliest Nintendo video game product to gain major success.
+The units are based on a 4-bit CPU, from the Sharp SM5xx family, that include a small ROM and RAM area and an LCD screen driver circuit, although, prior to its simulation in MAME, there was a misconception in that every unit used a custom ASIC instead of a proper microcontroller.
+The series sold a combined of 43.4 million units worldwide.</text>
+			<text lang="pl">The Game &amp; Watch marki jest seria ręcznych gier elektronicznych opracowanych, produkowanych, wydanych i sprzedawanych przez Nintendo od 1980 do 1991 roku. Stworzony przez projektanta gier Gunpei Yokoi, produkt wziął swoją nazwę od jego funkcji wyświetlania jednej gry, jak również zegara na ekranie LCD. Modele z 1981 roku i późniejsze posiadały dodatkowo alarm. Była to najwcześniejsza gra wideo Nintendo i produkt, który odniósł duży sukces.
+Jednostki oparte są na 4-bitowym procesorze, z rodziny Sharp SM5xx, które obejmują mały obszar ROM i RAM oraz obwód sterownika ekranu LCD, chociaż, przed jego symulacją w MAME, było błędne przekonanie, że każda jednostka używała niestandardowego ASIC zamiast właściwego mikrokontrolera.
+Łącznie seria sprzedała się na całym świecie w liczbie 43,4 miliona sztuk.</text>
+			<text lang="fr">Les Game and Watch sont des jeux électroniques de poche, ancêtre de la console de jeux portables , produits par la société Nintendo de 1980 à 1991, ils font également office de montres et de réveils.
+Vendus à 43,4 millions d'exemplaires à travers le monde, ces 59 jeux représentent l'un des plus gros succès de la firme de Kyōto.
+En 2020, Game And Watch fait son retour avec une console spéciale pour les 35 ans de la série Super Mario Bros.</text>
+			<text lang="ru">Серия портативных электронных игр с ЖК-экраном. Серия была создана разработчиком игр Гумпэем Ёкои в компании Nintendo, игры выпускались с 1980 по 1991 год и в 2020 году (только Game &amp; Watch: Super Mario Bros). Большинство устройств позволяло играть только в одну игру — это ограничение было вызвано использованием сегментированного ЖК-экрана. На многих играх находились кнопки «Игра A» и «Игра B», причём игра B обычно была просто более быстрой и сложной версией игры A. Скорость игры и скорость отклика тоже были ограничены скоростью изменения состояния индикатора. Также устройство включало в себя часы и будильник.
+Game &amp; Watch работали от батареек-«таблеток»; из серии LR4x/SR4x использовались батарейки минимальной высоты.
+Устройство появилось благодаря тому, что Гумпэй Ёкои, путешествуя на поезде синкансэне, заметил скучающего бизнесмена, который пытался развлечь себя, нажимая на кнопки калькулятора. Ёкои тогда пришла в голову идея маленькой игровой машинки, которая может использоваться как часы и позволит скоротать время.
+</text>
+			<text lang="it">Il marchio Game &amp; Watch è una serie di giochi elettronici portatili sviluppati, prodotti, distribuiti e commercializzati da Nintendo dal 1980 al 1991. Creato dal designer di giochi Gunpei Yokoi, il prodotto deve il suo nome alla presenza di un singolo gioco e di un orologio su uno schermo LCD. I modelli dal 1981 in poi erano dotati anche di una sveglia. È stato il primo prodotto videoludico Nintendo a riscuotere un grande successo.
+Le unità sono basate su una CPU a 4 bit, della famiglia Sharp SM5xx, che include una piccola area ROM e RAM e un circuito di pilotaggio dello schermo LCD, anche se, prima della sua simulazione in MAME, c'era un'idea sbagliata secondo cui ogni unità utilizzava un ASIC personalizzato invece di un microcontrollore vero e proprio.
+La serie ha venduto complessivamente 43,4 milioni di unità in tutto il mondo.</text>
+		</text>
+	</view>
+</theme>

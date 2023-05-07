@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+	<text name="DataRilascio" extra="true">			
+			<text>Various</text>
+			<text lang="it">Varie </text>
+		</text>
+		<text name="Produttore" extra="true">
+			<text>Various</text>
+			<text lang="it">Vari </text>
+		</text>
+		<text name="Descrizione" extra="true">
+			<text>This collection contains all the games of the various systems that you have never played in your configuration.</text>
+			<text lang="it">Questa raccolta contiene tutti i giochi dei vari sistemi a cui non hai mai giocato appartenenti alla tua collezione.</text>
+		</text>
+	</view>
+</theme>

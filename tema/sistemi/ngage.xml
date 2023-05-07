@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+		<text name="DataRilascio" extra="true">
+			<text>2003</text>
+		</text>
+		<text name="Produttore" extra="true">
+			<text>Nokia</text>
+		</text>
+		<text name="nomesistema_nu" extra="true">
+			<text>N-Gage</text>
+		</text>
+		<text name="Descrizione" extra="true">
+			<text>The N-Gage is a smartphone combining features of a mobile phone and a handheld game system developed by Nokia, announced on 4 November 2002 and released on 7 October 2003. It runs the original Series 60 platform on Symbian OS v6.1.
+N-Gage attempted to lure gamers away from the Game Boy Advance by including telephone functionality. This was unsuccessful, partly because the buttons, designed for a telephone, were not well-suited for gaming. The original N-Gage was described as resembling a taco, which led to its mocking nickname "Taco phone".
+Nokia introduced the N-Gage QD in 2004 as a redesign of the original "Classic" N-Gage, fixing widely criticized issues and design problems. However, the new model was unable to make an impact, and with only 2 million units sold in its two years, the N-Gage and its QD model were a commercial failure, unable to challenge their Nintendo rival.
+The N-Gage was discontinued in February 2006, with Nokia moving its gaming capabilities onto selected Series 60 smartphones. This was announced as the N-Gage platform or "N-Gage 2.0" in 2007, carrying on the N-Gage name.</text>
+			<text lang="pl">N-Gage to opracowany przez firmę Nokia smartfon łączący cechy telefonu komórkowego i przenośnego systemu gier. Został zaprezentowany 4 listopada 2002 roku i wydany 7 października 2003 roku. Urządzenie działa na oryginalnej platformie Series 60 z systemem operacyjnym Symbian OS v6.1.
+N-Gage próbował odciągnąć graczy od Game Boy Advance, wprowadzając funkcję telefonu. Próba ta nie powiodła się, częściowo dlatego, że przyciski, zaprojektowane z myślą o telefonie, nie były dobrze przystosowane do gier. Oryginalny N-Gage był opisywany jako przypominający taco, co doprowadziło do nadania mu prześmiewczego przydomku "Taco phone".
+Nokia wprowadziła N-Gage QD w 2004 roku jako przeprojektowanie oryginalnego "klasycznego" N-Gage, naprawiając szeroko krytykowane kwestie i problemy konstrukcyjne. Nowy model nie był jednak w stanie zrobić wrażenia i z wynikiem zaledwie 2 milionów sprzedanych egzemplarzy w ciągu dwóch lat, N-Gage i jego model QD okazały się komercyjną porażką, nie mogąc konkurować z konkurentem z Nintendo.
+N-Gage został wycofany z produkcji w lutym 2006 roku, a Nokia przeniosła możliwości gier na wybrane smartfony z serii 60. Zostało to ogłoszone jako platforma N-Gage lub "N-Gage 2.0" w 2007 roku, z zachowaniem nazwy N-Gage.</text>
+			<text lang="ru">Первый телефон-игровая консоль на рынке мобильных телефонов, выпущенный 7 октября 2003 года финской компанией Nokia. Относится к семейству смартфонов Nokia Series 60.
+Благодаря своей особой конструкции и техническим возможностям, он обеспечивал довольно качественные видеоигры, сравнимые с домашней игровой консолью. Разумеется, телефон не смог обеспечить абсолютное соответствие с домашними или другими портативными системами и имел ограниченный успех.
+Главной новинкой серии N-Gage была возможность совместной игры на расстоянии. Для игр в пределах одного помещения использовалась беспроводная сеть Bluetooth. На дальнем расстоянии использовались традиционные мобильные сети.
+Частью проекта N-Gage была «Арена» — всемирная таблица рекордов и форумы для игроков, включающие форумы на европейских языках. Немного позже на «Арене» появился веб-чат. «Арена» доступна как через мобильные телефоны N-Gage, так и через свой веб-сайт.
+Через эти игровые пульты (game deck) фирма Nokia проводила концепцию social gaming. В рамках этой концепции игры являются одной из форм общения по мобильному телефону, наподобие разговора или обмена SMS. Nokia гордилась этой новой возможностью владельцев N-Gage играть где угодно, с кем угодно, возведя это в рекламный слоган линейки N-Gage.
+В России было трудно купить нужную игру для N-Gage, пока фирма Nokia не открыла свой флагманский магазин в Москве, где стала торговать игровыми картриджами напрямую. Некоторые игры доступны для скачивания в интернет-магазине Nokia Software Market. Однако все они не русифицированы и требуют знания одного из четырёх европейских языков.</text>
+			<text lang="it">L'N-Gage è uno smartphone che combina le caratteristiche di un telefono cellulare e di un sistema di gioco portatile sviluppato da Nokia, annunciato il 4 novembre 2002 e rilasciato il 7 ottobre 2003. Esegue la piattaforma originale Series 60 su Symbian OS v6.1.
+N-Gage ha cercato di attirare i giocatori lontano dal Game Boy Advance includendo le funzionalità telefoniche. L'operazione non ha avuto successo, in parte perché i pulsanti, progettati per un telefono, non erano adatti al gioco. L'N-Gage originale è stato descritto come simile a un taco, il che ha portato al soprannome beffardo di "Taco phone".
+Nel 2004 Nokia ha introdotto l'N-Gage QD come riprogettazione dell'N-Gage "classico" originale, risolvendo i problemi di design e le questioni ampiamente criticate. Tuttavia, il nuovo modello non riuscì ad avere un impatto e, con solo 2 milioni di unità vendute nei due anni di vita, l'N-Gage e il suo modello QD furono un fallimento commerciale, incapaci di sfidare il rivale Nintendo.
+L'N-Gage è stato dismesso nel febbraio 2006 e Nokia ha trasferito le sue funzionalità di gioco su alcuni smartphone della Serie 60. Nel 2007 è stata annunciata la piattaforma N-Gage o "N-Gage 2.0", con il nome N-Gage.</text>
+		</text>
+	</view>
+</theme>

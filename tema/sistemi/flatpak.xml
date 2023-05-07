@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+	<text name="DataRilascio" extra="true">			
+			<text>Various</text>
+			<text lang="it">Varie </text>
+		</text>
+		<text name="Produttore" extra="true">
+			<text>Various</text>
+			<text lang="it">Vari </text>
+		</text>
+		<text name="Descrizione" extra="true">
+			<text>Flatpak (originally xdg-app) is a package management and application virtualization utility software for Linux.
+
+The Flatpak system provides a sandbox environment where users can run applications isolated from the rest of the system.
+
+In this section you will find the games or applications installed on your system.
+</text>
+			<text lang="it">Flatpak (originariamente xdg-app) è un software di utilità per la gestione dei pacchetti e virtualizzazione delle applicazioni per Linux.
+ 
+Il sistema Flatpak fornisce un ambiente sandbox in cui gli utenti possono eseguire le applicazioni isolate dal resto del sistema.
+ 
+In questa sezione troverai i giochi o le applicazioni installate nel tuo sistema.
+ </text>
+		</text>
+	</view>
+</theme>

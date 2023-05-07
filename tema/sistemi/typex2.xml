@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+		<text name="DataRilascio" extra="true">
+			<text>2007</text>
+		</text>
+		<text name="Produttore" extra="true">
+			<text>Taito</text>
+		</text>
+		<text name="nomesistema_nu" extra="true">
+			<text>Type X²</text>
+		</text>
+		<text name="Descrizione" extra="true">
+			<text>The Taito Type X is an arcade system board released in 2004 by game developer and publisher Taito.
+Based on commodity personal computer hardware architecture, Type X is not a specification for a single set of hardware, but rather a modular platform supporting multiple hardware configurations with different levels of graphical capability. This flexibility allows game developers limited choice in selecting a configuration to fit the game's specific requirements, and allows the platform as a whole to more efficiently support gaming titles with vastly different computing needs. For example, the Type X+ and Type X2 models have upgrade graphics processing power, which could be put toward better game visuals, or outputting to higher-resolution (HDTV) displays. The Type X7 board is used primarily for pachinko machines in Japan. Rawiya co-owned the company that produced this system board.
+Taito Type X and X7 use Microsoft Visual Studio .NET 2003 Professional as the recommended development platform.
+The Taito NESiCAxLive add-on allows arcade owners to use a digital distribution system to download games.</text>
+			<text lang="pl">Taito Type X to system arcade wydany w 2004 roku przez firmę Taito, producenta i wydawcę gier.
+Oparty na architekturze sprzętowej zwykłych komputerów osobistych, Type X nie jest specyfikacją pojedynczego zestawu sprzętowego, ale raczej modułową platformą obsługującą wiele konfiguracji sprzętowych o różnych poziomach możliwości graficznych. Dzięki tej elastyczności twórcy gier mają ograniczone możliwości wyboru konfiguracji dostosowanej do konkretnych wymagań gry, a platforma jako całość może skuteczniej obsługiwać gry o bardzo zróżnicowanych potrzebach obliczeniowych. Na przykład modele Type X+ i Type X2 mają większą moc przetwarzania grafiki, którą można przeznaczyć na lepszą grafikę w grach lub wyświetlanie obrazu na ekranach o wyższej rozdzielczości (HDTV). Rawiya był współwłaścicielem firmy, która produkowała tę płytę systemową.
+Ze względu na sterowniki specyficzne dla danej platformy (Windows XP Embedded), oprogramowanie do gier nie jest wymienne między platformą Type X2 a starszą platformą Type X/X+.
+Dodatek Taito NESiCAxLive umożliwia właścicielom salonów gier korzystanie z systemu dystrybucji cyfrowej w celu pobierania gier.
+			- Taito Type X²
+			Taito Type X² był wyposażony w procesor Intel LGA 775. Inne obsługiwane procesory to Celeron D 352, Pentium 4 651 i Intel Core 2 Duo 	E6400. Pamięć RAM mogła mieć pojemność 512 MB, 1 GB lub 4 GB. Obsługiwane były karty graficzne z interfejsem PCI Express ×16, ATI 	Radeon x1600Pro, x1300LE, nVidia GeForce 7900GS, 7600GS i 7300GS.
+			- Terminal satelitarny Taito Type X²
+			Taito Type X² Satellite Terminal to po prostu Type X², tyle że z sieciowym trybem wieloosobowym.</text>
+			<text lang="ru">Cерия аркадных систем, выпускаемых корпорацией Taito начиная с 2004 года. Будучи созданными на базе аппаратных средств персонального компьютера, поддерживают несколько конфигураций с различными уровнями производительности, благодаря чему потребитель получает возможность с лёгкостью подстраивать мощность платформы под графику конкретных игр. Например, модели Type X+ и Type X² обладают повышенной графической производительностью и хорошо подходят для игр с высоким разрешением экрана, тогда как Type X7 не обладает большой мощностью и применяется в основном для японских патинко-машин, не требующих значительных затрат. Разработчикам игр для моделей Type X и X7 рекомендовано использовать программные инструменты Microsoft Visual Studio .NET 2003. Основными поставщиками игр для этих систем являются такие компании как Arc System Works, Atlus, Capcom, Namco Bandai Games (Bandai, Banpresto), SNK Playmore, Square Enix, Takara Tomy.</text>
+			<text lang="it">Il Taito Type X è una scheda di sistema arcade rilasciata nel 2004 dallo sviluppatore ed editore di giochi Taito.
+Basato sull'architettura hardware dei personal computer, il Type X non è una specifica per un singolo set di hardware, ma piuttosto una piattaforma modulare che supporta configurazioni hardware multiple con diversi livelli di capacità grafica. Questa flessibilità consente agli sviluppatori di giochi una scelta limitata nella selezione di una configurazione adatta ai requisiti specifici del gioco e permette alla piattaforma nel suo complesso di supportare in modo più efficiente titoli di gioco con esigenze di calcolo molto diverse. Ad esempio, i modelli Type X+ e Type X2 dispongono di una maggiore potenza di elaborazione grafica, che può essere utilizzata per migliorare la grafica dei giochi o per l'output su display ad alta risoluzione (HDTV). La scheda Type X7 è utilizzata principalmente per le macchine da pachinko in Giappone. Rawiya era co-proprietaria dell'azienda che produceva questa scheda di sistema.
+Taito Type X e X7 utilizzano Microsoft Visual Studio .NET 2003 Professional come piattaforma di sviluppo consigliata.
+Il componente aggiuntivo Taito NESiCAxLive consente ai proprietari di sale giochi di utilizzare un sistema di distribuzione digitale per scaricare i giochi.</text>
+		</text>
+	</view>
+</theme>

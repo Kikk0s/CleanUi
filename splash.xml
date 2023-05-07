@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<!-- Configurazione tema --> 
+   <include>./config.xml</include>
+	
+<view name="splash">
+		<splash name="splash">
+			<backgroundColor>000000</backgroundColor>
+		</splash>
+		<image name="background">
+			<path>./tema/images/splasharcade.jpg</path>
+		</image>
+		<image name="splashaccento" extra="true">
+			<path>./tema/images/splasharcadeaccento.png</path>
+			<color>${accent}</color>
+			<zIndex>7</zIndex>
+		</image>
+
+		<image name="progressbar">
+			<origin>0 0</origin>
+			<pos>0.2005208333333333 0.9</pos>
+			<size>0.5989583333333333 0.0092592592592593</size>
+			<path>./tema/images/progressbar.png</path>
+			<color>363636FF</color>
+			<roundCorners>0</roundCorners>
+			<zIndex>6</zIndex>
+		</image>
+
+		<image name="progressbar:active">
+			<tile>true</tile>
+			<path>./tema/images/progressbar.png</path>
+			<color>${accent}</color>
+			<!--<colorEnd>${gradientEndColor}</colorEnd>-->
+			<gradientType>horizontal</gradientType>
+			<zIndex>7</zIndex>
+		</image>
+
+		<text name="label">
+			<fontPath>./tema/fonts/barcadenobarital.ttf</fontPath>
+			<color>ffffff</color>
+			<glowColor>000000</glowColor>
+			<glowSize>2</glowSize>
+			<glowOffset>3 2</glowOffset>
+		</text>
+	</view>
+</theme>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+		<text name="DataRilascio" extra="true">
+			<text>1983</text>
+		</text>
+		<text name="Produttore" extra="true">
+			<text>Tomy</text>
+		</text>
+		<text name="nomesistema_nu" extra="true">
+			<text>Tutor</text>
+		</text>
+		<text name="Descrizione" extra="true">
+			<text>The Tomy Tutor, originally sold in Japan as the Pyūta (ぴゅう太) and in the UK as the Grandstand Tutor, is a home computer produced by the Japanese toymaker Tomy. It was architecturally similar, but not identical, to the Texas Instruments TI-99/4A, and used a similar Texas Instruments 16-bit CPU.
+The computer was launched in Japan in 1982, and in the UK and the United States in the next year.</text>
+			<text lang="pl">Tomy Tutor, pierwotnie sprzedawany w Japonii jako Pyūta (ぴゅう太), a w Wielkiej Brytanii jako Grandstand Tutor, to komputer domowy wyprodukowany przez japońskiego producenta zabawek Tomy. Architektonicznie był podobny, ale nie identyczny, do Texas Instruments TI-99/4A i wykorzystywał podobny 16-bitowy procesor Texas Instruments. Komputer został wprowadzony na rynek w Japonii w 1982 roku, a w Wielkiej Brytanii i Stanach Zjednoczonych w następnym roku.</text>
+			<text lang="ru">Tomy Tutor, изначально продававшийся в Японии под названием Pyūta (ぴゅう太) а в Англии как Grandstand Tutor - это домашний компьютер японского производителя игрушек Tomy. Архитектура была подобна (но не идентична) компьютеру Texas Instruments TI-99/4A и даже использовала аналогичный 16-разрядный процессор Texas Instruments. Продажи компьютера стартовали в Японии в 1982 году, а в следующем году - в Великобритании и США.</text>
+			<text lang="it">Il Tomy Tutor, originariamente venduto in Giappone come Pyūta (ぴゅう太) e nel Regno Unito come Grandstand Tutor, è un home computer prodotto dal produttore di giocattoli giapponese Tomy. Era architettonicamente simile, ma non identico, al Texas Instruments TI-99/4A e utilizzava una CPU Texas Instruments a 16 bit simile.
+Il computer fu lanciato in Giappone nel 1982 e nel Regno Unito e negli Stati Uniti l'anno successivo.</text>
+		</text>
+	</view>
+</theme>

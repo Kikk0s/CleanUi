@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+		<text name="DataRilascio" extra="true">
+			<text>2000</text>
+		</text>
+		<text name="nomesistema_nu" extra="true">
+			<text>Visual Pinball</text>
+		</text>
+		<text name="Descrizione" extra="true">
+			<text>Visual Pinball is a freeware and source available video game engine for pinball tables and similar games such as pachinko machines. The software is composed of an editor and the simulator part itself. It runs on Microsoft Windows. The program is also able to operate with Visual PinMAME, an emulator for ROM images from real pinball machines.
+Players can choose between faithful recreations of existing pinball machines with or without ROM emulation and original pinball simulations based on licensed themes or completely self-designed tables. Visual Pinball's scripting capabilities can also be used to create pinball-like games (such as pitch-and-bat baseball, pinball bingo, bowling, cue sports, and pachinko).
+Visual Pinball can be used to play the simulations on a common desktop PC and monitor, but also allows for cabinet support, including different monitors and TVs (to display the playfield and backbox similar to a real pinball machine, including the option to use 3D televisions), giving the illusion of playing real pinball. 
+	</text>
+			<text lang="pl">Descriptions. Pls send me it in Discord</text>
+			<text lang="ru">Свободно распространяемый движок игр столов для пинбола и подобных ему, таких как машины для пачинко. Программное обеспечение состоит из редактора и самой части симулятора.</text>
+			<text lang="it">Visual Pinball è un motore di videogiochi freeware e con il codice sorgente disponibile per tavoli da flipper e giochi similari, come le macchine da pachinko. Il software è composto da un editor e dal simulatore stesso. Funziona su Microsoft Windows. Il programma è anche in grado di funzionare con Visual PinMAME, un emulatore di immagini ROM di flipper reali.
+I giocatori possono scegliere tra riproduzioni fedeli di flipper esistenti con o senza emulazione ROM e simulazioni originali di flipper basate su temi su licenza o su tavoli completamente autoprogettati. Le capacità di scripting di Visual Pinball possono essere utilizzate anche per creare giochi simili ai flipper (come pitch-and-bat baseball, pinball bingo, bowling, cue sports e pachinko).
+Visual Pinball può essere utilizzato per giocare le simulazioni su un comune PC desktop e su un monitor, ma consente anche il supporto di cabinet, compresi monitor e televisori diversi (per visualizzare il campo di gioco e il backbox in modo simile a un vero flipper, compresa la possibilità di utilizzare televisori 3D), dando l'illusione di giocare a un vero flipper.</text>
+		</text>
+	</view>
+</theme>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+		<image name="background1" extra="true">
+		</image>
+		<image name="background" extra="true">
+		</image>
+		<text name="DataRilascio" extra="true">
+			<text>2000</text>
+		</text>
+		<text name="nomesistema_nu" extra="true">
+			<text>Final Burn
+Neo</text>
+		</text>
+		<text name="Descrizione" extra="true">
+			<text>Final Burn Neo (aka FBNeo) is the new official branch of the Final Burn Alpha emulator, which is compatible with hundreds of arcade and console games. The libretro core of FBNeo brings its library of compatible titles to RetroArch, where the core's tight integration with the libretro API allows it to work with RetroArch's advanced time-bending features like rollback-based netplay and runahead latency reduction. It includes input presets for automatic mapping of buttons for different games, including fighting game layouts for both modern and old-school arcade controls (aka fightsticks).</text>
+			<text lang="pl">Final Burn Neo (aka FBNeo) to nowa oficjalna odmiana emulatora Final Burn Alpha, który jest kompatybilny z setkami gier arcade i konsolowych. Rdzeń libretro FBNeo przenosi bibliotekę kompatybilnych tytułów do RetroArch, gdzie ścisła integracja z API libretro pozwala na pracę z zaawansowanymi funkcjami RetroArch, takimi jak odtwarzanie sieciowe oparte na cofaniu i redukcja opóźnień. Zawiera presety wejściowe do automatycznego mapowania przycisków dla różnych gier, w tym układy gier walki dla nowoczesnych i oldschoolowych kontrolerów arcade (aka fightsticków).
+Uruchamia gry z automatów:
+- Capcom CPS-1
+- Capcom CPS-2
+- Capcom CPS-3
+- Cave
+- Sprzęt oparty na Galaxian
+- Kaneko 16
+- Konami
+- Neo-Geo
+- Pacman oparty na Iron
+- PGM
+- Sprzęt oparty na Psikyo 68EC020
+- Sega System 1, System 16 (i podobne), System 18, X-Board i Y-Board
+- Toaplan 1
+- Toaplan 2
+- Taito F2, X, Z i inne</text>
+			<text lang="ru">Эмулятор аркадных игр. Проект с открытым исходным кодом, его программирует группа людей, известная как FBA Team.
+Запускает игры с автоматов:
+Capcom CPS-1
+Capcom CPS-2
+Capcom CPS-3
+Cave
+Железо на базе Galaxian
+Kaneko 16
+Konami
+Neo-Geo
+Железо на базе Pacman
+PGM
+Железо на базе Psikyo 68EC020
+Sega System 1, System 16 (и схожие), System 18, X-Board и Y-Board
+Toaplan 1
+Toaplan 2
+Taito F2, X, Z и другие</text>
+			<text lang="it">Final Burn Neo (alias FBNeo) è il nuovo ramo ufficiale dell'emulatore Final Burn Alpha, compatibile con centinaia di giochi arcade e per console. Il nucleo libretro di FBNeo porta la sua libreria di titoli compatibili a RetroArch, dove la stretta integrazione con le API libretro gli permette di lavorare con le funzioni avanzate di time-bending di RetroArch, come il netplay basato sul rollback e la riduzione della latenza runahead. Include preset di input per la mappatura automatica dei pulsanti per diversi giochi, compresi i layout dei giochi di combattimento per i controlli arcade moderni e della vecchia scuola (alias fightstick).</text>
+		</text>
+	</view>
+</theme>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+		<text name="DataRilascio" extra="true">
+			<text>2016</text>
+		</text>
+		<text name="Produttore" extra="true">
+			<text>Microsoft</text>
+		</text>
+		<text name="nomesistema_nu" extra="true">
+			<text>Makecode</text>
+		</text>
+		<text name="Descrizione" extra="true">
+			<text>Microsoft MakeCode is a free, open source platform for creating engaging computer science learning experiences that support a progression path into real-world programming.
+Available as a web-based environment for learning to code with physical computing devices such as the micro:bit, it has a handful of novel features all packed into a single web application (web app).
+No software installation is required: Microsoft MakeCode runs in any modern web browser on most any operating system.</text>
+			<text lang="pl">Microsoft MakeCode to darmowa, otwarta platforma do tworzenia wciągających doświadczeń w nauce informatyki, które wspierają ścieżkę progresji do programowania w świecie rzeczywistym.
+Jest dostępna jako środowisko internetowe do nauki kodowania z fizycznymi urządzeniami komputerowymi, takimi jak micro:bit, i ma kilka nowych funkcji w jednej aplikacji internetowej (web app).
+Nie jest wymagana instalacja oprogramowania: Microsoft MakeCode działa w każdej nowoczesnej przeglądarce internetowej na większości systemów operacyjnych.</text>
+			<text lang="ru">Microsoft MakeCode - это бесплатная платформа с открытым исходным кодом для создания увлекательных учебных программ по информатике, которые помогают перейти к программированию в реальном мире.
+Доступная в виде веб-среды для обучения программированию с помощью физических вычислительных устройств, таких как micro:bit, она обладает рядом новых функций, объединенных в одном веб-приложении (веб-приложение).
+Установка программного обеспечения не требуется: Microsoft MakeCode работает в любом современном веб-браузере на большинстве операционных систем.</text>
+			<text lang="it">Microsoft MakeCode è una piattaforma gratuita e open source per la creazione di esperienze di apprendimento dell'informatica coinvolgenti che supportano un percorso di progressione verso la programmazione del mondo reale.
+Disponibile come ambiente basato sul web per imparare a programmare con dispositivi informatici fisici come il micro:bit, presenta una serie di caratteristiche innovative racchiuse in un'unica applicazione web (web app).
+Non è richiesta l'installazione di alcun software: Microsoft MakeCode funziona in qualsiasi browser web moderno su quasi tutti i sistemi operativi.</text>
+		</text>
+	</view>
+</theme>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+		<text name="DataRilascio" extra="true">
+			<text>1984</text>
+		</text>
+		<text name="nomesistema_nu" extra="true">
+			<text>MSX Laserdisc</text>
+		</text>
+		<text name="Descrizione" extra="true">
+			<text>LaserDisc is an optical disc technology, and looks like a very large CD-ROM. It was envisioned to be the future of Multimedia and was backed by amongst others Sony, Philips and Pioneer. While Philips never did anything with MSX and LaserDisc, Pioneer launched several MSX computers with integrated LaserDisc control ability, and various LaserDisc players.
+While LaserDisc capable MSX systems from Pioneer were available in Japan, Europe and the US, commercially available software for the system was only published in Japan from 1984-1986 by the LaserDisc Corporation, a Pioneer subsidiary.
+Later, Sony released exclusively in Europe a series of professional MSX2 computers with LaserDisc support, but no compatible software has been publicly released. One possible explanation is that this support was only used in-house by large media organisations which used these systems.</text>
+			<text lang="pl">LaserDisc to technologia dysków optycznych, wyglądem przypominająca bardzo duży CD-ROM. Miała to być przyszłość multimediów i była wspierana między innymi przez Sony, Philipsa i Pioneera. Podczas gdy Philips nigdy nie zrobił nic z MSX i LaserDisc, Pioneer wypuścił kilka komputerów MSX ze zintegrowaną możliwością sterowania LaserDisc, oraz różne odtwarzacze LaserDisc.
+Podczas gdy systemy MSX obsługujące LaserDisc firmy Pioneer były dostępne w Japonii, Europie i Stanach Zjednoczonych, komercyjne oprogramowanie dla tego systemu było publikowane tylko w Japonii w latach 1984-1986 przez LaserDisc Corporation, spółkę zależną firmy Pioneer.
+Później Sony wypuściło na wyłączność w Europie serię profesjonalnych komputerów MSX2 z obsługą LaserDisc, ale żadne kompatybilne oprogramowanie nie zostało publicznie wydane. Jednym z możliwych wyjaśnień jest to, że obsługa ta była wykorzystywana tylko przez duże organizacje medialne, które używały tych systemów.</text>
+			<text lang="ru">LaserDisc — это технология оптических дисков, которая выглядит как очень большой CD-ROM. Предполагалось, что это будущее мультимедиа, и его поддержали, среди прочего, Sony, Philips и Pioneer. Хотя Philips никогда ничего не делала с MSX и LaserDisc, Pioneer выпустила несколько компьютеров MSX со встроенной возможностью управления LaserDisc и различные проигрыватели LaserDisc.
+В то время как системы MSX от Pioneer с поддержкой LaserDisc были доступны в Японии, Европе и США, коммерчески доступное программное обеспечение для этой системы было опубликовано только в Японии в 1984–1986 годах компанией LaserDisc Corporation, дочерней компанией Pioneer.
+Позже Sony выпустила исключительно в Европе серию профессиональных компьютеров MSX2 с поддержкой LaserDisc, но совместимое программное обеспечение не было выпущено публично. Одно из возможных объяснений состоит в том, что эта поддержка использовалась только внутри крупных медиа-организаций, которые использовали эти системы.</text>
+			<text lang="it">Il LaserDisc è una tecnologia per dischi ottici e assomiglia a un CD-ROM di grandi dimensioni. Era stato immaginato come il futuro del multimedia ed era stato sostenuto, tra gli altri, da Sony, Philips e Pioneer. Philips non ha mai prodotto nulla con MSX e LaserDisc, ma Pioneer ha lanciato diversi computer MSX con capacità di controllo LaserDisc integrata e diversi lettori LaserDisc.
+Mentre i sistemi MSX Pioneer con capacità di controllo del LaserDisc erano disponibili in Giappone, Europa e Stati Uniti, il software commerciale per il sistema fu pubblicato in Giappone solo tra il 1984 e il 1986 dalla LaserDisc Corporation, una consociata di Pioneer.
+In seguito, Sony ha rilasciato in esclusiva in Europa una serie di computer professionali MSX2 con supporto LaserDisc, ma non è stato rilasciato pubblicamente alcun software compatibile. Una possibile spiegazione è che questo supporto fosse utilizzato solo internamente dalle grandi organizzazioni di media che utilizzavano questi sistemi.</text>
+		</text>
+	</view>
+</theme>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+		<text name="DataRilascio" extra="true">
+			<text>2018</text>
+		</text>
+		<text name="nomesistema_nu" extra="true">
+			<text>Teknoparrot</text>
+		</text>
+		<text name="Descrizione" extra="true">
+			<text>TeknoParrot is a software package allowing to run selected PC-based arcade titles, with full support for keyboard and mouse controls, gamepads, steering wheels and joysticks.
+It currently supports games for various arcade systems, mapping the proprietary add-on hardware found in these systems to commodity PC peripherals, and fixing any other limitations in the game software that prevents them from running on standard Windows systems.
+TeknoParrot currently supports over 170 arcade titles from a wide variety of arcade hardware, such as Taito Type-X/Type-X2/Type-X3, eX-Board, Namco N2, Namco ES3X, Sega Lindbergh, Sega Europa-R, Sega RingEdge/RingEdge 2/RingWide.
+	</text>
+			<text lang="pl">TeknoParrot to pakiet oprogramowania pozwalający na uruchamianie wybranych tytułów zręcznościowych na komputerach PC, z pełnym wsparciem dla sterowania za pomocą klawiatury i myszy, gamepadów, kierownic i joysticków.
+Obecnie TeknoParrot obsługuje gry dla różnych systemów zręcznościowych, mapując opatentowany sprzęt dodatkowy znajdujący się w tych systemach na standardowe urządzenia peryferyjne PC i naprawiając wszelkie inne ograniczenia w oprogramowaniu gier, które uniemożliwiają ich uruchomienie na standardowych systemach Windows.
+TeknoParrot obsługuje obecnie ponad 170 tytułów z szerokiej gamy urządzeń arcade, takich jak: 
+- Taito Type-X/Type-X2/Type-X3, 
+- eX-Board, Namco N2, Namco ES3X, 
+- Sega Lindbergh, 
+- Sega Europa-R, 
+- Sega RingEdge/RingEdge 2/RingWide.</text>
+			<text lang="ru">Позволяет запускать некоторые аркадные игры для ПК на собственном оборудовании с полной поддержкой управления клавиатурой и мышью, геймпадами, рулями и джойстиками.
+В настоящее время TeknoParrot поддерживает более 170 аркадных игр для самых разных аркадных устройств, таких как Taito Type-X/Type-X2/Type-X3, eX-Board, Namco N2, Namco ES3X, Sega Lindbergh, Sega Europa-R, Sega RingEdge/RingEdge 2/RingWide.</text>
+			<text lang="it">TeknoParrot è un pacchetto software che consente di eseguire titoli arcade selezionati basati su PC, con il pieno supporto dei comandi di tastiera e mouse, gamepad, volanti e joystick.
+Attualmente supporta giochi per vari sistemi arcade, mappando l'hardware aggiuntivo proprietario presente in questi sistemi alle periferiche di base del PC e correggendo qualsiasi altra limitazione nel software di gioco che ne impedisce l'esecuzione su sistemi Windows standard.
+TeknoParrot supporta attualmente oltre 170 titoli arcade di un'ampia varietà di hardware arcade, come Taito Type-X/Type-X2/Type-X3, eX-Board, Namco N2, Namco ES3X, Sega Lindbergh, Sega Europa-R, Sega RingEdge/RingEdge 2/RingWide.</text>
+		</text>
+	</view>
+</theme>

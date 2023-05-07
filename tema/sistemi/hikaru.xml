@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+		<text name="DataRilascio" extra="true">
+			<text>1998</text>
+		</text>
+		<text name="Produttore" extra="true">
+			<text>Sega</text>
+		</text>
+		<text name="nomesistema_nu" extra="true">
+			<text>Hikaru</text>
+		</text>
+		<text name="Descrizione" extra="true">
+			<text>The Sega Hikaru is a successor of the Sega NAOMI and Sega Model 3 arcade systems that was developed in 1998 and debuted in 1999. The Hikaru was used for a handful of deluxe dedicated-cabinet games, beginning with 1999's Brave Fire Fighters, in which the flame and water effects were largely a showpiece for the hardware.
+It was significantly more powerful and expensive than the NAOMI. The Hikaru featured a custom Sega GPU with advanced graphical capabilities, additional CPU and sound processors, various custom processors, increased memory, and faster bandwidth. It was the first game platform capable of effective hardware Phong shading, the most intensive form of shading at the time, and was capable of the most complex lighting and particle effects of its time.
+It was the most powerful game system of its time (Planet Harriers, for example, was regarded as having the best video game graphics at the time), but it was very expensive and difficult to program. Since it was comparatively expensive to produce, Sega soon abandoned the Hikaru in favor of continued NAOMI development. It was succeeded by the more affordable NAOMI 2.</text>
+			<text lang="pl">Sega Hikaru to następca systemów arcade Sega NAOMI i Sega Model 3, który został opracowany w 1998 roku i zadebiutował w 1999 roku. Hikaru był używany do kilku gier w wersji deluxe, począwszy od Brave Fire Fighters z 1999 roku, w których efekty płomieni i wody były w dużej mierze wizytówką sprzętu.
+Był on znacznie potężniejszy i droższy od NAOMI. Hikaru posiadał niestandardowy procesor graficzny firmy Sega z zaawansowanymi możliwościami graficznymi, dodatkowe procesory CPU i dźwięku, różne niestandardowe procesory, zwiększoną ilość pamięci i szybsze pasmo. Była to pierwsza platforma do gier zdolna do efektywnego sprzętowego cieniowania Phong, najbardziej intensywnej formy cieniowania w tamtym czasie, i była zdolna do najbardziej złożonych efektów świetlnych i cząsteczkowych w tamtych czasach.
+Był to najpotężniejszy system do gier w tamtych czasach (na przykład Planet Harriers był uważany za grę z najlepszą grafiką w tamtych czasach), ale był bardzo drogi i trudny do zaprogramowania. Ponieważ jego produkcja była stosunkowo droga, Sega wkrótce porzuciła Hikaru na rzecz dalszego rozwoju NAOMI. Jego następcą został bardziej przystępny cenowo NAOMI 2.</text>
+			<text lang="ru">Является преемником аркадных систем Sega NAOMI и Sega Model 3, которые были разработаны в 1998 году и дебютировали в 1999 году. Эффекты пламени и воды были в значительной степени экспонатом оборудования.
+Он был значительно мощнее и дороже, чем NAOMI. Hikaru оснащен специальным графическим процессором Sega с расширенными графическими возможностями, дополнительным процессором и звуковыми процессорами, различными пользовательскими процессорами, увеличенным объемом памяти и более высокой пропускной способностью. Это была первая игровая платформа, способная к эффективному аппаратному затенению Фонга, самой интенсивной форме затенения в то время, и была способна к самым сложным эффектам освещения и частиц своего времени.
+Это была самая мощная игровая система своего времени (например, Planet Harrier считалась лучшей графикой видеоигр в то время), но она была очень дорогой и сложной в программировании. Поскольку производство было относительно дорогим, Sega вскоре отказалась от Hikaru в пользу продолжения разработки NAOMI. На смену ему пришла самая доступная NAOMI 2. </text>
+			<text lang="it">Il Sega Hikaru è un successore dei sistemi arcade Sega NAOMI e Sega Model 3, sviluppato nel 1998 e presentato nel 1999. La Hikaru è stata utilizzata per una manciata di giochi deluxe per cabinati, a partire da Brave Fire Fighters del 1999, in cui gli effetti delle fiamme e dell'acqua erano in gran parte uno spettacolo per l'hardware.
+Era molto più potente e costoso del NAOMI. La Hikaru era dotata di una GPU Sega personalizzata con capacità grafiche avanzate, CPU e processori audio aggiuntivi, vari processori personalizzati, una memoria maggiore e una larghezza di banda più veloce. Fu la prima piattaforma di gioco in grado di utilizzare efficacemente l'hardware Phong shading, la forma più intensiva di shading dell'epoca, e fu in grado di realizzare i più complessi effetti di illuminazione e particellari dell'epoca.
+Era il sistema di gioco più potente dell'epoca (Planet Harriers, ad esempio, era considerato il miglior videogioco grafico dell'epoca), ma era molto costoso e difficile da programmare. Poiché la produzione era relativamente costosa, Sega abbandonò presto la Hikaru a favore di un continuo sviluppo del NAOMI. A questo modello successe il più economico NAOMI 2.</text>
+		</text>
+	</view>
+</theme>

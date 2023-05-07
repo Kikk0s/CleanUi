@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+		<text name="DataRilascio" extra="true">
+			<text>2005</text>
+		</text>
+		<text name="nomesistema_nu" extra="true">
+			<text>GZDoom</text>
+		</text>
+		<text name="Descrizione" extra="true">
+			<text>GZDoom is a 3D-accelerated Doom source port based on ZDoom coded and maintained by Christoph Oelckers.
+GZDoom features an OpenGL renderer and lots of new features, among them:
+- Sloped 3D floors
+- Light effects, including dynamic lights, brightmaps, and glowing flats.
+- Quake2-style skyboxes
+- True color support
+- Model support
+- It was originally based on the 2.0.96x community build but is now based on official versions of ZDoom, occasionally using slightly newer Git code. The source is of course available.</text>
+			<text lang="pl">GZDoom to źródłowy port Dooma akcelerowanego w 3D, bazujący na ZDoomie, kodowany i utrzymywany przez Christopha Oelckersa.
+GZDoom posiada renderer OpenGL i wiele nowych funkcji, między innymi:
+- Pochyłe podłogi 3D
+- Efekty świetlne, w tym dynamiczne światła, brightmapy i świecące mieszkania.
+- Skyboxy w stylu Quake2
+- Obsługa prawdziwych kolorów
+- Wsparcie dla modeli
+- Pierwotnie bazował na kompilacji społecznościowej 2.0.96x, ale obecnie bazuje na oficjalnych wersjach ZDoom, sporadycznie używając nieco nowszego kodu Git. Źródło jest oczywiście dostępne.</text>
+			<text lang="ru">GZDoom — порт движка компьютерной игры Doom, форк проекта ZDoom с обеспечением улучшенной поддержки аппаратного обеспечения (OpenGL).
+- Полная поддержка 3D полов (включая наклонные и полупрозрачные)
+- Отражающие горизонтальные и наклонные поверхности
+- Динамическое освещение, шейдеры, светящиеся текстуры и спрайты
+- Скайбоксы в стиле Quake II/Half-Life
+- Качественное сглаживание графики HQNX и xBRZ для высоких разрешений
+- Поддержка 3D моделей MD2 и MD3
+- Полная поддержка TrueColor
+ZDoom — порт, расширенная версия движка компьютерной игры Doom (Doom engine), движок позволяет играть практически во все игры на движке id Tech (Doom, Doom 2, Heretic, HeXen, Strife). Разработка движка прекращена (на версии 2.8.1), но развитие проекта продолжено как GZDoom (стабильная версия) и QZDoom (служит для испытаний новых, стабильных функций).</text>
+			<text lang="it">GZDoom è un port sorgente di Doom accelerato in 3D basato su ZDoom, codificato e mantenuto da Christoph Oelckers.
+GZDoom dispone di un renderer OpenGL e di molte nuove caratteristiche, tra cui:
+- Pavimenti 3D inclinati
+- Effetti di luce, tra cui luci dinamiche, mappe luminose e piatti incandescenti.
+- Skybox in stile Quake2
+- Supporto per i colori reali
+- Supporto per i modelli
+- Originariamente era basato sulla versione comunitaria 2.0.96x, ma ora si basa sulle versioni ufficiali di ZDoom, utilizzando occasionalmente un codice Git leggermente più recente. Il sorgente è ovviamente disponibile.</text>
+		</text>
+	</view>
+</theme>

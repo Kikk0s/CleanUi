@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+		<text name="DataRilascio" extra="true">
+			<text>2021</text>
+		</text>
+		<text name="nomesistema_nu" extra="true">
+			<text>Raze</text>
+		</text>
+		<text name="Descrizione" extra="true">
+			<text>Raze is a fork of Build engine games backed by GZDoom tech and combines Duke Nukem 3D, Blood, Redneck Rampage, Shadow Warrior and Exhumed/Powerslave in a single package. It is also capable of playing Nam and WW2 GI.
+The game modules are based on the following sources:
+- Duke Nukem: JFDuke, EDuke 2.0, World Tour extensions from DukeGDX and some minor fixes from EDuke32.
+- Redneck Rampage: Nuke.YKT's reconstructed source available in the Rednukem Git repo.
+- Blood: NBlood.
+- Shadow Warrior: SWP and VoidSW.
+- Exhumed/Powerslave: PCExhumed, with some enhancements inspired by PowerslaveGDX.
+</text>
+			<text lang="pl">Raze to zbór gier na Build engine wsparty technologią GZDoom i łączący w jednym pakiecie Duke Nukem 3D, Blood, Redneck Rampage, Shadow Warrior i Exhumed/Powerslave. Jest również w stanie uruchomić dodatki i mody takie jak np. NAM i WW2 GI.
+Moduły gry oparte są na następujących źródłach:
+- Duke Nukem: JFDuke, EDuke 2.0, rozszerzenia World Tour z DukeGDX i kilka drobnych poprawek z EDuke32.
+- Redneck Rampage: Zrekonstruowane źródło Nuke.YKT dostępne w repo Rednukem Git.
+- Blood: NBlood.
+- Shadow Warrior: SWP i VoidSW.
+- Exhumed/Powerslave: PCExhumed, z pewnymi ulepszeniami inspirowanymi przez PowerslaveGDX.</text>
+			<text lang="ru">Кто бы мог подумать, что те, кто создал ZDOOM, LZDOOM и, наконец, GZDOOM, создадут source-порт и для игр, созданных на Build Engine. 
+RAZE - это source-порт EDuke32 с дополнительными механиками, использованных в GZDOOM. Первая версия вышла совсем недавно - 8 апреля 2021 года. Разработали его Кристофер "Graf Zahl" Олкерс и Рейчел "Rachael" Александерсон  с включением нескольких других кодовых баз, в первую очередь из Build и EDuke32.
+Поддерживаемые игры основаны на:
+- Duke Nukem: JFDuke, EDuke 2.0, расширение World Tour от DukeGDX и некоторые мелкие исправления от EDuke32.
+- Redneck Rampage: реконструированный исходный код Nuke.YKT доступный в репозитории Rednukem Git.
+- Blood: NBlood.
+- Shadow Warrior: SWP и VoidSW.
+- Exhumed/Powerslave: PCExhumed с некоторыми улучшениями, вдохновленными PowerslaveGDX.</text>
+			<text lang="it">Raze è un fork dei giochi del motore Build supportato dalla tecnologia GZDoom e combina Duke Nukem 3D, Blood, Redneck Rampage, Shadow Warrior ed Exhumed/Powerslave in un unico pacchetto. È anche in grado di giocare a Nam e WW2 GI.
+I moduli di gioco sono basati sulle seguenti fonti:
+- Duke Nukem: JFDuke, EDuke 2.0, estensioni World Tour da DukeGDX e alcune correzioni minori da EDuke32.
+- Redneck Rampage: Sorgente ricostruito di Nuke.YKT disponibile nel repo Git di Rednukem.
+- Sangue: NBlood.
+- Shadow Warrior: SWP e VoidSW.
+- Exhumed/Powerslave: PCExhumed, con alcuni miglioramenti ispirati a PowerslaveGDX.</text>
+		</text>
+	</view>
+</theme>

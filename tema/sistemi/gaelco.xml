@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+		<text name="DataRilascio" extra="true">
+			<text>1991</text>
+		</text>
+		<text name="Produttore" extra="true">
+			<text>Arcade</text>
+		</text>
+		<text name="nomesistema_nu" extra="true">
+			<text>Gaelco</text>
+		</text>
+		<text name="Descrizione" extra="true">
+			<text>Gabinete Electrónico Consultivo, S.A., is a trademark and better known as Gaelco, S.A.. It is a Spanish company that develops and publishes arcade games and video games. Since 2007, Gaelco also develops electronic dart machines under the name "Gaelco Darts".</text>
+			<text lang="pl">Gabinete Electrónico Consultivo, S.A., jest znakiem towarowym i lepiej znanym jako Gaelco, S.A.. Jest to hiszpańska firma, która rozwija i publikuje gry zręcznościowe i gry wideo. Od 2007 roku, Gaelco rozwija również elektroniczne maszyny do gry w rzutki pod nazwą "Gaelco Darts".</text>
+			<text lang="ru">Gabinete Electrónico Consultivo, S.A. — торговая марка, более известная как Gaelco, S.A.. Это испанская компания, разрабатывающая и выпускающая аркадные видеоигры. С 2007 года Gaelco также разрабатывает электронные дротики под названием Gaelco Darts. </text>
+			<text lang="it">Gabinete Electrónico Consultivo, S.A., è un marchio e meglio conosciuto come Gaelco, S.A.. È un'azienda spagnola che sviluppa e pubblica giochi arcade e videogiochi. Dal 2007, Gaelco sviluppa anche macchine per freccette elettroniche con il nome di "Gaelco Darts".</text>
+		</text>
+	</view>
+</theme>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+		<text name="DataRilascio" extra="true">
+			<text>1978</text>
+		</text>
+		<text name="Produttore" extra="true">
+			<text>Interton</text>
+		</text>
+		<text name="nomesistema_nu" extra="true">
+			<text>VC 4000</text>
+		</text>
+		<text name="Descrizione" extra="true">
+			<text>The Interton Video Computer 4000 (officially abbreviated as Interton VC 4000) is an early 8-bit ROM cartridge-based second-generation home video game console that was released in Germany, England, France, Spain, Austria, the Netherlands and Australia in 1978 by German hearing aid manufacturer Interton. The console is the successor of the Interton Video 3001 and was sold for 298 Deutsche Mark and discontinued in 1983.
+The Interton VC 4000's power comes from a Signetics 2650 CPU (which is the same as an Arcadia 2001) and a Signetics 2636 gaming controller. Both controllers contain a 12-button keypad, two fire buttons, and a joystick. Inside the systems control panel, there are four different buttons. The ON/OFF switch, RESET, SELECT, and START.
+The console was produced by different companies and sold with different names. Not every console is compatible with others due to differences in the shapes and dimensions of the cartridge slots, but all of the systems are software compatible.</text>
+			<text lang="pl">Interton Video Computer 4000 (w oficjalnym skrócie Interton VC 4000) to wczesna 8-bitowa, oparta na kasetach ROM domowa konsola do gier wideo drugiej generacji, która została wydana w Niemczech, Anglii, Francji, Hiszpanii, Austrii, Holandii i Australii w 1978 roku przez niemieckiego producenta aparatów słuchowych Interton. Konsola jest następcą Interton Video 3001 i była sprzedawana za 298 marek niemieckich, a jej produkcja została zakończona w 1983 roku.
+Moc Interton VC 4000 pochodzi z procesora Signetics 2650 (który jest taki sam jak w Arcadia 2001) oraz kontrolera gier Signetics 2636. Oba kontrolery zawierają 12-przyciskową klawiaturę, dwa przyciski fire oraz joystick. Wewnątrz panelu sterowania systemu znajdują się cztery różne przyciski. Włącznik/wyłącznik, RESET, SELECT i START.
+Konsola była produkowana przez różne firmy i sprzedawana pod różnymi nazwami. Nie każda konsola jest kompatybilna z innymi ze względu na różnice w kształcie i wymiarach gniazd kartridży, ale wszystkie systemy są kompatybilne z oprogramowaniem.</text>
+			<text lang="ru">8-битная игровая приставка второго поколения, выпущенная немецкой компанией Interton в 1978 году по цене около 300 DM. Является единственной консолью, разработанной и выпущенной полностью в Германии.
+VC 4000 была разработана ещё в 1974 году, однако выпущена лишь 4 годами позже. До неё Interton в середине 1970-х выпустил несколько лицензионных Понг-приставок, вроде Atari Pong — например, Interton 3001. За пределами Германии популярности не имела. Выпуск приставки остановился в 1983 году.</text>
+			<text lang="it">L'Interton Video Computer 4000 (ufficialmente abbreviato in Interton VC 4000) è una console per videogiochi domestica di seconda generazione basata su cartucce ROM a 8 bit, commercializzata in Germania, Inghilterra, Francia, Spagna, Austria, Paesi Bassi e Australia nel 1978 dal produttore tedesco di apparecchi acustici Interton. La console è il successore della Interton Video 3001 ed è stata venduta al prezzo di 298 marchi tedeschi e dismessa nel 1983.
+La console Interton VC 4000 è alimentata da una CPU Signetics 2650 (la stessa dell'Arcadia 2001) e da un controller Signetics 2636. Entrambi i controller contengono una tastiera a 12 pulsanti, due pulsanti di fuoco e un joystick. All'interno del pannello di controllo del sistema sono presenti quattro diversi pulsanti. L'interruttore ON/OFF, RESET, SELECT e START.
+La console è stata prodotta da diverse aziende e venduta con nomi diversi. Non tutte le console sono compatibili con le altre a causa delle differenze nelle forme e nelle dimensioni degli slot per le cartucce, ma tutti i sistemi sono compatibili con il software.</text>
+		</text>
+	</view>
+</theme>

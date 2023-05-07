@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme defaultView="Tiles">
+	<formatVersion>7</formatVersion>
+	<view name="system">
+		<image name="box1" extra="true">
+			<roundCorners>0.05</roundCorners>
+			<visible>true</visible>
+			<opacity>0</opacity>
+			<scale>0</scale>
+			<scaleOrigin>0 0.5</scaleOrigin>
+		</image>
+		<image name="box2" extra="true">
+			<roundCorners>0.05</roundCorners>
+			<visible>true</visible>
+			<opacity>0</opacity>
+			<scale>0</scale>
+			<scaleOrigin>0 0.5</scaleOrigin>
+		</image>
+		<image name="box3" extra="true">
+			<roundCorners>0.05</roundCorners>
+			<visible>true</visible>
+			<opacity>0</opacity>
+			<scale>0</scale>
+			<scaleOrigin>0 0.5</scaleOrigin>
+		</image>
+		<image name="box4" extra="true">
+			<roundCorners>0.05</roundCorners>
+			<visible>true</visible>
+			<opacity>0</opacity>
+			<scale>0</scale>
+			<scaleOrigin>0 0.5</scaleOrigin>
+		</image>
+		<image name="box5" extra="true">
+			<roundCorners>0.05</roundCorners>
+			<visible>true</visible>
+			<opacity>0</opacity>
+			<scale>0</scale>
+			<scaleOrigin>0 0.5</scaleOrigin>
+		</image>
+	</view>
+</theme>

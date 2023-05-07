@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+		<text name="DataRilascio" extra="true">
+			<text>2008</text>
+		</text>
+		<text name="Produttore" extra="true">
+			<text>Nintendo</text>
+		</text>
+		<text name="nomesistema_nu" extra="true">
+			<text>WiiWare</text>
+		</text>
+		<text name="Descrizione" extra="true">
+			<text>WiiWare was a service that allowed Wii users to download games and applications specifically designed and developed for the Wii video game console made by Nintendo. These games and applications could only be purchased and downloaded from the Wii Shop Channel under the WiiWare section. Once the user had downloaded the game or application, it would appear in their Wii Menu or SD Card Menu as a new channel.
+WiiWare was a companion to the Virtual Console, which specializes in emulated games originally developed for other systems instead of original games.</text>
+			<text lang="pl">WiiWare było usługą, która pozwalała użytkownikom Wii na pobieranie gier i aplikacji zaprojektowanych i stworzonych specjalnie dla konsoli gier wideo Wii wyprodukowanej przez Nintendo. Te gry i aplikacje mogły być kupowane i pobierane tylko z kanału Wii Shop w sekcji WiiWare. Po pobraniu przez użytkownika gry lub aplikacji, pojawiała się ona w jego Wii Menu lub SD Card Menu jako nowy kanał.
+WiiWare było towarzyszem Virtual Console, która specjalizuje się w emulowanych grach stworzonych pierwotnie dla innych systemów zamiast oryginalnych gier.</text>
+			<text lang="ru">WiiWare - это сервис, позволяющий пользователям Wii загружать игры и приложения, специально разработанные и созданные для игровой консоли Wii компании Nintendo. Эти игры и приложения можно было приобрести и загрузить только с канала Wii Shop в разделе WiiWare. После того как пользователь загружал игру или приложение, оно появлялось в меню Wii или меню SD-карты как новый канал.
+WiiWare был дополнением к Virtual Console, которая специализировалась на эмулированных играх, изначально разработанных для других систем, вместо оригинальных игр.</text>
+			<text lang="it">WiiWare è stato un servizio che consentiva agli utenti della console Wii di scaricare giochi e applicazioni appositamente progettati e sviluppati per la console per videogiochi Wii di Nintendo. Questi giochi e applicazioni potevano essere acquistati e scaricati solo dal Canale Wii Shop nella sezione WiiWare. Una volta che l'utente aveva scaricato il gioco o l'applicazione, questo appariva nel proprio menu Wii o nel menu della scheda SD come nuovo canale.
+WiiWare era un complemento della Virtual Console, specializzata in giochi emulati originariamente sviluppati per altre console, piuttosto che in giochi originali.</text>
+		</text>
+	</view>
+</theme>

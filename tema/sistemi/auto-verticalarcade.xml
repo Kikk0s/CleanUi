@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+	<text name="DataRilascio" extra="true">			
+			<text>Various</text>
+			<text lang="it">Varie </text>
+		</text>
+		<text name="Produttore" extra="true">
+			<text>Various</text>
+			<text lang="it">Vari </text>
+		</text>
+		<text name="Descrizione" extra="true">
+			<text>An arcade game or coin-op game is a coin-operated entertainment machine typically installed in public businesses such as restaurants, bars and amusement arcades. Most arcade games are video games, pinball machines, electro-mechanical games, redemption games or merchandisers. While exact dates are debated, the golden age of arcade video games is usually defined as a period beginning sometime in the late 1970s and ending sometime in the mid-1980s. Excluding a brief resurgence in the early 1990s, the arcade industry subsequently declined in the Western hemisphere as competing home video game consoles such as the Sony PlayStation and Microsoft Xbox increased in their graphics and game-play capability and decreased in cost. The Eastern Hemisphere retains a strong arcade industry.</text>
+			<text lang="it">Un gioco arcade o coin-op è una macchina per l'intrattenimento a moneta tipicamente installata in esercizi pubblici come ristoranti, bar e sale giochi. La maggior parte dei giochi arcade sono videogiochi, flipper, giochi elettromeccanici, giochi a premio o merchandiser. Sebbene le date esatte siano discusse, l'età d'oro dei videogiochi arcade è solitamente definita come un periodo che inizia alla fine degli anni Settanta e termina alla metà degli anni Ottanta. Se si esclude una breve ripresa all'inizio degli anni Novanta, l'industria delle sale giochi ha subito un declino nell'emisfero occidentale a causa dell'aumento della grafica e delle capacità di gioco delle console domestiche concorrenti, come la PlayStation di Sony e la Xbox di Microsoft, e della riduzione dei costi. L'emisfero orientale conserva una forte industria delle sale giochi.</text>
+		</text>
+	</view>
+</theme>
