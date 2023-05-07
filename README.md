@@ -2,20 +2,20 @@
 
 Es Theme for batocera used on my personal bartop whit a lot of customizations!
 
-Theme name: CleanUi
+Theme name: __CleanUi__
 
-Author: kikk0s
+Author: __kikk0s__
 
 
 ### Features
 
 * Full based vector images
-* over 100 system themed
-* video support
-* customizations & configurable theme settings
-* splashscreen
-* full Dark & Light interface
-* video boot loading(inside extra folder)
+* Over 100 system themed
+* Video support
+* Customizations & configurable theme settings
+* Splashscreen
+* Options for Full Dark & Full Light interface
+* Video boot loading(inside extra folder)
 
 
 
