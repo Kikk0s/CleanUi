@@ -6,7 +6,6 @@ Theme: My - Bartop
 
 Author: kikk0s
 
-Controller artwork originally based on: "Carbon" by Eric Hettervik (Rookervik)
 
 ### Features
 
@@ -30,3 +29,9 @@ Controller artwork originally based on: "Carbon" by Eric Hettervik (Rookervik)
 * Colors set
 * Animations
 * Filters
+
+###  Credits
+
+Based on: Carbon theme by @fabricecaruso
+Controller artwork originally based on: "Carbon" by Eric Hettervik (Rookervik)
+Sistems description from: "Ckau-Book" theme by Ckau (@CkauNui)
