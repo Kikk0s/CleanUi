@@ -71,6 +71,10 @@ REQUIREMENTS:
 PROHIBITED:
 - Commercial distribution
 
+## Video
+
+https://youtu.be/ZbLsxkb_uXw
+
 ## Screenshots
 
 ![](https://i.imgur.com/gsf9J0q.png) 
