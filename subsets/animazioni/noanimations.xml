@@ -3,5 +3,31 @@
   <formatVersion>7</formatVersion>
 <view name="system">
 	
-</view>		 
+</view>	
+<view name="basic, detailed, video,grid,gamecarousel">
+
+<image name="logoIntroSistemi" extra="true">
+	<storyboard>
+	<animation property="opacity" from="0" to="0" mode="EaseInCubic"/>
+	</storyboard>
+	</image>
+
+<text name="testoIntroSistemi" extra="true">
+	<storyboard>
+	<animation property="opacity" from="0" to="0" mode="EaseInCubic"/>
+	</storyboard>
+	</text>
+
+<image name="sfondoIntroSistemi" extra="true">
+	<storyboard>
+	<animation property="opacity" from="0" to="0" mode="EaseInCubic"/>
+	</storyboard>
+	</image>
+
+<text name="testoAvvioIntroSistemi" extra="true">
+		<storyboard>
+	<animation property="opacity" from="0" to="0" mode="EaseInCubic"/>
+		</storyboard>
+		</text>
+</view>	 
 </theme>
