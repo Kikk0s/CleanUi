@@ -1,6 +1,23 @@
+<p>
+<img align="center" width="200px" src="https://i.imgur.com/bVgyane.png">
+<br/>
+<br/>
+</p>
+<p>
+
 # CleanUi
 
-Es Theme for batocera used on my personal bartop whit a lot of customizations!
+Es Theme for batocera used on my personal bartop whit a lot of customizations
+  
+Optimized for Full HD resolution (1080p)
+  
+<p>
+<img align="center" width="100px" src="https://i.imgur.com/XQxGuT3.png">
+<img align="center" width="100px" src="https://i.imgur.com/lHrt57P.png">
+<br/>
+<br/>
+</p>
+<p>
 
 Theme name: __CleanUi__
 
@@ -11,6 +28,7 @@ Author: __kikk0s__
 
 * Full based vector images
 * Over 100 system themed
+* Video backgrounds
 * Video support
 * Customizations & configurable theme settings
 * Splashscreen
