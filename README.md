@@ -35,10 +35,10 @@ Author: kikk0s
 
 ###  Credits
 
-Based on: Carbon theme by @fabricecaruso
-Controller artwork originally based on: "Carbon" by Eric Hettervik (Rookervik)
-Sistems description from: "Ckau-Book" theme by Ckau (@CkauNui)
-Menu icons by Freepik from Flaticon
+* Based on: [Carbon](https://github.com/fabricecaruso/es-theme-carbon) theme by @fabricecaruso
+* Controller artwork originally based on: [Carbon](https://github.com/fabricecaruso/es-theme-carbon) theme by @fabricecaruso
+* Sistems description from: [Ckau-Book](https://github.com/CkauNui/ckau-book) theme by Ckau (@CkauNui)
+* Menu icons by Freepik from Flaticon
 
 ###  License
 ALLOWED: 
