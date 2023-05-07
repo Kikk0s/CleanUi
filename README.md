@@ -53,3 +53,11 @@ REQUIREMENTS:
 PROHIBITED:
 - Commercial distribution
 
+## Screenshots
+
+|                                    |                                    |
+| :--------------------------------: | :--------------------------------: |
+| ![](https://i.imgur.com/9YceSQw.png) | ![](https://i.imgur.com/TUVzJiK.png) | 
+| ![](https://i.imgur.com/zFJmiyn.png) | ![](https://i.imgur.com/1gnJNJq.png) |
+| ![](https://i.imgur.com/47K7vcp.png) | ![](https://i.imgur.com/qW7NExp.png) |
+
