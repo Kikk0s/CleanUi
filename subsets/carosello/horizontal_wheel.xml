@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  
+  <!-- Configurazione tema --> 
+   <include>./config.xml</include>
+
+<view name="system">
+    <carousel name="systemcarousel">
+        <type>horizontal_wheel</type>
+        <pos>0 0</pos>
+		<origin>0 0</origin>
+        <logoAlignment>left</logoAlignment> 
+        <size>0.49 1</size>
+        <logoScale>2</logoScale>    
+        <logoSize>0.15 0.15</logoSize>
+        <maxLogoCount>3</maxLogoCount>
+		<zIndex>138</zIndex>
+		<systemInfoDelay>700</systemInfoDelay>
+      </carousel>
+</view>	
+</theme>

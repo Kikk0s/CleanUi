@@ -1,54 +1,48 @@
-# CleanUi
+# Piboy-BT
 
-Es Theme for batocera used on my personal bartop whit a lot of customizations!
+Es Theme for batocera optimized for small screens -Piboy DMG inspiered whit a lot of customizations!
 
-Theme name: CleanUi
+Theme: Piboy-BT
 
 Author: kikk0s
+
+Controller artwork originally based on: "Carbon" by Eric Hettervik (Rookervik)
 
 
 ### Features
 
+* Dark interface
 * Full based vector images
 * over 100 system themed
 * video support
 * customizations & configurable theme settings
 * splashscreen
-* full Dark & Light interface
 * video boot loading(inside extra folder)
 
 
 
 ### Configurable theme settings
 
-* Carousel
-* Carousel logos
-* Rom list style
-* Game carousel
-* Game carousel image source
-* Video Backgrounds
-* Colors set
-* Animations
-* Launch Sistems Logos/Texts
-* Sistems extra infos
-* Rating Style
+* Carousel: Wheel - Vertical - Horizontal - Controllers
+* Rom list style: Detailed - base - grid - game carousel
+* Game carousel: Vertical - Wheel 
+* Game carousel image source: Text - Marquee
+* Backgrounds: Hexagon - Holes - Holes V2 - Holes V3 - Metal - Black - Fullscreen Video - Arcade video frame
+* Colors set: 8 sets
 
-###  Credits
 
-* Based on: [Carbon](https://github.com/fabricecaruso/es-theme-carbon) theme by @fabricecaruso
-* Controller artwork originally based on: [Carbon](https://github.com/fabricecaruso/es-theme-carbon) theme by @fabricecaruso
-* Sistems description from: [Ckau-Book](https://github.com/CkauNui/ckau-book) theme by Ckau (@CkauNui)
-* Menu icons by Freepik from [Flaticon](https://www.flaticon.com/)
 
-###  License
-ALLOWED: 
-- Share and duplicate as it is
-- Edit, alter, change it
 
-REQUIREMENTS:
-- Attribution, give credit to the creator
-- Indicate changes to it
-- Publish the changes under the same license
+![view](https://i.imgur.com/pPglGxv.png)
 
-PROHIBITED:
-- Commercial distribution
+![view](https://i.imgur.com/mH2tgjr.png)
+
+![view](https://i.imgur.com/3inJM8h.png)
+
+![view](https://i.imgur.com/wruCgwp.png)
+
+![view](https://i.imgur.com/iAfB5QA.png)
+
+![view](https://i.imgur.com/W5RljO4.png)
+
+

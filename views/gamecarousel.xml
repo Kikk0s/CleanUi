@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <formatVersion>7</formatVersion>
+	
+	<include>./config.xml</include>
+
+ <view name="gamecarousel">
+    <gamecarousel name="gamecarousel">
+	  <logoAlignment>left</logoAlignment> 
+      <pos>0.02 0.25</pos>
+      <size>0.5 0.7</size>
+	   <logoScale>1</logoScale>
+	   <logoSize>0.5 0.18</logoSize>
+	   <maxLogoCount>10</maxLogoCount>
+      <scrollSound>./tema/sounds/Move.wav</scrollSound>	  
+      <zIndex>101</zIndex>
+    </gamecarousel> 
+	<text name="gamecarouselLogoText">
+        <color>${white}</color>
+		<fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
+	     <fontSize>0.02</fontSize>	
+		<pos>0.02 0.25</pos>
+		<size>0.5 0.7</size>
+		<lineSpacing>1.0</lineSpacing>		
+		 <zIndex>102</zIndex>
+		 <forceUppercase>0</forceUppercase>
+    </text>
+	</view>
+	
+</theme>
+
+

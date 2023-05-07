@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  
+   <include>./config.xml</include>
+   
+  <view name="system">
+ 
+   <image name="staticBackgroundvideoframe">
+      <tile>false</tile>
+	  <pos>0.10 0.65</pos>
+	  <maxSize>0.35 0.35</maxSize>
+      <path>.\subsets\anteprimavideo\videoframe.png</path>
+    </image>	
+	 
+	 <image name="staticBackgroundvideoframeback">
+      <tile>false</tile>
+	   <pos>0.10 0.65</pos>
+	   <maxSize>0.35 0.35</maxSize>
+       <path>.\subsets\anteprimavideo\videoframeback.png</path>
+    </image>
+ 
+ 	 <image name="staticBackgroundvideoframetop">
+      <tile>false</tile>
+	   <pos>0.10 0.65</pos>
+	   <maxSize>0.35 0.35</maxSize>
+       <path>.\subsets\anteprimavideo\videoframetop.png</path>
+    </image>
+ 
+    <video name="backgroundvideo" extra="true">
+      <path>{random}</path>
+      <delay>1.5</delay>
+      <color>ffffffa0</color>
+      <effect>none</effect>
+	  <default>./subsets/sfondi/novideo.mp4</default>
+    </video>
+	
+ <video name="backgroundvideo" extra="true">
+      <pos>0.249 0.825</pos>
+	  <origin>0.5 0.5</origin>
+      <maxSize>0.29 0.29</maxSize>
+    </video>
+
+	
+    <image name="CenterFade" extra="true">
+      <color>00000099</color>
+    </image>
+	
+  </view>
+</theme>

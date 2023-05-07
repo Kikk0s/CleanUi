@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+
+
+<view name="system">
+	<image name="logo">
+				<path>./tema/loghi/${system.theme}.svg</path>
+			</image>
+</view>	  
+
+	<view name="detailed, video,gamecarousel,basic">
+					<image name="system" extra="true">        
+					   <path>./tema/loghi/${system.theme}.svg</path>           
+					</image>	
+	</view>	
+
+	<view name="grid">
+					<image name="system" extra="true">
+					   <path>./tema/loghi/${system.theme}.svg</path>           
+					</image>
+	</view>	
+</theme>

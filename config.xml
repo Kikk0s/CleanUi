@@ -1,0 +1,110 @@
+<theme>
+    <formatVersion>7</formatVersion>
+	
+		<!--Carosello -->
+	<subset subset="systemview" name="Carousel">
+	<include name="Vertical_wheel">./subsets/carosello/vertical_wheel.xml</include>
+	<include name="vertical">./subsets/carosello/vertical.xml</include>
+	<include name="Horizontal_wheel">./subsets/carosello/horizontal_wheel.xml</include>
+	<include name="horizontal">./subsets/carosello/horizontal.xml</include>
+	</subset>
+	
+	<subset subset="Carousel logos" name="Carousel logos">
+	<include name="Logos">./subsets/loghi/logos.xml</include>
+	<include name="Text">./subsets/loghi/text.xml</include>
+	</subset>
+
+	<subset name="Carousel images source" appliesTo="gamecarousel">
+	<include name="text">./subsets/carosellogiochi/testo.xml</include>
+	<include name="marquee">./subsets/carosellogiochi/marquee.xml</include>
+	</subset>
+	
+	<subset name="Game Carousel Style" appliesTo="gamecarousel">
+	<include name="Vertical">./subsets/carosellogiochi/vertical.xml</include>
+	<include name="Wheel">./subsets/carosellogiochi/wheel.xml</include>
+	</subset>
+	
+	<subset subset="Launch Sistems Logo" name="Launch Sistems Logo">
+	<include name="Controllers">./subsets/intrologo/controllers.xml</include>
+	<include name="Logos">./subsets/intrologo/logos.xml</include>
+	<include name="Logo text">./subsets/intrologo/logotext.xml</include>
+	</subset>
+	
+	<subset subset="Launch Sistems Text" name="Launch Sistems Text">
+	<include name="Ready to Play">./subsets/intrologotext/readytoplay.xml</include>
+	<include name="Games">./subsets/intrologotext/games.xml</include>
+	<include name="Arcade Zone">./subsets/intrologotext/arcadezone.xml</include>
+	</subset>
+	
+<!--Informazioni di sistema extra -->
+	<subset subset="systeminfoextra" name="systeminfoextra">
+	<include name="yes">./subsets/info/yes.xml</include>
+	<include name="no">./subsets/animazioni/no.xml</include>
+	</subset>
+	
+<!--Sfondi -->
+	<subset subset="Background" name="Background">
+	<include name="Tunnel">./subsets/sfondi/tunnel.xml</include>
+	<include name="Linear">./subsets/sfondi/linear.xml</include>
+	<include name="Dust">./subsets/sfondi/dust.xml</include>
+	<include name="Particles">./subsets/sfondi/particles.xml</include>
+	<include name="Pixel">./subsets/sfondi/pixel.xml</include>
+	<include name="Hexagon">./subsets/sfondi/hexagon.xml</include>
+	<include name="Game room">./subsets/sfondi/gameroom.xml</include>
+	<include name="Metropolis">./subsets/sfondi/metropolis.xml</include>
+	<include name="Retrowave">./subsets/sfondi/retrowave.xml</include>
+	<include name="Sci-Fi">./subsets/sfondi/scifi.xml</include>
+	<include name="Tunnel">./subsets/sfondi/tunnel.xml</include>
+	<include name="Triangles">./subsets/sfondi/triangles.xml</include>
+	<include name="Random game videos">./subsets/sfondi/video.xml</include>
+	</subset>
+
+
+<!--Accento -->	
+	<subset subset="Accent color" name="Accent Color">
+	<include name="Dune">./subsets/colors/dune.xml</include>
+	<include name="Full Dark">./subsets/colors/fulldark.xml</include>
+	<include name="Full Light">./subsets/colors/fulllight.xml</include>
+	<include name="Charcoal">./subsets/colors/charcoal.xml</include>
+	<include name="Snow">./subsets/colors/snow.xml</include>
+	<include name="Slate">./subsets/colors/slate.xml</include>
+	<include name="Tangerine">./subsets/colors/tangerine.xml</include>
+	<include name="Crimson">./subsets/colors/crimson.xml</include>
+	<include name="Razor Backs">./subsets/colors/razorbacks.xml</include>
+	<include name="Angel Bule">./subsets/colors/angel_blue.xml</include>
+	<include name="Ultramarine">./subsets/colors/ultramarine.xml</include>
+	<include name="Feldgrau">./subsets/colors/feldgrau.xml</include>
+	<include name="Payton">./subsets/colors/payton.xml</include>
+	<include name="Acapulco">./subsets/colors/acapulco.xml</include>	
+	</subset>
+
+<!--animazioni -->
+	<subset subset="animations" name="Animations">
+	<include name="Yes">./subsets/animazioni/animations.xml</include>
+	<include name="No">./subsets/animazioni/noanimations.xml</include>
+	</subset>
+	
+<!--stile rating -->
+	<subset subset="rating" name="Rating Style">
+	<include name="Heart">./subsets/rating/heart.xml</include>
+	<include name="Star">./subsets/rating/star.xml</include>
+	<include name="Hexagon">./subsets/rating/hexagon.xml</include>
+	<include name="Circle">./subsets/rating/circle.xml</include>
+	</subset> 	
+	
+<!--Anteprima video
+	<subset subset="videopreview" name="Video Preview">
+	<include name="Yes">.\subsets\anteprimavideo\videopreview.xml</include>
+	<include name="No">.\subsets\anteprimavideo\novideopreview.xml</include>
+	</subset>  -->
+	
+<!--anteprima video nella vista grid -->
+	<subset subset="video" name="Video on grid">
+	<include name="No">./subsets/grid/novideo.xml</include>
+	<include name="Yes">./subsets/grid/video.xml</include>
+	</subset> 
+	
+
+</theme>
+
+

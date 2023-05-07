@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+ <include>./config.xml</include>
+ 
+<view name="system">
+    <text name="systemInfoEx" extra="true">
+      <text>
+		Favorites : {binding:favorites}
+		Games played : {binding:gamesPlayed}
+		Most played : {binding:mostPlayed}
+		Last played : {binding:lastPlayedDate}</text>
+		<text lang="it">
+		Favoriti : {binding:favorites}
+		Giocati : {binding:gamesPlayed}
+		Il piu' Giocato : {binding:mostPlayed}
+		Ultima partita : {binding:lastPlayedDate}</text>
+       <fontPath>./tema/fonts/Ubuntu-Light.ttf</fontPath>
+       <fontSize>0.015</fontSize>
+       <pos>0.65 0.78</pos>
+    </text>
+	
+	<image name="controllersinfo" extra="true">
+		  <maxSize>0.10 0.10</maxSize>
+		  <pos>0.56 0.80</pos>
+		  <origin>0.50 </origin>
+		  <tile>false</tile>
+		  <path>./tema/controllers/${system.theme}.svg</path>
+		</image>	
+	
+</view>	
+</theme>

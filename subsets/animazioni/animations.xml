@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+ <include>./config.xml</include>
+ 
+ <!-- Sistema -->
+<view name="system">
+
+	<text name="DataRilascio" extra="true">
+			<storyboard>
+			<animation property="x" from="1" begin="1" duration="1000" mode="EaseInCubic"/>
+			</storyboard>
+		</text>
+	<text name="Produttore" extra="true">
+			<storyboard>
+			<animation property="x" from="1" begin="1" duration="1000" mode="EaseInCubic"/>
+			</storyboard>
+		</text>
+		<text name="Descrizione" extra="true">
+			<storyboard>
+				<animation property="x" from="1" begin="1" duration="1000" mode="EaseInCubic"/>
+			</storyboard>
+		</text>
+<!-- splash-->
+			 <image name="splashaccento" extra="true">
+	 <zIndex>7</zIndex>
+	  <storyboard>
+				<animation property="opacity" from="0" to="1" duration="1000" mode="easeIn" autoReverse="true" repeat="forever"/>
+	  </storyboard>
+    </image>
+	
+	<image name="staticBackgroundled">
+      <zIndex>101</zIndex>
+	  <storyboard>
+			<animation property="opacity" from="0" to="1" duration="3000" mode="easeIn" autoReverse="true" repeat="forever"/>
+	  </storyboard>
+    </image>
+	
+		 <!-- info extra sistemi-->
+	<text name="systemInfo"> 
+   <storyboard>
+			<animation property="opacity" from="0.0" to="1" duration="3000" mode="EaseInCubic"/>
+			<animation property="opacity" from="0.5" to="1" duration="1000" mode="EaseInCubic" autoReverse="true" repeat="forever"/>
+	</storyboard>
+    </text>	
+	
+	<text name="systemInfoEx" extra="true">
+   <storyboard>
+			<animation property="y" from="1" begin="1" duration="1000" mode="EaseInCubic"/>
+			</storyboard>
+    </text>	
+<image name="controllersinfo" extra="true">	
+		<storyboard>
+			 <animation property="y" from="1" begin="1" duration="1000" mode="EaseInCubic"/>
+		</storyboard>				
+	</image>
+	  
+	  		<image name="logo">
+		<linearSmooth>true</linearSmooth>
+			<storyboard event="activate">
+				<animation property="opacity" from="0" to="1" duration="150" mode="Linear"/>
+				<animation property="opacity" from="1" to="0.8" begin="1150" duration="1000" mode="EaseIn" autoReverse="true" repeat="forever"/>
+			</storyboard>
+			<storyboard event="scroll">
+				<animation property="x" to="-0.5" begin="1500" duration="320" mode="EaseInCubic"/>
+				<animation property="opacity" from="0" to="1" duration="160" mode="Linear"/>
+				<animation property="opacity" from="1" to="1" begin="1200" duration="35" mode="Linear"/>
+				<animation property="opacity" from="1" to="0.2" duration="3000" mode="Linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+				<animation property="x" to="-0.5" begin="1500" duration="320" mode="EaseInCubic"/>
+				<animation property="opacity" from="0" to="1" duration="160" mode="Linear"/>
+				<animation property="opacity" from="1" to="1" begin="1200" duration="35" mode="Linear"/>
+				<animation property="opacity" from="1" to="0.2" duration="3000" mode="Linear"/>
+			</storyboard>
+		</image>
+		
+		
+		<image name="logo" ifSubset="Carousel:horizontal">
+		<linearSmooth>true</linearSmooth>
+			<storyboard event="activate">
+			</storyboard>
+			<storyboard event="scroll">
+			</storyboard>
+			<storyboard event="deactivate">
+			</storyboard>
+		</image>
+		
+		 		<image name="logoText">
+		<linearSmooth>true</linearSmooth>
+			<storyboard event="activate">
+				<animation property="opacity" from="0" to="1" duration="150" mode="Linear"/>
+				<animation property="opacity" from="1" to="0.8" begin="1150" duration="1000" mode="EaseIn" autoReverse="true" repeat="forever"/>
+			</storyboard>
+			<storyboard event="scroll">
+				<animation property="x" to="-0.5" begin="1500" duration="320" mode="EaseInCubic"/>
+				<animation property="opacity" from="0" to="1" duration="160" mode="Linear"/>
+				<animation property="opacity" from="1" to="1" begin="1200" duration="35" mode="Linear"/>
+				<animation property="opacity" from="1" to="0.2" duration="3000" mode="Linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+				<animation property="x" to="-0.5" begin="1500" duration="320" mode="EaseInCubic"/>
+				<animation property="opacity" from="0" to="1" duration="160" mode="Linear"/>
+				<animation property="opacity" from="1" to="1" begin="1200" duration="35" mode="Linear"/>
+				<animation property="opacity" from="1" to="0.2" duration="3000" mode="Linear"/>
+			</storyboard>
+		</image>
+		
+		<image name="logoText" ifSubset="Carousel:horizontal">
+		<linearSmooth>true</linearSmooth>
+			<storyboard event="activate">
+			</storyboard>
+			<storyboard event="scroll">
+			</storyboard>
+			<storyboard event="deactivate">
+			</storyboard>
+		</image>
+
+ <helpsystem name="help">
+        <storyboard>
+			 <animation property="y" from="1" begin="1" duration="1000" mode="EaseInCubic"/>
+		</storyboard>	
+      </helpsystem>	  
+</view> 	
+	
+<view name="detailed,video,basic,grid,gamecarousel">
+      <helpsystem name="help">
+      <storyboard>
+         <animation property="x" from="-0.5" begin="1" duration="1000" mode="EaseInCubic"/>
+      </storyboard>
+      </helpsystem>
+   </view> 
+   
+   <view name="basic, detailed,video,gamecarousel">
+    <textlist name="gamelist">
+      <storyboard>
+         <animation property="x" from="-0.5" begin="1" duration="1000" mode="EaseInCubic"/>
+      </storyboard>
+    </textlist>
+	</view>
+ 
+  <text name="gridtile_selected">
+	<storyboard>
+        <animation property="glow" from="0" to="1" duration="1200" mode="easeOut"/>
+      </storyboard>
+	</text>
+
+
+<!-- Vista basic -->
+<view name="basic">
+ <!-- grafiche aggiuntive sfondo-->
+
+	<image name="line" extra="true">
+	<storyboard>
+			<animation property="x" from="1" begin="1" duration="800" mode="easeIn"/>
+	</storyboard>				
+		</image>
+		<image name="line2" extra="true">
+	<storyboard>
+			<animation property="x" from="1" begin="1" duration="800" mode="easeIn"/>
+	</storyboard>				
+		</image>
+		<image name="line3" extra="true">
+	<storyboard>
+			<animation property="x" from="1" begin="1" duration="800" mode="easeIn"/>
+	</storyboard>				
+		</image>
+</view> 
+
+<!-- Altre viste -->	
+<view name="detailed, video,gamecarousel,basic, grid">
+	 <!-- grafiche aggiuntive sfondo-->
+		<image name="system" extra="true">		
+		<storyboard>
+		   <animation property="x" from="-0.5" begin="1" duration="1000" mode="EaseInCubic"/>
+		</storyboard>				
+	</image>
+			<text name="systemtext" extra="true">		
+		<storyboard>
+		   <animation property="x" from="-0.5" begin="1" duration="1000" mode="EaseInCubic"/>
+		</storyboard>				
+	</text>
+</view> 
+
+
+ <view name="detailed,video,gamecarousel">
+	 <!-- grafiche aggiuntive sfondo-->
+
+
+	<image name="line" extra="true">
+	<storyboard>
+			<animation property="x" from="1" begin="1" duration="1000" mode="easeIn"/>
+			</storyboard>				
+		</image>
+		
+	<image name="line2" extra="true">
+<storyboard>
+			<animation property="x" from="1" begin="1" duration="1000" mode="easeIn"/>
+			</storyboard>				
+	</image>
+		
+	<image name="line3" extra="true">
+			<storyboard>
+			<animation property="x" from="1" begin="1" duration="1000" mode="easeIn"/>
+			</storyboard>	
+		</image>
+		
+      <!-- rating gioco-->	
+      <rating name="md_rating">
+		 <storyboard>
+			<animation property="x" from="1" begin="1" duration="1000" mode="EaseInCubic"/>
+		</storyboard>
+    </rating>	
+</view>     
+<!-- Vista grid -->
+ <view name="grid">
+     
+	 <!-- grafiche aggiuntive sfondo-->
+	 <image name="barra" extra="true">
+	<storyboard>
+			<animation property="x" from="1" begin="1" duration="500" mode="easeIn"/>
+			 <!-- <animation property="opacity" from="0.5" to="1" duration="500" mode="linear" autoReverse="true" repeat="forever" /> -->
+	</storyboard>				
+	</image>
+		
+	<image name="line2" extra="true">
+	<storyboard>
+			<animation property="x" from="1" begin="1" duration="600" mode="easeIn"/>
+	</storyboard>				
+	</image>
+		
+	<image name="line3" extra="true">
+	<storyboard>
+			<animation property="x" from="1" begin="1" duration="700" mode="easeIn"/>
+	</storyboard>				
+		</image>
+	 <rating name="md_rating">
+		 <storyboard>
+			<animation property="x" from="1" begin="1" duration="800" mode="easeIn"/>
+		</storyboard>
+    </rating>	
+</view>     
+<view name="basic, detailed, video,grid,gamecarousel">
+
+
+<image name="logoIntroSistemi" extra="true">
+	<storyboard>
+
+	<animation property="origin" from="4 0.5" to="0.5 0.5" duration="600" mode="EaseOutCubic"/>
+	<animation property="origin" from="0.5 0.5" to="0.5 0.5" duration="400" mode="EaseOutCubic"/>
+	<animation property="origin" from="0.4 0.5" to="-4 0.5" duration="300" mode="EaseInCubic" begin="1000"/>
+	<animation property="opacity" from="1" to="1" duration="1000" mode="linear" />
+	<animation property="opacity" from="1" to="0" duration="300" mode="linear" begin="1000"/>
+	</storyboard>
+	</image>
+
+
+<text name="testoIntroSistemi" extra="true">
+	<storyboard>
+
+	<animation property="origin" from="4 0.5" to="0.5 0.5" duration="600" mode="EaseOutCubic"/>
+	<animation property="origin" from="0.5 0.5" to="0.5 0.5" duration="400" mode="EaseOutCubic"/>
+	<animation property="origin" from="0.4 0.5" to="-4 0.5" duration="300" mode="EaseInCubic" begin="1000"/>
+	<animation property="opacity" from="1" to="1" duration="1000" mode="linear" />
+	<animation property="opacity" from="1" to="0" duration="300" mode="linear" begin="1000"/>
+	</storyboard>
+	</text>
+
+<image name="sfondoIntroSistemi" extra="true">
+	<storyboard>
+	<animation property="opacity" from="1" to="1" duration="1000" mode="EaseInCubic"/>
+	<animation property="opacity" from="1" to="0" duration="600" mode="EaseInCubic" begin="1000"/>
+	</storyboard>
+	</image>
+
+<text name="testoAvvioIntroSistemi" extra="true">
+		<storyboard>
+	<animation property="opacity" from="1" to="1" duration="1000" mode="EaseInCubic"/>
+	<animation property="opacity" from="1" to="0" duration="300" mode="EaseInCubic" begin="1000"/>
+		</storyboard>
+		</text>
+</view>
+
+</theme>

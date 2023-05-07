@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>4</formatVersion>
+  <variables>
+	 <accent>ffffff</accent>
+	 <accent_t>000000f0</accent_t>
+	 <white>ffffff</white>
+	 <black>FFFFFF</black>
+	 <black90>FFFFFFE6</black90>
+	 <transparent>00000000</transparent>
+	 <dark_background_90>0E0E0Ef0</dark_background_90>
+	 <dark_background_60>0E0E0Ecc</dark_background_60>
+	 <linee>252525</linee>
+	 <menubg>000000f7</menubg>
+	 <selector>7c7c7c</selector>
+  </variables>
+</theme>

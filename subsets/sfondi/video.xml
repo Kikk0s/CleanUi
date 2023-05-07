@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+    <include>./config.xml</include>
+  <view name="system">
+
+	<sound name="bgsound">
+			<path>./tema/sounds/mute.ogg</path>
+	</sound>
+		
+   <image name="effect" extra="true">
+      <size>1 1</size>
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <tile>true</tile>
+      <path>./subsets/effetti/scanlines.png</path>
+      <zIndex>5</zIndex>
+    </image>
+	
+  
+    <video name="backgroundvideoFull" extra="true">
+      <path>{random}</path>
+      <origin>0.5 0.5</origin>
+	  <pos>0.5 0.5</pos>
+      <minSize>1 0.95</minSize>
+      <delay>0</delay>
+      <effect>bump</effect>
+      <zIndex>4</zIndex>
+	  <default>./subsets/sfondi/novideo.mp4</default>
+    </video>
+	
+    <video name="backgroundvideoFull" extra="true" ifHelpPrompts="false">
+      <pos>0.5 0.5</pos>
+      <minSize>1 1</minSize>
+    </video>
+	
+    <image name="CenterFade" extra="true">
+      <color>00000099</color>
+    </image>
+	
+  </view>
+</theme>

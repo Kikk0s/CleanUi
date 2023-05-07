@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+<view name="system">
+
+</view>	 
+
+
+	<view name="detailed, video,gamecarousel,basic">
+					<text name="systemtext" extra="true">        
+					 <text>${system.fullName}</text>        
+					</text>	
+	</view>	
+
+	<view name="grid">
+					<text name="systemtext" extra="true">
+					 <text>${system.fullName}</text>                     
+					</text>
+	</view>				 
+</theme>
