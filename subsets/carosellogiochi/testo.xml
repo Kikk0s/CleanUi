@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <theme>
   <formatVersion>7</formatVersion>
+  
+   <include>./config.xml</include>
+   <include>./views/gamecarousel.xml</include>
+  
   <view name="gamecarousel">
    <gamecarousel name="gamecarousel">
-   <imageSource>text</imageSource> 
+      <imageSource>text</imageSource>
+      <type>vertical</type>
+	  <maxLogoCount>10</maxLogoCount>
+	  <logoScale>1</logoScale>   
     </gamecarousel> 
-
   </view>
 </theme>

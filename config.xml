@@ -14,14 +14,9 @@
 	<include name="Text">./subsets/loghi/text.xml</include>
 	</subset>
 
-	<subset name="Carousel images source" appliesTo="gamecarousel">
+	<subset name="Game Carousel Style" appliesTo="gamecarousel">
 	<include name="text">./subsets/carosellogiochi/testo.xml</include>
 	<include name="marquee">./subsets/carosellogiochi/marquee.xml</include>
-	</subset>
-	
-	<subset name="Game Carousel Style" appliesTo="gamecarousel">
-	<include name="Vertical">./subsets/carosellogiochi/vertical.xml</include>
-	<include name="Wheel">./subsets/carosellogiochi/wheel.xml</include>
 	</subset>
 	
 	<subset subset="Launch Sistems Logo" name="Launch Sistems Logo">
