@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+    <include>./config.xml</include>
+  <view name="system">
+
+
+<video name="staticBackground">
+      <origin>0.5 0.5</origin>
+	  <pos>0.5 0.5</pos>
+	  <minSize>1 1</minSize>
+      <path>./subsets/sfondi/nebula.mp4</path>
+	  <audio>false</audio>
+      <zIndex>4</zIndex>
+    </video>	
+  </view>
+    <view name="detailed,video,gamecarousel,basic">  
+<video name="VideoBackground" extra="true">
+      <origin>0.5 0.5</origin>
+	  <pos>0.5 0.5</pos>
+	  <minSize>1 1</minSize>
+      <path>./subsets/sfondi/nebula.mp4</path>
+	  <audio>false</audio>
+      <zIndex>1</zIndex>
+    </video>
+  </view>
+</theme>

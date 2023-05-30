@@ -47,9 +47,11 @@
 	<include name="Hexagon">./subsets/sfondi/hexagon.xml</include>
 	<include name="Game room">./subsets/sfondi/gameroom.xml</include>
 	<include name="Metropolis">./subsets/sfondi/metropolis.xml</include>
+	<include name="Nebula">./subsets/sfondi/nebula.xml</include>
+	<include name="Neural">./subsets/sfondi/neural.xml</include>
 	<include name="Retrowave">./subsets/sfondi/retrowave.xml</include>
 	<include name="Sci-Fi">./subsets/sfondi/scifi.xml</include>
-	<include name="Tunnel">./subsets/sfondi/tunnel.xml</include>
+	<include name="Smoke">./subsets/sfondi/smoke.xml</include>
 	<include name="Triangles">./subsets/sfondi/triangles.xml</include>
 	<include name="Random game videos">./subsets/sfondi/video.xml</include>
 	</subset>
@@ -99,6 +101,15 @@
 	<include name="Yes">./subsets/grid/video.xml</include>
 	</subset> 
 	
+	<subset subset="System Description font" name="System Description font">
+	<include name="Ubuntu Light">./subsets/descriptionfont/ubuntu.xml</include>
+	<include name="Roboto Regular">./subsets/descriptionfont/roboto.xml</include>
+	</subset> 
+	
+		<subset subset="System Description font size" name="System Description font size">
+	<include name="Regular">./subsets/descriptiontext/regular.xml</include>
+	<include name="Small">./subsets/descriptiontext/small.xml</include>
+	</subset> 
 
 </theme>
 

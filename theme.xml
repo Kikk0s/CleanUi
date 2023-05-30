@@ -136,16 +136,13 @@
 			<size>0.50 0.05</size>
 			<fontPath>./tema/fonts/barcadenobarital.ttf</fontPath>
 			<color>${white}</color>
-			<fontSize>0.065</fontSize>
 			<lineSpacing>1.1</lineSpacing>
 			 <zIndex>140</zIndex>
 		</text>
 		<text name="Descrizione" extra="true" ifSubset="systeminfoextra:yes">
-			<size>0.50 0.50</size>
+			<size>0.49 0.50</size>
 			<pos>0.50 0.175</pos>
-			<fontPath>./tema/fonts/Ubuntu-Light.ttf</fontPath>
 			<color>${white}</color>
-			<fontSize>0.025</fontSize>
 			<lineSpacing>1.1</lineSpacing>
 			<autoScroll>vertical</autoScroll>
 			<verticalAlignment>top</verticalAlignment>
@@ -153,11 +150,9 @@
 		</text>
 		
 		<text name="Descrizione" extra="true" ifSubset="systeminfoextra:no">
-			<size>0.50 0.75</size>
+			<size>0.49 0.75</size>
 			<pos>0.50 0.175</pos>
-			<fontPath>./tema/fonts/Ubuntu-Light.ttf</fontPath>
 			<color>${white}</color>
-			<fontSize>0.025</fontSize>
 			<lineSpacing>1.1</lineSpacing>
 			<autoScroll>vertical</autoScroll>
 			<verticalAlignment>top</verticalAlignment>

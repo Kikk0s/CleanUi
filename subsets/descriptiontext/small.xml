@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+		<text name="DataRilascio" extra="true">
+				<fontSize>0.03</fontSize>
+		</text>
+		<text name="Produttore" extra="true">
+			<fontSize>0.055</fontSize>
+		</text>
+
+	<text name="Descrizione" extra="true" ifSubset="systeminfoextra:yes">
+			<fontSize>0.020</fontSize>
+		</text>
+		
+		<text name="Descrizione" extra="true" ifSubset="systeminfoextra:no">
+			<fontSize>0.020</fontSize>
+		</text>
+		
+	<!-- informazioni numero di rom presenti in un sistema -->
+	<text name="systemInfo" ifSubset="systeminfoextra:yes">     
+			 <fontSize>0.05</fontSize>
+			</text> 
+			
+	<text name="systemInfo" ifSubset="systeminfoextra:no">    
+			 <fontSize>0.05</fontSize>
+			</text> 
+	</view>
+</theme>
