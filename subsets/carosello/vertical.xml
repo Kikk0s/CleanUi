@@ -12,8 +12,7 @@
 		<origin>0 0</origin>
         <logoAlignment>center</logoAlignment> 
         <size>0.49 1</size>
-        <logoScale>2</logoScale>    
-        <logoSize>0.15 0.15</logoSize>
+        <logoScale>1</logoScale>    
         <maxLogoCount>3</maxLogoCount>
 		<zIndex>138</zIndex>
 		<systemInfoDelay>700</systemInfoDelay>

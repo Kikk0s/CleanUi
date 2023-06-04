@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+ <include>./config.xml</include>
+ 
+<view name="system">
+
+	<image name="logo">
+			<reflexion>0.10 0</reflexion>
+			</image>
+
+	<text name="logoText" >
+			<reflexion>0.10 0</reflexion>
+			 </text>
+</view>	
+
+<view name="basic, detailed, video,grid,gamecarousel">
+ <text name="testoIntroSistemi" extra="true">
+		<reflexion>0.10 0</reflexion>		 
+</text>
+</view>
+
+<view name="basic, detailed, video,grid,gamecarousel">
+ <image name="logoIntroSistemi" extra="true">
+		<reflexion>0.10 0</reflexion>	
+</image>
+</view>
+
+
+</theme>

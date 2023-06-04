@@ -6,8 +6,8 @@
  
 
 <view name="basic, detailed, video,grid,gamecarousel">
- <text name="testoIntroSistemi" extra="true">>
-		 <text>${system.fullName}</text>      	
+ <text name="testoIntroSistemi" extra="true">
+		 <text>${system.fullName}</text>	 
 </text>
 </view>
 </theme>

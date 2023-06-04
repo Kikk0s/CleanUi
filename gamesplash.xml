@@ -7,23 +7,38 @@
   
   <view name="splash">
     <splash name="splash">
-      <backgroundColor>000000FF</backgroundColor>
+       <color>${black}</color>
     </splash>
+		<image name="splash2" extra="true">
+			<path>./tema/images/splasharcade.png</path>
+			<color>${white}</color>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<minSize>1 1</minSize>
+			<zIndex>7</zIndex>
+		</image>
+		<image name="splashaccento" extra="true">
+			<path>./tema/images/splasharcadeaccento.png</path>
+			<color>${accent}</color>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<minSize>1 1</minSize>
+			<zIndex>8</zIndex>
+		</image>
     <image name="background">
       <pos>0.5 0.5</pos>
       <origin>0.5 0.5</origin>
       <minSize>1 1</minSize>
       <roundCorners>0</roundCorners>
       <linearSmooth>false</linearSmooth>
-      <color>A0A0A0FF</color>
+       <color>${black}</color>
+	   <zIndex>5</zIndex>
     </image>
     <text name="label">
       <color>${accent}</color>
 	  <fontPath>./tema/fonts/barcadenobarital.ttf</fontPath>
       <fontSize>0.06</fontSize>
-      <glowColor>00000020</glowColor>
-      <glowSize>2</glowSize>
-      <glowOffset>1</glowOffset>
+	  <zIndex>8</zIndex>
     </text>
   </view>
 </theme>

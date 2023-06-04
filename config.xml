@@ -2,43 +2,43 @@
     <formatVersion>7</formatVersion>
 	
 		<!--Carosello -->
-	<subset subset="systemview" name="Carousel">
+	<subset subset="systemview" name="Carousel" displayName="Carousel Style">
 	<include name="Vertical_wheel">./subsets/carosello/vertical_wheel.xml</include>
 	<include name="vertical">./subsets/carosello/vertical.xml</include>
 	<include name="Horizontal_wheel">./subsets/carosello/horizontal_wheel.xml</include>
 	<include name="horizontal">./subsets/carosello/horizontal.xml</include>
 	</subset>
 	
-	<subset subset="Carousel logos" name="Carousel logos">
+	<subset subset="Carousel logos" name="Carousel logos" displayName="Carousel logos style">
 	<include name="Logos">./subsets/loghi/logos.xml</include>
 	<include name="Text">./subsets/loghi/text.xml</include>
 	</subset>
 
-	<subset name="Game Carousel Style" appliesTo="gamecarousel">
+	<subset subset="Game Carousel Style" name="Game Carousel Style" displayName="Game Carousel Style" appliesTo="gamecarousel">
 	<include name="text">./subsets/carosellogiochi/testo.xml</include>
 	<include name="marquee">./subsets/carosellogiochi/marquee.xml</include>
 	</subset>
 	
-	<subset subset="Launch Sistems Logo" name="Launch Sistems Logo">
+	<subset subset="Launch Sistems Logo" name="Launch Sistems Logo" displayName="Launch Systems Logo style">
 	<include name="Controllers">./subsets/intrologo/controllers.xml</include>
 	<include name="Logos">./subsets/intrologo/logos.xml</include>
 	<include name="Logo text">./subsets/intrologo/logotext.xml</include>
 	</subset>
 	
-	<subset subset="Launch Sistems Text" name="Launch Sistems Text">
+	<subset subset="Launch Sistems Text" name="Launch Sistems Text" displayName="Launch Systems Text">
 	<include name="Ready to Play">./subsets/intrologotext/readytoplay.xml</include>
 	<include name="Games">./subsets/intrologotext/games.xml</include>
 	<include name="Arcade Zone">./subsets/intrologotext/arcadezone.xml</include>
 	</subset>
 	
 <!--Informazioni di sistema extra -->
-	<subset subset="systeminfoextra" name="systeminfoextra">
+	<subset subset="systeminfoextra" name="systeminfoextra" displayName="Extra Systems Info">
 	<include name="yes">./subsets/info/yes.xml</include>
 	<include name="no">./subsets/animazioni/no.xml</include>
 	</subset>
 	
 <!--Sfondi -->
-	<subset subset="Background" name="Background">
+	<subset subset="Background" name="Background" displayName="Background">
 	<include name="Tunnel">./subsets/sfondi/tunnel.xml</include>
 	<include name="Linear">./subsets/sfondi/linear.xml</include>
 	<include name="Dust">./subsets/sfondi/dust.xml</include>
@@ -58,7 +58,7 @@
 
 
 <!--Accento -->	
-	<subset subset="Accent color" name="Accent Color">
+	<subset subset="Accent color" name="Accent Color" displayName="Accent Color">
 	<include name="Dune">./subsets/colors/dune.xml</include>
 	<include name="Full Dark">./subsets/colors/fulldark.xml</include>
 	<include name="Full Light">./subsets/colors/fulllight.xml</include>
@@ -76,13 +76,19 @@
 	</subset>
 
 <!--animazioni -->
-	<subset subset="animations" name="Animations">
+	<subset subset="animations" name="Animations" displayName="Animations">
 	<include name="Yes">./subsets/animazioni/animations.xml</include>
 	<include name="No">./subsets/animazioni/noanimations.xml</include>
 	</subset>
 	
+<!--Riflessi -->	
+	<subset subset="Reflexions" name="Reflexions effect" displayName="Reflexions effect">
+	<include name="No">./subsets/reflexions/no.xml</include>
+	<include name="Yes">./subsets/reflexions/si.xml</include>
+	</subset>	
+	
 <!--stile rating -->
-	<subset subset="rating" name="Rating Style">
+	<subset subset="rating" name="Rating Style" displayName="Rating Style">
 	<include name="Heart">./subsets/rating/heart.xml</include>
 	<include name="Star">./subsets/rating/star.xml</include>
 	<include name="Hexagon">./subsets/rating/hexagon.xml</include>
@@ -96,17 +102,17 @@
 	</subset>  -->
 	
 <!--anteprima video nella vista grid -->
-	<subset subset="video" name="Video on grid">
+	<subset subset="video" name="Video on grid" displayName="Video on grid">
 	<include name="No">./subsets/grid/novideo.xml</include>
 	<include name="Yes">./subsets/grid/video.xml</include>
 	</subset> 
 	
-	<subset subset="System Description font" name="System Description font">
+	<subset subset="System Description font" name="System Description font" displayName="System Description font">
 	<include name="Ubuntu Light">./subsets/descriptionfont/ubuntu.xml</include>
 	<include name="Roboto Regular">./subsets/descriptionfont/roboto.xml</include>
 	</subset> 
 	
-		<subset subset="System Description font size" name="System Description font size">
+	<subset subset="System Description font size" name="System Description font size" displayName="System Description font size">
 	<include name="Regular">./subsets/descriptiontext/regular.xml</include>
 	<include name="Small">./subsets/descriptiontext/small.xml</include>
 	</subset> 
