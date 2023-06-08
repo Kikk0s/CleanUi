@@ -11,7 +11,8 @@
 	 <dark_background_90>ffffffE6</dark_background_90>
 	 <dark_background_60>ffffffcc</dark_background_60>
 	 <linee>000000</linee>
-	 <menubg>ffffffff</menubg>
+	 <menubg>fffffff7</menubg>
 	 <selector>dddddd</selector>
+	 <gamesplash>f3f6f4</gamesplash>
   </variables>
 </theme>
