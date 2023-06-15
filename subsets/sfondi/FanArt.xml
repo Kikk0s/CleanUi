@@ -4,9 +4,6 @@
     <include>./config.xml</include>
   <view name="system">
 
-	<sound name="bgsound">
-			<path>./tema/sounds/mute.ogg</path>
-	</sound>
 		
    <image name="effect" extra="true">
       <size>1 1</size>
