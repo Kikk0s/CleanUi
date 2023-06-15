@@ -111,6 +111,10 @@
         <color>${accent_t}</color>
       </carousel>
 	  
+	<carousel name="systemcarousel" ifSubset="Background:FanArt">
+        <color>${fanart}</color>
+      </carousel>
+	  
 	  
 	<image name="staticBackground2">
       <size>0.511 1</size>

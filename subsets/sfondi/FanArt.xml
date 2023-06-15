@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+    <include>./config.xml</include>
+  <view name="system">
+
+	<sound name="bgsound">
+			<path>./tema/sounds/mute.ogg</path>
+	</sound>
+		
+   <image name="effect" extra="true">
+      <size>1 1</size>
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <tile>true</tile>
+      <path>./subsets/effetti/crt.png</path>
+      <zIndex>5</zIndex>
+    </image>
+  
+    <image name="art" extra="true">
+      <size>1 1</size>
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <path>./tema/sfondisistemi/${system.theme}.jpg</path>
+      <zIndex>4</zIndex>
+    </image>
+	
+  </view>
+</theme>

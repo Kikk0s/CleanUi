@@ -39,6 +39,7 @@
 	
 <!--Sfondi -->
 	<subset subset="Background" name="Background" displayName="Background">
+	<include name="Retrowave">./subsets/sfondi/retrowave.xml</include>
 	<include name="Tunnel">./subsets/sfondi/tunnel.xml</include>
 	<include name="Linear">./subsets/sfondi/linear.xml</include>
 	<include name="Dust">./subsets/sfondi/dust.xml</include>
@@ -49,10 +50,10 @@
 	<include name="Metropolis">./subsets/sfondi/metropolis.xml</include>
 	<include name="Nebula">./subsets/sfondi/nebula.xml</include>
 	<include name="Neural">./subsets/sfondi/neural.xml</include>
-	<include name="Retrowave">./subsets/sfondi/retrowave.xml</include>
 	<include name="Sci-Fi">./subsets/sfondi/scifi.xml</include>
 	<include name="Smoke">./subsets/sfondi/smoke.xml</include>
 	<include name="Triangles">./subsets/sfondi/triangles.xml</include>
+	<include name="FanArt">./subsets/sfondi/FanArt.xml</include>
 	<include name="Random game videos">./subsets/sfondi/video.xml</include>
 	</subset>
 
