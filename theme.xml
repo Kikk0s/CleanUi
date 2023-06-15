@@ -126,6 +126,10 @@
     </image>
 	  
 <!-- Descrizione Sistema -->	
+
+		<text name="nomesistema_nu" extra="true">
+			<color>00000000</color>
+		</text>
 	
 	<text name="DataRilascio" extra="true">
 			<pos>0.50 0.05</pos>
