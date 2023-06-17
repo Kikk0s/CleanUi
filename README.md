@@ -63,7 +63,7 @@ Author: __kikk0s__
 * Based on: [Carbon](https://github.com/fabricecaruso/es-theme-carbon) theme by @fabricecaruso
 * Controller artwork originally based on: [Carbon](https://github.com/fabricecaruso/es-theme-carbon) theme by @fabricecaruso
 * Sistems description from: [Ckau-Book](https://github.com/CkauNui/ckau-book) theme by Ckau (@CkauNui)
-* FanArt backgrounds originally based on: [Reload][(https://github.com/CkauNui/ckau-book](https://github.com/RobG66/es-theme-RELOAD-)) theme by Ckau (@RobG66)
+* FanArt backgrounds originally based on: [Reload][https://github.com/RobG66/es-theme-RELOAD-) theme by Ckau (@RobG66)
 * Menu icons by Freepik from [Flaticon](https://www.flaticon.com/)
 
 ###  License
