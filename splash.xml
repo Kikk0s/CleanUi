@@ -6,30 +6,81 @@
    <include>./config.xml</include>
 	
 <view name="splash">
-		<splash name="splash">
-			<backgroundColor>000000</backgroundColor>
+    <splash name="splash">
+		<origin>0.5 0.5</origin>
+		<pos>0.5 0.5</pos>
+		<minSize>1 1</minSize>
+       <color>${gamesplash}</color>
+      <path>./tema/images/bg.png</path>
+	   <tile>true</tile>
+    </splash>
+	
+	<splash name="splash" ifSubset="Layout:Full Light">
+       <color>${white}</color>
+    </splash>
+
+	<splash name="splash" ifSubset="Layout:Full Dark">
+		   <color>${black}</color>
 		</splash>
-		<image name="background">
-			<path>./tema/images/splasharcade.jpg</path>
-			 <origin>0.5 0.5</origin>
-			 <pos>0.5 0.5</pos>
-			 <minSize>1 1</minSize>
+		
+		<image name="splash2" extra="true">
+			<path>./tema/images/splasharcade.png</path>
+			<color>${white}</color>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<minSize>1 1</minSize>
+			<zIndex>7</zIndex>
 		</image>
+		
+		<image name="splash2" extra="true" ifSubset="Layout:Full Light">
+			<color>${black}</color>
+		</image>
+		
+		<image name="splash2" extra="true" ifSubset="Layout:Full Dark">
+			<color>${white}</color>
+		</image>
+		
 		<image name="splashaccento" extra="true">
 			<path>./tema/images/splasharcadeaccento.png</path>
 			<color>${accent}</color>
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.5</pos>
 			<minSize>1 1</minSize>
-			<zIndex>7</zIndex>
+			<zIndex>8</zIndex>
 		</image>
+		
+		<image name="splashaccento" extra="true" ifSubset="Layout:Full Light">
+			<color>${black}</color>
+		</image>
+		
+		<image name="splashaccento" extra="true" ifSubset="Layout:Full Dark">
+			<color>${white}</color>
+		</image>
+		
+    <image name="background">
+		<origin>0.5 0.5</origin>
+		<pos>0.5 0.5</pos>
+		<minSize>1 1</minSize>
+       <color>${gamesplash}</color>
+      <path>./tema/images/bg.png</path>
+	  <tile>true</tile>
+	   <zIndex>5</zIndex>
+    </image>
+	
+	 <image name="background" ifSubset="Layout:Full Light">
+       <color>${white}</color>
+    </image>
+	
+	 <image name="background" ifSubset="Layout:Full Dark">
+       <color>${black}</color>
+    </image>
 
 		<image name="progressbar">
 			<origin>0 0</origin>
 			<pos>0.2005208333333333 0.9</pos>
 			<size>0.5989583333333333 0.0092592592592593</size>
 			<path>./tema/images/progressbar.png</path>
-			<color>363636FF</color>
+			<color>${selector}</color>
 			<roundCorners>0</roundCorners>
 			<zIndex>6</zIndex>
 		</image>
@@ -42,13 +93,28 @@
 			<gradientType>horizontal</gradientType>
 			<zIndex>7</zIndex>
 		</image>
+		
+		<image name="progressbar:active" ifSubset="Layout:Full Light">
+			<color>${black}</color>
+		</image>
+		
+		<image name="progressbar:active" ifSubset="Layout:Full Dark">
+			<color>${white}</color>
+		</image>
 
 		<text name="label">
-			<fontPath>./tema/fonts/barcadenobarital.ttf</fontPath>
-			<color>ffffff</color>
-			<glowColor>000000</glowColor>
-			<glowSize>2</glowSize>
-			<glowOffset>3 2</glowOffset>
+		  <color>${accent}</color>
+		  <fontSize>0.06</fontSize>		 
+		  <zIndex>8</zIndex>
 		</text>
+		
+		 <text name="label" ifSubset="Layout:Full Light">
+		  <color>${black}</color>
+		</text>
+		
+		 <text name="label" ifSubset="Layout:Full Dark">
+		  <color>${white}</color>
+		</text>
+		
 	</view>
 </theme>

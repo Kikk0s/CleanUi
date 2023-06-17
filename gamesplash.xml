@@ -14,6 +14,15 @@
       <path>./tema/images/bg.png</path>
 	   <tile>true</tile>
     </splash>
+	
+	<splash name="splash" ifSubset="Layout:Full Light">
+       <color>${white}</color>
+    </splash>
+
+	<splash name="splash" ifSubset="Layout:Full Dark">
+		   <color>${black}</color>
+		</splash>
+		
 		<image name="splash2" extra="true">
 			<path>./tema/images/splasharcade.png</path>
 			<color>${white}</color>
@@ -22,6 +31,15 @@
 			<minSize>1 1</minSize>
 			<zIndex>7</zIndex>
 		</image>
+		
+		<image name="splash2" extra="true" ifSubset="Layout:Full Light">
+			<color>${black}</color>
+		</image>
+		
+		<image name="splash2" extra="true" ifSubset="Layout:Full Dark">
+			<color>${white}</color>
+		</image>
+		
 		<image name="splashaccento" extra="true">
 			<path>./tema/images/splasharcadeaccento.png</path>
 			<color>${accent}</color>
@@ -30,6 +48,15 @@
 			<minSize>1 1</minSize>
 			<zIndex>8</zIndex>
 		</image>
+		
+		<image name="splashaccento" extra="true" ifSubset="Layout:Full Light">
+			<color>${black}</color>
+		</image>
+		
+		<image name="splashaccento" extra="true" ifSubset="Layout:Full Dark">
+			<color>${white}</color>
+		</image>
+		
     <image name="background">
 		<origin>0.5 0.5</origin>
 		<pos>0.5 0.5</pos>
@@ -39,11 +66,28 @@
 	  <tile>true</tile>
 	   <zIndex>5</zIndex>
     </image>
+	
+	 <image name="background" ifSubset="Layout:Full Light">
+       <color>${white}</color>
+    </image>
+	
+	 <image name="background" ifSubset="Layout:Full Dark">
+       <color>${black}</color>
+    </image>
+	
     <text name="label">
       <color>${accent}</color>
-	  <fontPath>./tema/fonts/barcadenobarital.ttf</fontPath>
       <fontSize>0.06</fontSize>
 	  <zIndex>8</zIndex>
     </text>
+	
+	 <text name="label" ifSubset="Layout:Full Light">
+      <color>${black}</color>
+    </text>
+	
+	 <text name="label" ifSubset="Layout:Full Dark">
+      <color>${white}</color>
+    </text>
+	
   </view>
 </theme>

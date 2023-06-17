@@ -1,8 +1,54 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="185pt" height="185pt" viewBox="0 0 185 185" version="1.1" xmlns="http://www.w3.org/2000/svg">
-<path fill="#ffffff" stroke="#ffffff" stroke-width="0.09375" opacity="1.00" d=" M 80.1 15.2 C 88.5 10.3 99.5 10.3 107.9 15.2 C 119.9 21.5 125.5 37.1 120.6 49.6 C 117.4 59.2 108.6 66.3 98.7 67.9 C 98.8 79.9 98.7 91.8 98.8 103.8 C 95.6 103.7 92.4 103.7 89.2 103.8 C 89.3 91.8 89.2 79.9 89.3 67.9 C 79.1 66.3 70.2 58.8 67.1 48.9 C 62.7 36.5 68.4 21.3 80.1 15.2 M 76.7 26.7 C 69.0 35.3 71.1 49.2 79.7 56.4 C 80.2 56.6 81.3 56.8 81.8 56.9 C 75.2 45.1 80.2 28.3 93.0 23.0 C 94.8 21.7 98.5 22.4 98.8 19.8 C 90.9 18.4 81.9 20.0 76.7 26.7 Z" />
-<path fill="#ffffff" stroke="#ffffff" stroke-width="0.09375" opacity="1.00" d=" M 77.6 108.8 C 88.6 109.0 99.6 108.3 110.6 109.3 C 110.5 111.1 110.5 112.8 110.5 114.6 C 115.5 114.6 120.6 114.6 125.6 114.6 C 125.7 115.6 125.8 117.8 125.8 118.8 C 104.6 119.2 83.4 119.2 62.2 118.8 C 62.3 117.4 62.3 116.0 62.4 114.6 C 67.4 114.6 72.4 114.6 77.5 114.6 C 77.5 112.7 77.6 110.8 77.6 108.8 Z" />
-<path fill="#ffffff" stroke="#ffffff" stroke-width="0.09375" opacity="1.00" d=" M 132.8 118.9 C 134.0 114.5 137.0 110.4 142.0 111.2 C 146.7 110.5 149.2 114.9 150.2 118.9 C 144.4 119.1 138.6 119.1 132.8 118.9 Z" />
-<path fill="#ffffff" stroke="#ffffff" stroke-width="0.09375" opacity="1.00" d=" M 26.3 131.9 C 25.7 128.1 28.9 124.0 32.9 124.3 C 73.6 124.3 114.4 124.3 155.1 124.3 C 159.1 124.0 162.3 128.1 161.7 131.9 C 161.5 141.6 162.2 151.3 161.3 160.9 C 158.7 165.1 153.3 164.5 149.0 164.5 C 110.7 164.5 72.3 164.5 34.0 164.5 C 31.0 164.5 28.4 163.4 26.7 160.9 C 25.8 151.3 26.5 141.6 26.3 131.9 Z" />
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="gamepad.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview6"
+     showgrid="false"
+     inkscape:zoom="9.8333333"
+     inkscape:cx="-0.66101695"
+     inkscape:cy="12"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <path
+     d="M17.622 3c-1.913 0-2.558 1.382-5.623 1.382-3.009 0-3.746-1.382-5.623-1.382-5.209 0-6.376 10.375-6.376 14.348 0 2.145.817 3.652 2.469 3.652 3.458 0 2.926-5 6.915-5h5.23c3.989 0 3.457 5 6.915 5 1.652 0 2.471-1.506 2.471-3.651 0-3.973-1.169-14.349-6.378-14.349zm-10.622 10c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3zm10-6c.552 0 1 .447 1 1 0 .553-.448 1-1 1s-1-.447-1-1c0-.553.448-1 1-1zm-2 4c-.552 0-1-.447-1-1 0-.553.448-1 1-1s1 .447 1 1c0 .553-.448 1-1 1zm2 2c-.552 0-1-.447-1-1 0-.553.448-1 1-1s1 .447 1 1c0 .553-.448 1-1 1zm2-2c-.552 0-1-.447-1-1 0-.553.448-1 1-1s1 .447 1 1c0 .553-.448 1-1 1zm-10.25-1c0 .965-.785 1.75-1.75 1.75s-1.75-.785-1.75-1.75.785-1.75 1.75-1.75 1.75.785 1.75 1.75z"
+     id="path2"
+     style="fill:#ffffff" />
 </svg>

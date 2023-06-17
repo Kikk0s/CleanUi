@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+   
+<!-- Configurazione tema --> 
+   <include>./config.xml</include>
+
+	  <view name="splash">
+		<text name="label">
+		  <fontPath>./tema/fonts/Pacmania.ttf</fontPath>
+		</text>
+	  </view>
+
+	 <view name="menu">
+		<menuText name="menutitle">
+		   <fontPath>./tema/fonts/Pacmania.ttf</fontPath>
+		</menuText>
+	</view> 	
+
+	<view name="system">
+	
+	<text name="DataRilascio" extra="true">
+			<fontPath>./tema/fonts/Pacmania.ttf</fontPath>
+
+		</text>
+		<text name="Produttore" extra="true">
+			<fontPath>./tema/fonts/Pacmania.ttf</fontPath>
+		</text>
+	
+<!-- simulazione logo testuale per loghi non presenti -->	
+	<text name="logoText" >
+				<fontPath>./tema/fonts/Pacmania.ttf</fontPath>
+			 </text>
+			 
+		<text name="logoText" ifSubset="Background:Cabinet">
+				<fontPath>./tema/fonts/Pacmania.ttf</fontPath>
+			 </text>
+			 
+<!-- informazioni numero di rom presenti in un sistema -->
+	<text name="systemInfo" ifSubset="systeminfoextra:yes">     
+			 <fontPath>./tema/fonts/Pacmania.ttf</fontPath>
+			</text> 
+			
+	<text name="systemInfo" ifSubset="systeminfoextra:no">    
+			 <fontPath>./tema/fonts/Pacmania.ttf</fontPath>
+			</text> 
+  
+	</view> 		
+		
+<!-- Stile lista rom -->	
+	
+	<view name="detailed, video,gamecarousel,basic">
+					<text name="systemtext" extra="true">        
+					  <fontPath>./tema/fonts/Pacmania.ttf</fontPath>          
+					</text>	
+	</view>	
+
+	<view name="grid">
+					<text name="systemtext" extra="true">>
+					  <fontPath>./tema/fonts/Pacmania.ttf</fontPath>                      
+					</text>
+	</view>		
+ 
+
+	<view name="basic, detailed, video,grid,gamecarousel">
+
+		 <text name="testoIntroSistemi" extra="true">
+				<fontPath>./tema/fonts/Pacmania.ttf</fontPath>		
+		</text>
+
+		<text name="testoAvvioIntroSistemi" extra="true">
+				<fontPath>./tema/fonts/Pacmania.ttf</fontPath>
+				</text>
+	</view>
+
+
+</theme>

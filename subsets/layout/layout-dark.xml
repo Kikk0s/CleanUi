@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+   
+<!-- Configurazione tema --> 
+   <include>./config.xml</include>
+
+<!-- Impostazioni globali --> 
+  	  <view name="screen">
+		<text name="clock">
+			<color>${white}</color>
+			<pos>0.92 0.009</pos>
+			<size>0 0</size>
+			<fontSize>0.03</fontSize>
+		</text>
+
+		<controllerActivity name="controllerActivity">
+			<pos>0.014 0.01</pos>
+			<size>0.13 0.036</size>
+			<itemSpacing>0.006</itemSpacing>
+			
+			<gunPath>.\tema\icons/gun.svg</gunPath>
+			 <color>${white}</color>
+			<activityColor>${accent}</activityColor>
+			<hotkeyColor>${accent}</hotkeyColor>
+		</controllerActivity>
+		
+		<batteryIndicator name="batteryIndicator">
+		<color>${white}</color>
+		</batteryIndicator>
+		
+	</view>
+
+<!-- Menu batocera titolo--> 
+	 <view name="menu">
+		<menuText name="menutitle">
+		  
+		  <color>${white}</color>
+		 <fontSize>0.05</fontSize>
+		</menuText>
+
+<!-- Menu batocera tutti i testi--> 
+	<text name="systemInfo">
+				<pos>0.0 0.61</pos>
+				<backgroundColor>${transparent}</backgroundColor>
+				<color>${white}</color>
+				<fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
+				<fontSize>0.03</fontSize>
+	</text>	
+	
+	<menuText name="menufooter">
+				<fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
+				<fontSize>0.03</fontSize>
+				<color>${white}</color>
+	</menuText>
+	
+	<menuText name="menutext">
+		<fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
+		  <color>${white}</color>
+		  <selectorColor>${selector}</selectorColor>
+		  <selectorColorEnd>${selector}</selectorColorEnd>
+		  <selectedColor>${white}</selectedColor>
+		  <separatorColor>${transparent}</separatorColor>
+		  <fontSize>0.025</fontSize>
+	</menuText>
+	
+	<menuTextSmall name="menutextsmall">
+				<fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
+				<fontSize>0.02</fontSize>
+				<color>${white}</color>
+	</menuTextSmall>
+
+	<menuTextEdit name="menutextedit">
+		  <inactive>./tema/images/menutextedit.png</inactive>
+		  <active>./tema/images/menutextedit.png</active>
+	</menuTextEdit>
+
+<!-- Menu batocera sfondo--> 
+    <menuBackground name="menubg">
+      <color>${menubg}</color>
+      <path>./tema/images/bg.png</path>
+    </menuBackground>
+	
+<!-- Icone Menu -->	
+	<menuIcons name="menuicons">
+		<iconKodi>.\tema\icons/Kodi.png</iconKodi>
+		<iconSystem>.\tema\icons/System.png</iconSystem>
+		<iconUpdates>.\tema\icons/Updates.png</iconUpdates>
+		<iconGames>.\tema\icons/Games.png</iconGames>
+		<iconControllers>.\tema\icons/Controllers.png</iconControllers>
+		<iconUI>.\tema\icons/UI.png</iconUI>
+		<iconSound>.\tema\icons/Sound.png</iconSound>
+		<iconNetwork>.\tema\icons/Network.png</iconNetwork>
+		<iconScraper>.\tema\icons/Scraper.png</iconScraper>
+		<iconAdvanced>.\tema\icons/Advanced.png</iconAdvanced>
+		<iconQuit>.\tema\icons/Quit.png</iconQuit>
+		<iconRestart>.\tema\icons/Restart.png</iconRestart>
+		<iconShutdown>.\tema\icons/Shutdown.png</iconShutdown>
+		<iconFastShutdown>.\tema\icons/Fastshutdown.png</iconFastShutdown>
+	</menuIcons>
+  </view> 
+
+<!-- Sistema -->
+	<view name="system">
+
+    <carousel name="systemcarousel">
+        <color>${menubg}</color>
+      </carousel>
+	  
+	<carousel name="systemcarousel" ifSubset="Background:FanArt">
+        <color>000000CC</color>
+      </carousel>
+	  
+	  
+	<image name="Background2" extra="true">
+      <size>0.511 1</size>
+      <pos>0.489 0</pos>
+      <tile>true</tile>
+      <color>${dark_background_90}</color>
+	  <path>./tema/images/bg.png</path>
+      <zIndex>139</zIndex>
+    </image>
+	  
+<!-- Descrizione Sistema -->	
+
+		<text name="nomesistema_nu" extra="true">
+			<color>00000000</color>
+		</text>
+	
+	<text name="DataRilascio" extra="true">
+			<pos>0.50 0.05</pos>
+			<size>0.50 0.05</size>
+			
+			<color>${accent}</color>
+			<fontSize>0.04</fontSize>
+			 <zIndex>140</zIndex>
+		</text>
+		<text name="Produttore" extra="true">
+			<pos>0.50 0.10</pos>
+			<size>0.50 0.05</size>
+			
+			<color>${accent}</color>
+			<lineSpacing>1.1</lineSpacing>
+			 <zIndex>140</zIndex>
+		</text>
+		<text name="Descrizione" extra="true" ifSubset="systeminfoextra:yes">
+			<size>0.49 0.50</size>
+			<pos>0.50 0.175</pos>
+			<color>${white}</color>
+			<lineSpacing>1.1</lineSpacing>
+			<autoScroll>vertical</autoScroll>
+			<verticalAlignment>top</verticalAlignment>
+			 <zIndex>140</zIndex>
+		</text>
+		
+		<text name="Descrizione" extra="true" ifSubset="systeminfoextra:no">
+			<size>0.49 0.75</size>
+			<pos>0.50 0.175</pos>
+			<color>${white}</color>
+			<lineSpacing>1.1</lineSpacing>
+			<autoScroll>vertical</autoScroll>
+			<verticalAlignment>top</verticalAlignment>
+			 <zIndex>140</zIndex>
+		</text>
+		
+		<text name="systemInfoEx" extra="true">
+		   <zIndex>140</zIndex>
+		   <color>${white}</color>
+		</text>
+		
+		<image name="controllersinfo" extra="true">
+			  <color>${white}</color>
+			  <zIndex>140</zIndex>
+			</image>	
+	
+<!-- loghi emulatori -->
+	<image name="logo">
+				<color>${white}</color>		
+			</image>
+			
+		
+<!-- simulazione logo testuale per loghi non presenti -->	
+	<text name="logoText" >
+				
+				<text>${system.fullName}</text>
+				<color>${white}</color>
+				<fontSize>0.065</fontSize>
+				<forceUppercase>true</forceUppercase>
+			 </text>
+			 
+		<text name="logoText" ifSubset="Background:Cabinet">
+				
+				<text>${system.fullName}</text>
+				<color>${white}</color>	
+				<fontSize>0.065</fontSize>
+				<forceUppercase>true</forceUppercase>
+			 </text>
+			 
+<!-- informazioni numero di rom presenti in un sistema -->
+	<text name="systemInfo" ifSubset="systeminfoextra:yes">     
+			 <color>${accent}</color>
+			 <backgroundColor>${transparent}</backgroundColor>
+			 <glowColor>${white_90}</glowColor>
+			 <glowSize>1</glowSize>
+			 <pos>0.5 0.7</pos>
+			 <size>0.5 0.069</size>
+			
+			 <fontSize>0.06</fontSize>
+			 <alignment>left</alignment>
+			 <zIndex>140</zIndex>	
+			</text> 
+			
+	<text name="systemInfo" ifSubset="systeminfoextra:no">    
+			 <color>${accent}</color>
+			 <backgroundColor>${transparent}</backgroundColor>
+			 <glowColor>${white_90}</glowColor>
+			 <glowSize>1</glowSize>
+			 <pos>0.5 0.85</pos>
+			 <size>0.5 0.069</size>
+			
+			 <fontSize>0.06</fontSize>
+			 <alignment>left</alignment>
+			 <zIndex>140</zIndex>	
+			</text> 
+
+<!-- barra suggerimenti in basso -->
+   <helpsystem name="help">
+          <fontPath>./tema/fonts/Ubuntu-Light.ttf</fontPath>
+	     <fontSize>0.02</fontSize>
+		 <pos>0.5 0.95</pos>
+         <textColor>${white}</textColor>
+         <iconColor>${white}</iconColor>
+      </helpsystem>	  
+</view> 		
+		
+<!-- Stile lista rom -->	
+	<view name="detailed, video,gamecarousel,basic">
+					<image name="system" extra="true">        
+					   <pos>0.05 0.1</pos>
+					   <maxSize>0.25 0.1</maxSize>
+					   <color>${white}</color>
+					   <zIndex>100</zIndex>            
+					</image>	
+	</view>	
+
+	<view name="grid">
+					<image name="system" extra="true">
+					   <origin>0.5 0.5</origin>
+					   <pos>0.75 0.17</pos>
+					   <maxSize>0.25 0.1</maxSize>
+					   <color>${white}</color>
+					   <zIndex>100</zIndex>            
+					</image>
+	</view>	
+	
+		<view name="detailed, video,gamecarousel,basic">
+					<text name="systemtext" extra="true">        
+					  <pos>0.05 0.1</pos>
+					  <size>0.45 0.1</size>
+					 
+				     <color>${white}</color>
+				     <fontSize>0.06</fontSize>
+				     <forceUppercase>true</forceUppercase>>
+					 <color>${white}</color>
+					 <autoScroll>horizontal</autoScroll>
+					 <zIndex>100</zIndex>            
+					</text>	
+	</view>	
+
+	<view name="grid">
+					<text name="systemtext" extra="true">
+					  <size>0.50 0.2</size>
+					  <pos>0.5 0.17</pos>
+					 
+				     <color>${white}</color>
+				     <fontSize>0.06</fontSize>
+				     <forceUppercase>true</forceUppercase>>
+					 <color>${white}</color>
+					 <autoScroll>horizontal</autoScroll>
+					 <zIndex>100</zIndex>                       
+					</text>
+	</view>		
+
+<!-- barra suggerimenti in basso -->
+   <view name="detailed,video,basic,grid,gamecarousel">
+      <helpsystem name="help">
+         <fontPath>./tema/fonts/Ubuntu-Light.ttf</fontPath>
+	     <fontSize>0.02</fontSize>
+		 <pos>0.025 0.95</pos>
+         <textColor>${white}</textColor>
+         <iconColor>${white}</iconColor>
+      </helpsystem>
+   </view> 
+
+<!-- lista giochi caratteristiche testo -->
+	<view name="basic,detailed,video">
+		  <textlist name="gamelist">      
+			 <selectorColor>${accent}</selectorColor>
+			 <selectedColor>${white}</selectedColor>
+			 <selectorImagePath>./subsets/carosello/selector.png</selectorImagePath>
+			 <primaryColor>${white}</primaryColor>
+			 <secondaryColor>${white}</secondaryColor>
+			 <fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
+			 <fontSize>0.020</fontSize>
+			 <forceUppercase>0</forceUppercase>
+			 <scrollSound>./tema/sounds/Move.wav</scrollSound>
+			 <horizontalMargin>0.01</horizontalMargin>
+			 <zIndex>3</zIndex>
+		  </textlist>  
+	</view> 
+
+<!-- lista giochi sfondo vista basic--> 
+	<view name="basic">
+		  <!-- layout lista giochi -->
+		  <textlist name="gamelist">                          
+			 <pos>0.025 0.22</pos>
+			 <size>0.95 0.64</size>
+			 <alignment>center</alignment>                       
+		  </textlist>
+		  <!-- sfondo lista giochi -->
+		  <image name="background" extra="true">
+			 <tile>true</tile>
+			 <pos>0 0.0</pos>
+			 <size>1 1</size>
+			 <path>./tema/images/bg.png</path>
+			 <color>${dark_background_90}</color>
+			<zIndex>2</zIndex> 
+		</image>
+		  
+ 
+		<!-- grafiche aggiuntive sfondo-->
+		<!--  <image name="barra" extra="true">
+				<tile>false</tile>
+				 <origin>0.5 0.5</origin>
+				 <pos>0.225 0.12</pos>
+				 <size>0.55 0.15</size>
+				<path>./subsets/carosello/accent_t2.png</path>
+				<color>${white}</color>
+				<zIndex>3</zIndex>	
+			</image> -->
+			
+			<image name="line" extra="true">
+				<size>0.52 0.002</size>
+				<pos>0.50 0.10</pos>
+				<path>./tema/images/white.png</path>
+				 <color>${accent_t}</color>
+				<zIndex>2</zIndex>				
+			</image>
+		
+		<image name="line2" extra="true">
+				<size>0.53 0.002</size>
+				<pos>0.49 0.145</pos>
+				<path>./tema/images/white.png</path>
+				 <color>${accent_t}</color>
+				<zIndex>2</zIndex>				
+			</image>
+		
+		<image name="line3" extra="true">
+				<size>0.54 0.002</size>
+				<pos>0.48 0.19</pos>
+				<path>./tema/images/white.png</path>
+				 <color>${accent_t}</color>
+				<zIndex>2</zIndex>				
+			</image>
+		
+	</view> 
+
+<!-- lista giochi sfondo viste detailed,video,gamecarousel-->    
+	  <view name="detailed,video,gamecarousel">
+		   <!-- sfondo lista giochi -->
+		  <image name="background" extra="true">
+		   <tile>true</tile>
+			  <pos>0.50 0.0</pos>
+			 <size>0.50 0.90</size>
+			 <path>./tema/images/bg.png</path>
+			 <color>${dark_background_60}</color>
+			 <cornerSize>0.05</cornerSize>
+			 <zIndex>2</zIndex>    
+		  </image>   	  
+		  
+		  <image name="background2" extra="true">
+		   <tile>true</tile>
+			 <pos>0.00 0.0</pos>
+			 <size>0.5 0.90</size>
+			 <path>./tema/images/bg.png</path>
+			 <color>${menubg}</color>
+			 <zIndex>2</zIndex>    
+		  </image>   
+		  
+		  <image name="background3" extra="true">
+		   <tile>true</tile>
+			 <pos>0.00 0.9</pos>
+			 <size>1 0.1</size>
+			 <path>./tema/images/bg.png</path>
+			 <color>${menubg}</color>
+			 <zIndex>2</zIndex>    
+		  </image>  
+
+		 <!-- grafiche aggiuntive sfondo-->
+		 <!--  <image name="barra" extra="true">
+				<tile>false</tile>
+				 <origin>0.5 0.5</origin>
+				 <pos>0.225 0.12</pos>
+				 <size>0.55 0.15</size>
+				<path>./subsets/carosello/accent_t2.png</path>
+				<color>${white}</color>
+				<zIndex>3</zIndex>	
+			</image>	-->
+
+		<image name="line" extra="true">		
+				<size>0.52 0.002</size>
+				<pos>0.50 0.2</pos>
+				<path>./tema/images/white.png</path>
+				 <color>${accent_t}</color>
+				<zIndex>4</zIndex>				
+			</image>
+			
+		<image name="line2" extra="true">		
+				<size>0.52 0.002</size>
+				<pos>0.50 0.40</pos>
+				<path>./tema/images/white.png</path>
+				 <color>${accent_t}</color>
+				<zIndex>4</zIndex>					
+			</image>
+			
+		<image name="line3" extra="true">
+				<size>0.52 0.002</size>
+				<pos>0.50 0.90</pos>
+				<path>./tema/images/white.png</path>
+				 <color>${accent_t}</color>
+				<zIndex>4</zIndex>	   
+			</image>
+	</view> 
+    
+<!-- lista giochi sfondo grid--> 
+  <view name="grid">
+       <!-- sfondo lista giochi -->
+      <image name="background" extra="true">
+       <tile>true</tile>
+         <origin>0 0</origin>
+         <pos>0.51 0.0</pos>
+         <size>0.49 0.9</size>
+         <path>./tema/images/bg.png</path>
+		 <color>${menubg}</color>
+         <zIndex>1</zIndex>    
+      </image>     
+	  
+	  	  <image name="background3" extra="true">
+		   <tile>true</tile>
+			 <pos>0.00 0.9</pos>
+			 <size>1 0.1</size>
+			 <path>./tema/images/bg.png</path>
+			 <color>${menubg}</color>
+			 <zIndex>2</zIndex>    
+		  </image> 
+	 <!-- grafiche aggiuntive sfondo-->
+		
+	<image name="line2" extra="true">
+			<size>0.49 0.002</size>
+			<pos>0.51 0.40</pos>
+			<path>./tema/images/white.png</path>
+			 <color>${accent_t}</color>
+			<zIndex>2</zIndex>					
+		</image>
+		
+	<image name="line3" extra="true">
+			<size>0.49 0.002</size>
+			<pos>0.51 0.90</pos>
+			<path>./tema/images/white.png</path>
+			 <color>${accent_t}</color>
+			<zIndex>2</zIndex>				
+		</image>
+
+</view>  
+   
+<!-- lista giochi immagini,video e informazioni testuali-->     
+	<view name="detailed, video">
+			<!-- layout lista giochi -->
+			<textlist name="gamelist">                          
+			  <pos>0.025 0.22</pos>
+			 <size>0.45 0.67</size>
+			 <alignment>left</alignment>                      
+		  </textlist>
+			  
+	</view>
+	  <!-- layout immagine gioco -->
+	 <view name="detailed">
+		  <image name="md_image">
+			 <origin>0.5 0.5</origin>
+			 <pos>0.76 0.65</pos>
+			 <maxSize>0.42 0.42</maxSize>
+			 <zIndex>3</zIndex>         
+		  </image>   
+
+	   </view>
+
+	  <!-- layout video gioco -->
+	<feature supported="video">
+	   <view name="video,gamecarousel">   
+		  <video name="md_video">
+			 <origin>0.5 0.5</origin>
+			 <pos>0.75 0.65</pos>
+			 <maxSize>0.42 0.42</maxSize>
+			 <delay>1</delay>
+			 <zIndex>3</zIndex>         
+			 <showSnapshotNoVideo>true</showSnapshotNoVideo>
+			 <showSnapshotDelay>true</showSnapshotDelay>
+		  </video>         
+	   </view>
+	</feature>
+
+<view name="detailed,video,gamecarousel">
+
+ <!-- rating gioco-->	
+      <rating name="md_rating">    
+         <pos>0.9 0.07</pos>
+         <size>0.02 0.02</size>
+		 <color>${accent}</color>
+		 <zIndex>3</zIndex>
+    </rating>
+
+<!-- testo introduttivo sviluppatore gioco-->	
+      <image name="md_lbl_developer_icon" extra="true">
+		 <path>.\tema\icons\sviluppatore.svg</path>
+         <pos>0.51 0.073</pos>
+         <size>0.012 0</size>
+         <color>${white}</color>
+         <zIndex>3</zIndex> 
+      </image>
+	  <!-- sviluppatore gioco-->	
+      <text name="md_developer">
+		 <pos>0.53 0.07</pos>
+         <size>0.6 0</size>
+		 <fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
+		 <fontSize>0.02</fontSize>
+         <color>${white}</color>
+         <zIndex>3</zIndex>
+      </text>
+
+<!-- testo introduttivo genere gioco-->
+      <image name="md_lbl_genre_icon" extra="true">
+         <pos>0.51 0.103</pos>
+         <size>0.012 0</size>
+		 <path>.\tema\icons\genere.svg</path>
+         <color>${white}</color>
+         <zIndex>3</zIndex>                  
+      </image>
+	  	<!-- testo genere gioco-->
+      <text name="md_genre">
+		 <pos>0.53 0.10</pos>
+         <size>0.6 0</size>
+		 <fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
+		 <fontSize>0.02</fontSize>
+         <color>${white}</color>
+         <zIndex>3</zIndex>         
+      </text>
+
+     
+	<!-- testo introduttivo data di rilascio gioco-->	
+
+	  <image name="md_lbl_releasedate_icon" extra="true">
+		 <path>.\tema\icons\rilascio.svg</path>
+         <pos>0.51 0.133</pos>
+         <size>0.012 0</size>
+         <color>${white}</color>
+         <zIndex>3</zIndex> 
+      </image>
+<!-- data di rilascio gioco-->	
+	  <datetime name="md_releasedate">
+		 <pos>0.53 0.13</pos>
+         <size>0.6 0</size>
+		 <fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
+		 <fontSize>0.02</fontSize>
+         <color>${white}</color>
+         <zIndex>3</zIndex> 
+        </datetime>
+	  
+	  	<!-- testo introduttivo giocatori gioco-->
+	 <image name="md_lbl_players_icon" extra="true">
+		 <path>.\tema\icons\giocatori.svg</path>
+         <pos>0.51 0.163</pos>
+         <size>0.012 0</size>
+         <color>${white}</color>
+         <zIndex>3</zIndex> 
+      </image>
+	  
+	 <text name="md_players">
+		 <pos>0.53 0.16</pos>
+         <size>0.6 0</size>
+		 <fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
+		 <fontSize>0.02</fontSize>
+         <color>${white}</color>
+         <zIndex>3</zIndex> 
+      </text>
+	  
+	
+	
+	  <!-- layout descrizione gioco -->	
+		<text name="md_description">
+			<color>${white}</color>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
+			<fontSize>0.02</fontSize>
+			<size>0.45 0.15</size>
+			<origin>0.5 0</origin>
+            <pos>0.75 0.22</pos>
+		</text>
+</view>
+   
+<view name="grid">
+         <!-- layout vista a griglia-->	
+		<image name="header" extra="true">
+			<path>null</path>
+		</image>    
+		
+		<text name="gridtile">
+			<color>${white}</color>
+			<backgroundColor>${transparent}</backgroundColor>
+			<fontSize>0.020</fontSize>
+			<fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
+			 <forceUppercase>1</forceUppercase>
+			<alignment>center</alignment>
+			<size>1 0.24</size>
+		</text>
+		<text name="gridtile_selected">
+			<color>${white}</color>
+			<glowColor>${accent}</glowColor>
+			<fontSize>0.02</fontSize>
+			<forceUppercase>1</forceUppercase>
+			<glowSize>2</glowSize>
+		</text>
+
+		<text name="md_grid">
+			<size>0.50 0.50</size>
+			<pos>0.01 0.01</pos>
+		</text>
+		<imagegrid name="gamegrid">
+			<pos>0.01 0.05</pos>
+			<size>0.5 0.85</size>
+			<margin>0.01 0.01</margin>
+			<autoLayout>1 2</autoLayout>
+		</imagegrid>
+        <gridtile name="default">
+			<backgroundImage>./tema/images/bg.png</backgroundImage>
+			<backgroundColor>${black}</backgroundColor>
+		</gridtile>
+
+<!-- layout descrizione gioco -->	
+		<text name="md_description">
+			<color>${white}</color>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
+			<fontSize>0.02</fontSize>
+			<size>0.42 0.42</size>
+			<origin>0.5 0.5</origin>
+            <pos>0.74 0.65</pos>
+		</text>
+	<!-- rating gioco-->	
+      <rating name="md_rating">    
+         <pos>0.9 0.28</pos>
+         <size>0.02 0.02</size>
+		 <color>${accent}</color>
+		 <zIndex>3</zIndex>
+    </rating>
+
+<!-- testo introduttivo sviluppatore gioco-->	
+      <image name="md_lbl_developer_icon" extra="true">
+		 <path>.\tema\icons\sviluppatore.svg</path>
+         <pos>0.53 0.283</pos>
+         <size>0.012 0</size>
+         <color>${white}</color>
+         <zIndex>3</zIndex> 
+      </image>
+	  <!-- sviluppatore gioco-->	
+      <text name="md_developer">
+		 <pos>0.55 0.28</pos>
+         <size>0.6 0</size>
+		 <fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
+		 <fontSize>0.02</fontSize>
+         <color>${white}</color>
+         <zIndex>3</zIndex>
+      </text>
+
+<!-- testo introduttivo genere gioco-->
+      <image name="md_lbl_genre_icon" extra="true">
+         <pos>0.53 0.313</pos>
+         <size>0.012 0</size>
+		 <path>.\tema\icons\genere.svg</path>
+         <color>${white}</color>
+         <zIndex>3</zIndex>                  
+      </image>
+	  	<!-- testo genere gioco-->
+      <text name="md_genre">
+		 <pos>0.55 0.31</pos>
+         <size>0.6 0</size>
+		 <fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
+		 <fontSize>0.02</fontSize>
+         <color>${white}</color>
+         <zIndex>3</zIndex>         
+      </text>
+
+     
+	<!-- testo introduttivo data di rilascio gioco-->	
+
+	  <image name="md_lbl_releasedate_icon" extra="true">
+		 <path>.\tema\icons\rilascio.svg</path>
+         <pos>0.53 0.343</pos>
+         <size>0.012 0</size>
+         <color>${white}</color>
+         <zIndex>3</zIndex> 
+      </image>
+<!-- data di rilascio gioco-->	
+	  <datetime name="md_releasedate">
+		 <pos>0.55 0.34</pos>
+         <size>0.6 0</size>
+		 <fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
+		 <fontSize>0.02</fontSize>
+         <color>${white}</color>
+         <zIndex>3</zIndex> 
+        </datetime>
+	  
+	  	<!-- testo introduttivo giocatori gioco-->
+	 <image name="md_lbl_players_icon" extra="true">
+		 <path>.\tema\icons\giocatori.svg</path>
+         <pos>0.53 0.373</pos>
+         <size>0.012 0</size>
+         <color>${white}</color>
+         <zIndex>3</zIndex> 
+      </image>
+	  
+	 <text name="md_players">
+		 <pos>0.55 0.37</pos>
+         <size>0.6 0</size>
+		 <fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
+		 <fontSize>0.02</fontSize>
+         <color>${white}</color>
+         <zIndex>3</zIndex> 
+      </text>
+	</view>
+<view name="basic, detailed, video,grid,gamecarousel">
+
+<image name="logoIntroSistemi" extra="true">
+	<linearSmooth>true</linearSmooth>
+	 <color>${white}</color>
+	<maxSize>0.35 0.25</maxSize>
+	<pos>0.5 0.5</pos>
+	<origin>0.5 0.5</origin>
+	<zIndex>140</zIndex>
+	<opacity>0</opacity>
+	</image>
+
+ <text name="testoIntroSistemi" extra="true">
+		<origin>0.5 0.5</origin> 
+		
+		<fontSize>0.1</fontSize>
+		 <size>0.5 0</size>
+		<color>${accent}</color>
+		<alignment>center</alignment>
+		<pos>0.5 0.5</pos>
+		<zIndex>140</zIndex>
+		<opacity>0</opacity>		
+</text>
+
+
+<image name="sfondoIntroSistemi" extra="true">
+	<tile>true</tile>
+	<path>./tema/images/bg.png</path>
+	 <color>${dark_background_90}</color>
+	<origin>0.5 0.5</origin>	
+	<pos>0.5 0.5</pos>
+	<size>1 1</size>
+	<opacity>0</opacity>
+	<zIndex>139</zIndex>
+	</image>
+
+<text name="testoAvvioIntroSistemi" extra="true">
+		<origin>0.5 0.5</origin>
+		<color>${accent}</color>
+		
+		<fontSize>0.06</fontSize>
+		<alignment>center</alignment>
+		<zIndex>141</zIndex>
+		<pos>0.5 0.85</pos>
+		<opacity>0</opacity>
+		</text>
+</view>
+
+
+</theme>
