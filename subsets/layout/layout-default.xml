@@ -9,14 +9,10 @@
   	  <view name="screen">
 		<text name="clock">
 			<color>${white}</color>
-			<pos>0.95 0.0084</pos>
+			<pos>0.92 0.009</pos>
 			<size>0 0</size>
-			<fontSize>0.024</fontSize>
+			<fontSize>0.03</fontSize>
 		</text>
-		
-		<batteryIndicator name="batteryIndicator">
-			<pos>0.916 0.01</pos>
-			</batteryIndicator>
 
 		<controllerActivity name="controllerActivity">
 			<pos>0.014 0.01</pos>
