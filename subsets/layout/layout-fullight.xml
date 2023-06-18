@@ -9,9 +9,6 @@
   	  <view name="screen">
 		<text name="clock">
 			<color>${black}</color>
-			<pos>0.92 0.009</pos>
-			<size>0 0</size>
-			<fontSize>0.03</fontSize>
 		</text>
 
 		<controllerActivity name="controllerActivity">

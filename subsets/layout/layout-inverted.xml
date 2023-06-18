@@ -5,6 +5,29 @@
 <!-- Configurazione tema --> 
    <include>./config.xml</include>
 
+<!-- Impostazioni globali --> 
+  	  <view name="screen">
+		<text name="clock">
+			<color>${black}</color>
+		</text>
+
+		<controllerActivity name="controllerActivity">
+			<pos>0.014 0.01</pos>
+			<size>0.13 0.036</size>
+			<itemSpacing>0.006</itemSpacing>
+			
+			<gunPath>.\tema\icons/gun.svg</gunPath>
+			 <color>${white}</color>
+			<activityColor>${accent}</activityColor>
+			<hotkeyColor>${accent}</hotkeyColor>
+		</controllerActivity>
+		
+		<batteryIndicator name="batteryIndicator">
+		<color>${black}</color>
+		</batteryIndicator>
+		
+	</view>
+
 <!-- Menu batocera titolo--> 
 	 <view name="menu">
 		<menuText name="menutitle">
@@ -73,32 +96,6 @@
 		<iconFastShutdown>.\tema\icons/Fastshutdown.png</iconFastShutdown>
 	</menuIcons>
   </view> 
-
-<!-- Impostazioni globali --> 
-  	  <view name="screen">
-		<text name="clock">
-			<color>${black}</color>
-			<pos>0.92 0.009</pos>
-			<size>0 0</size>
-			<fontSize>0.03</fontSize>
-		</text>
-
-		<controllerActivity name="controllerActivity">
-			<pos>0.014 0.01</pos>
-			<size>0.13 0.036</size>
-			<itemSpacing>0.006</itemSpacing>
-			
-			<gunPath>.\tema\icons/gun.svg</gunPath>
-			 <color>${white}</color>
-			<activityColor>${accent}</activityColor>
-			<hotkeyColor>${accent}</hotkeyColor>
-		</controllerActivity>
-		
-		<batteryIndicator name="batteryIndicator">
-		<color>${black}</color>
-		</batteryIndicator>
-		
-	</view>
 
 <!-- Sistema -->
 	<view name="system">
