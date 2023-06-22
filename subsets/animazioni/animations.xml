@@ -22,6 +22,24 @@
 				<animation property="x" from="1" begin="1" duration="1000" mode="EaseInCubic"/>
 			</storyboard>
 		</text>
+		
+		<text name="DataRilascio" extra="true" ifSubset="Carousel:horizontal|Horizontal_wheel">
+			<storyboard>
+			<animation property="y" from="1" begin="1" duration="1000" mode="EaseInCubic"/>
+			</storyboard>
+		</text>
+	<text name="Produttore" extra="true" ifSubset="Carousel:horizontal|Horizontal_wheel">
+			<storyboard>
+			<animation property="y" from="1" begin="1" duration="1000" mode="EaseInCubic"/>
+			</storyboard>
+		</text>
+		<text name="Descrizione" extra="true" ifSubset="Carousel:horizontal|Horizontal_wheel">
+			<storyboard>
+				<animation property="y" from="1" begin="1" duration="1000" mode="EaseInCubic"/>
+			</storyboard>
+		</text>
+	
+	
 <!-- splash-->
 			 <image name="splashaccento" extra="true">
 	 <zIndex>7</zIndex>
@@ -40,6 +58,13 @@
 	<image name="art" extra="true">
 	  <storyboard>
 			 <animation property="origin" from="0 0" to="0.51 0" begin="1000" duration="900" mode="EaseOutCubic"/>
+	  </storyboard>
+    </image>
+
+	<image name="art" extra="true" ifSubset="Carousel:horizontal|Horizontal_wheel">
+	  <storyboard>
+			 <animation property="origin" from="0 -1" to="0 -1" duration="1000" mode="EaseOutCubic"/>
+			 <animation property="origin" from="0 -1" to="0 0" begin="1000" duration="900" mode="EaseOutCubic"/>
 	  </storyboard>
     </image>
 	
@@ -82,16 +107,26 @@
 			</storyboard>
 		</image>
 		
-		
-		<image name="logo" ifSubset="Carousel:horizontal">
+	  		<image name="logo" ifSubset="Carousel:horizontal">
 		<linearSmooth>true</linearSmooth>
 			<storyboard event="activate">
+				<animation property="opacity" from="0" to="1" duration="150" mode="Linear"/>
+				<animation property="opacity" from="1" to="0.8" begin="1150" duration="1000" mode="EaseIn" autoReverse="true" repeat="forever"/>
 			</storyboard>
 			<storyboard event="scroll">
+				<animation property="y" to="-0.5" begin="1500" duration="320" mode="EaseInCubic"/>
+				<animation property="opacity" from="0" to="1" duration="160" mode="Linear"/>
+				<animation property="opacity" from="1" to="1" begin="1200" duration="35" mode="Linear"/>
+				<animation property="opacity" from="1" to="0.2" duration="3000" mode="Linear"/>
 			</storyboard>
 			<storyboard event="deactivate">
+				<animation property="y" to="-0.5" begin="1500" duration="320" mode="EaseInCubic"/>
+				<animation property="opacity" from="0" to="1" duration="160" mode="Linear"/>
+				<animation property="opacity" from="1" to="1" begin="1200" duration="35" mode="Linear"/>
+				<animation property="opacity" from="1" to="0.2" duration="3000" mode="Linear"/>
 			</storyboard>
-		</image>
+		</image>		
+
 		
 		 		<image name="logoText">
 		<linearSmooth>true</linearSmooth>
@@ -113,13 +148,23 @@
 			</storyboard>
 		</image>
 		
-		<image name="logoText" ifSubset="Carousel:horizontal">
+		 		<image name="logoText" ifSubset="Carousel:horizontal">
 		<linearSmooth>true</linearSmooth>
 			<storyboard event="activate">
+				<animation property="opacity" from="0" to="1" duration="150" mode="Linear"/>
+				<animation property="opacity" from="1" to="0.8" begin="1150" duration="1000" mode="EaseIn" autoReverse="true" repeat="forever"/>
 			</storyboard>
 			<storyboard event="scroll">
+				<animation property="y" to="-0.5" begin="1500" duration="320" mode="EaseInCubic"/>
+				<animation property="opacity" from="0" to="1" duration="160" mode="Linear"/>
+				<animation property="opacity" from="1" to="1" begin="1200" duration="35" mode="Linear"/>
+				<animation property="opacity" from="1" to="0.2" duration="3000" mode="Linear"/>
 			</storyboard>
 			<storyboard event="deactivate">
+				<animation property="y" to="-0.5" begin="1500" duration="320" mode="EaseInCubic"/>
+				<animation property="opacity" from="0" to="1" duration="160" mode="Linear"/>
+				<animation property="opacity" from="1" to="1" begin="1200" duration="35" mode="Linear"/>
+				<animation property="opacity" from="1" to="0.2" duration="3000" mode="Linear"/>
 			</storyboard>
 		</image>
 

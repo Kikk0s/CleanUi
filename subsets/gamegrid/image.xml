@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <theme> 
+<formatVersion>7</formatVersion>
+	
+	<include>./config.xml</include>
+	
+  <customView name="Carousel" inherits="grid" displayName="${carouselViewName}">
+    <imagegrid name="gamegrid">
+	<imageSource>image</imageSource> <!-- text, image, thumbnail, marquee -->
+    </imagegrid>
+  </customView>
+  
+  <view name="grid">
+  	<imagegrid name="gamegrid">
+	<imageSource>image</imageSource> <!-- text, image, thumbnail, marquee -->
+	</imagegrid>
+  </view>
+  
+</theme>

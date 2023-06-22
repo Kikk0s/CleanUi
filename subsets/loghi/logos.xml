@@ -2,12 +2,18 @@
 <theme>
   <formatVersion>7</formatVersion>
 
+  <!-- Configurazione tema --> 
+   <include>./config.xml</include>
 
-<view name="system">
-	<image name="logo">
-				<path>./tema/loghi/${system.theme}.svg</path>
-			</image>
-</view>	  
+	<view name="system">
+		<carousel name="systemcarousel">
+			<logoScale>1</logoScale>    
+		 </carousel>  
+		 
+		<image name="logo">
+					<path>./tema/loghi/${system.theme}.svg</path>
+				</image>
+	</view>	  
 
 	<view name="detailed, video,gamecarousel,basic">
 					<image name="system" extra="true">        

@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <theme>
   <formatVersion>7</formatVersion>
-<view name="system">
 
-</view>	 
+  <!-- Configurazione tema --> 
+   <include>./config.xml</include>  
+ 
+		<view name="system"> 
+    <carousel name="systemcarousel">
 
+        <logoScale>2</logoScale>    
+      </carousel>  
+
+			<text name="logoText" >
+				<fontSize>0.065</fontSize>
+			 </text>
+		</view>	 
+						
 
 	<view name="detailed, video,gamecarousel,basic">
 					<text name="systemtext" extra="true">        

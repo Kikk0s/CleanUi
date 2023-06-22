@@ -8,9 +8,9 @@
   <view name="gamecarousel">
    <gamecarousel name="gamecarousel">
       <imageSource>text</imageSource>
-      <type>vertical</type>
-	  <maxLogoCount>10</maxLogoCount>
-	  <logoScale>1</logoScale>   
+	  <logoAlignment>left</logoAlignment> 
+	  <logoScale>4.6</logoScale>
+	  <maxLogoCount>5</maxLogoCount>
     </gamecarousel> 
   </view>
 </theme>

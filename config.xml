@@ -2,7 +2,7 @@
     <formatVersion>7</formatVersion>
 	
 <!--Stile Carosello -->
-	<subset subset="systemview" name="Carousel" displayName="Carousel Style">
+	<subset subset="systemview" name="Carousel" displayName="Systems Carousel Style">
 	<include name="Vertical_wheel">./subsets/carosello/vertical_wheel.xml</include>
 	<include name="vertical">./subsets/carosello/vertical.xml</include>
 	<include name="Horizontal_wheel">./subsets/carosello/horizontal_wheel.xml</include>
@@ -10,15 +10,28 @@
 	</subset>
 
 <!--Stile loghi Carosello -->	
-	<subset subset="Carousel logos" name="Carousel logos" displayName="Carousel logos style">
+	<subset subset="Carousel_logos" name="Carousel logos" displayName="Systems Carousel logos style">
 	<include name="Logos">./subsets/loghi/logos.xml</include>
 	<include name="Text">./subsets/loghi/text.xml</include>
 	</subset>
 	
 <!--Stile Carosello giochi -->
-	<subset subset="Game Carousel Style" name="Game Carousel Style" displayName="Game Carousel Style" appliesTo="gamecarousel">
+	<subset subset="Game Carousel source" name="Game Carousel source" displayName="Game Carousel source" appliesTo="gamecarousel">
 	<include name="text">./subsets/carosellogiochi/testo.xml</include>
 	<include name="marquee">./subsets/carosellogiochi/marquee.xml</include>
+	</subset>
+	
+	<!--Stile Carosello giochi -->
+	<subset subset="Game Carousel Style" name="Game Carousel Style" displayName="Game Carousel Style" appliesTo="gamecarousel">
+	<include name="Vertical">./subsets/carosellogiochi/vertical.xml</include>
+	<include name="Vertical_wheel">./subsets/carosellogiochi/wheel.xml</include>
+	</subset>
+	
+	<!--Stile Carosello giochi -->
+	<subset subset="Gamelist Carousel Source" name="Gamelist Carousel Source" displayName="Gamelist Carousel Source" appliesTo="carousel, grid">
+	<include name="Box">./subsets/gamegrid/box.xml</include>
+	<include name="Marquee">./subsets/gamegrid/marquee.xml</include>
+	<include name="Image">./subsets/gamegrid/image.xml</include>
 	</subset>
 
 <!--Stile layout -->	
@@ -81,7 +94,7 @@
 	<include name="Arcade Zone">./subsets/intrologotext/arcadezone.xml</include>
 	</subset>
 	
-<!--Informazioni di sistema extra -->
+<!--Informazioni di sistema extra  -->
 	<subset subset="systeminfoextra" name="systeminfoextra" displayName="Extra Systems Info">
 	<include name="yes">./subsets/info/yes.xml</include>
 	<include name="no">./subsets/animazioni/no.xml</include>
@@ -114,14 +127,9 @@
 	<include name="Circle">./subsets/rating/circle.xml</include>
 	</subset> 	
 	
-<!--Anteprima video
-	<subset subset="videopreview" name="Video Preview">
-	<include name="Yes">.\subsets\anteprimavideo\videopreview.xml</include>
-	<include name="No">.\subsets\anteprimavideo\novideopreview.xml</include>
-	</subset>  -->
 	
 <!--anteprima video nella vista grid -->
-	<subset subset="video" name="Video on grid" displayName="Video on grid">
+	<subset subset="video" name="Video on grid" displayName="Video on grid" appliesTo="carousel, grid">
 	<include name="No">./subsets/grid/novideo.xml</include>
 	<include name="Yes">./subsets/grid/video.xml</include>
 	</subset> 

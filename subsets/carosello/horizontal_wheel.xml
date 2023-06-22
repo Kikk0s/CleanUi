@@ -10,12 +10,58 @@
         <type>horizontal_wheel</type>
         <pos>0 0</pos>
 		<origin>0 0</origin>
-        <logoAlignment>left</logoAlignment> 
-        <size>0.49 1</size>
-        <logoScale>1</logoScale>    
+        <logoAlignment>center</logoAlignment>		
+        <logoSize>0.30 0.205</logoSize>
+        <size>1 0.49</size>  
         <maxLogoCount>3</maxLogoCount>
 		<zIndex>138</zIndex>
 		<systemInfoDelay>700</systemInfoDelay>
       </carousel>
+	  
+	<image name="Background2" extra="true">
+      <size>1 0.511 </size>
+      <pos>0 0.489</pos>
+    </image>
+	  
+<!-- Descrizione Sistema -->	
+
+	
+	<text name="DataRilascio" extra="true">
+			<pos>0.05 0.50</pos>
+			<size>1 0.05</size>
+		</text>
+		<text name="Produttore" extra="true">
+			<pos>0.05 0.55</pos>
+			<size>1 0.05</size>
+		</text>
+
+	<text name="Descrizione" extra="true" ifSubset="systeminfoextra:yes">  
+			<size>0.44 0.30</size>
+			<pos>0.05 0.63</pos>
+	</text>			
+	
+	<text name="Descrizione" extra="true" ifSubset="systeminfoextra:no"> 
+			<size>0.9 0.28</size>
+			<pos>0.05 0.63</pos>
+	</text>	
+
+	<text name="systemInfo" ifSubset="systeminfoextra:yes">     
+			 <pos>0.5 0.7</pos>
+			 <size>0.5 0.069</size>
+			</text> 
+		
+	<text name="systemInfo" ifSubset="systeminfoextra:no">    
+			 <pos>0.05 0.92</pos>
+			 <size>0.5 0.069</size>	
+			</text> 
+
+<text name="systemInfoEx" extra="true">
+       <pos>0.65 0.78</pos>
+    </text>
+	
+	<image name="controllersinfo" extra="true">
+		  <pos>0.56 0.80</pos>
+		</image>
+
 </view>	
 </theme>

@@ -4,6 +4,8 @@
    
 <!-- Configurazione tema --> 
    <include>./config.xml</include>
+   <include>./views/gamecarousel.xml</include>
+   <include>./tema/sistemi/${system.theme}.xml</include>
 
 <!-- Impostazioni globali --> 
   	  <view name="screen">
@@ -113,13 +115,12 @@
 	  
 	  
 	<image name="Background2" extra="true">
-      <size>0.511 1</size>
-      <pos>0.489 0</pos>
       <tile>true</tile>
       <color>${dark_background_90}</color>
 	  <path>./tema/images/bg.png</path>
       <zIndex>139</zIndex>
     </image>
+
 	  
 <!-- Descrizione Sistema -->	
 
@@ -128,24 +129,17 @@
 		</text>
 	
 	<text name="DataRilascio" extra="true">
-			<pos>0.50 0.05</pos>
-			<size>0.50 0.05</size>
-			
 			<color>${accent}</color>
 			<fontSize>0.04</fontSize>
 			 <zIndex>140</zIndex>
 		</text>
 		<text name="Produttore" extra="true">
-			<pos>0.50 0.10</pos>
-			<size>0.50 0.05</size>
-			
 			<color>${accent}</color>
 			<lineSpacing>1.1</lineSpacing>
 			 <zIndex>140</zIndex>
 		</text>
-		<text name="Descrizione" extra="true" ifSubset="systeminfoextra:yes">
-			<size>0.49 0.50</size>
-			<pos>0.50 0.175</pos>
+
+		<text name="Descrizione" extra="true">
 			<color>${white}</color>
 			<lineSpacing>1.1</lineSpacing>
 			<autoScroll>vertical</autoScroll>
@@ -153,15 +147,6 @@
 			 <zIndex>140</zIndex>
 		</text>
 		
-		<text name="Descrizione" extra="true" ifSubset="systeminfoextra:no">
-			<size>0.49 0.75</size>
-			<pos>0.50 0.175</pos>
-			<color>${white}</color>
-			<lineSpacing>1.1</lineSpacing>
-			<autoScroll>vertical</autoScroll>
-			<verticalAlignment>top</verticalAlignment>
-			 <zIndex>140</zIndex>
-		</text>
 		
 		<text name="systemInfoEx" extra="true">
 		   <zIndex>140</zIndex>
@@ -184,7 +169,6 @@
 				
 				<text>${system.fullName}</text>
 				<color>${white}</color>
-				<fontSize>0.065</fontSize>
 				<forceUppercase>true</forceUppercase>
 			 </text>
 			 
@@ -197,31 +181,16 @@
 			 </text>
 			 
 <!-- informazioni numero di rom presenti in un sistema -->
-	<text name="systemInfo" ifSubset="systeminfoextra:yes">     
+	<text name="systemInfo">     
 			 <color>${accent}</color>
 			 <backgroundColor>${transparent}</backgroundColor>
 			 <glowColor>${white_90}</glowColor>
 			 <glowSize>1</glowSize>
-			 <pos>0.5 0.7</pos>
-			 <size>0.5 0.069</size>
-			
 			 <fontSize>0.06</fontSize>
 			 <alignment>left</alignment>
 			 <zIndex>140</zIndex>	
 			</text> 
 			
-	<text name="systemInfo" ifSubset="systeminfoextra:no">    
-			 <color>${accent}</color>
-			 <backgroundColor>${transparent}</backgroundColor>
-			 <glowColor>${white_90}</glowColor>
-			 <glowSize>1</glowSize>
-			 <pos>0.5 0.85</pos>
-			 <size>0.5 0.069</size>
-			
-			 <fontSize>0.06</fontSize>
-			 <alignment>left</alignment>
-			 <zIndex>140</zIndex>	
-			</text> 
 
 <!-- barra suggerimenti in basso -->
    <helpsystem name="help">
@@ -257,7 +226,6 @@
 					<text name="systemtext" extra="true">        
 					  <pos>0.05 0.1</pos>
 					  <size>0.45 0.1</size>
-					 
 				     <color>${white}</color>
 				     <fontSize>0.06</fontSize>
 				     <forceUppercase>true</forceUppercase>>
@@ -270,8 +238,7 @@
 	<view name="grid">
 					<text name="systemtext" extra="true">
 					  <size>0.50 0.2</size>
-					  <pos>0.5 0.17</pos>
-					 
+					  <pos>0.5 0.10</pos>
 				     <color>${white}</color>
 				     <fontSize>0.06</fontSize>
 				     <forceUppercase>true</forceUppercase>>
@@ -635,10 +602,9 @@
 			<pos>0.01 0.01</pos>
 		</text>
 		<imagegrid name="gamegrid">
-			<pos>0.01 0.05</pos>
-			<size>0.5 0.85</size>
+			<pos>0.01 0.15</pos>
+			<size>0.5 0.65</size>
 			<margin>0.01 0.01</margin>
-			<autoLayout>1 2</autoLayout>
 		</imagegrid>
         <gridtile name="default">
 			<backgroundImage>./tema/images/bg.png</backgroundImage>
@@ -737,6 +703,39 @@
          <zIndex>3</zIndex> 
       </text>
 	</view>
+	
+  <customView name="Carousel" inherits="grid" displayName="${carouselViewName}">
+    <text name="md_name">
+      <color>ffffffff</color>
+      <pos>0 0.75</pos>
+      <size>0.5 0.10</size>
+      <alignment>center</alignment>
+      <glowColor>00000016</glowColor>
+      <glowSize>4</glowSize>
+    </text>
+    <imagegrid name="gamegrid">
+      <pos>0 0.15</pos>
+       <size>0.5 0.75</size>
+      <scrollDirection>horizontal</scrollDirection>
+      <autoLayout>3 1</autoLayout>
+      <autoLayoutSelectedZoom>1.50</autoLayoutSelectedZoom>
+      <centerSelection>true</centerSelection>
+      <scrollLoop>true</scrollLoop>
+    </imagegrid>
+    <gridtile name="default">
+      <padding>64 16</padding>
+      <imageSizeMode>maxSize</imageSizeMode>
+      <reflexion>0.24 0.0</reflexion>
+    </gridtile>
+    <gridtile name="selected">
+      <padding>64 16</padding>
+    </gridtile>
+    <text name="gridtile">
+      <visible>false</visible>
+    </text>
+
+  </customView>
+	
 <view name="basic, detailed, video,grid,gamecarousel">
 
 <image name="logoIntroSistemi" extra="true">

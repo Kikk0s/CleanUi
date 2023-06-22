@@ -8,9 +8,9 @@
   <view name="gamecarousel">
     <gamecarousel name="gamecarousel">
       <imageSource>marquee</imageSource>
-      <type>vertical_wheel</type>
+	  <logoAlignment>center</logoAlignment> 
+	  <logoScale>3</logoScale>
 	  <maxLogoCount>5</maxLogoCount>
-	  <logoScale>1.3</logoScale>
     </gamecarousel>
   </view>
 </theme>
