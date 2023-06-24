@@ -7,8 +7,7 @@
 
 	<view name="system">
 		<carousel name="systemcarousel">
-        <logoScale>2</logoScale>    
-        <logoSize>0.15 0.15</logoSize> 
+			<logoScale>1.3</logoScale>  
 		 </carousel>  
 		 
 		<image name="logo">
