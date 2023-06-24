@@ -1,41 +1,85 @@
 <theme>
     <formatVersion>7</formatVersion>
 	
+	 <include lang="it">./lang/it.xml</include>
+	 
+    <variables>
+	 <SystemsCarouselStyle>Systems Carousel Style</SystemsCarouselStyle>
+	 <Vertical_wheel>Vertical_wheel</Vertical_wheel>
+	 <vertical>Vertical</vertical>
+	 <Horizontal_wheel>Horizontal_wheel</Horizontal_wheel>
+	 <horizontal>Horizontal</horizontal>	 
+	 <SystemsCarouseLogosStyle>Systems Carouse Logos Style</SystemsCarouseLogosStyle>
+	 <Logos>Logos</Logos>
+	 <Text>Text</Text>
+	 <GameCarouselSource>Game Carousel Source</GameCarouselSource>
+	 <text>Text</text>
+	 <marquee>Marquee</marquee>	 
+	 <GameCarouselStyle>Game Carousel Style</GameCarouselStyle>
+	 <GamelistCarouselSource>Gamelist Carousel Source</GamelistCarouselSource>	 
+	 <Box>Box</Box>
+	 <Image>Image</Image>	 
+	 <Layout>Layout</Layout>	 
+	 <Background>Background</Background>	 
+	 <AccentColor>AccentColor</AccentColor>	 
+	 <LaunchSystemsLogoStyle>Launch Systems Logo Style</LaunchSystemsLogoStyle>	 
+	 <Controllers>Controllers</Controllers> 	 
+	 <LaunchSystemsText>Launch Systems Text</LaunchSystemsText>  	 
+	 <ExtraSystemsInfo>Extra Systems Info</ExtraSystemsInfo> 	 
+	 <performance>Low end hardware (RPI3 and lower)</performance>  	 
+	 <Animations>Animations</Animations>  	 
+	 <ControllerIcon>Controller Icon</ControllerIcon>  	 
+	 <ReflexionsEffect>Reflexions Effect</ReflexionsEffect>  	 
+	 <RatingStyle>Rating Style</RatingStyle> 
+	 <Hearth>Hearth</Hearth> 
+	 <Star>Star</Star> 
+	 <Hexagon>Hexagon</Hexagon>
+	 <Circle>Circle</Circle>   	 	 
+	 <VideoOnGrid>Video On Grid</VideoOnGrid> 
+	 <SystemDescriptionfont>System Description font</SystemDescriptionfont> 
+	 <SystemDescriptionfontsize>System Description font size</SystemDescriptionfontsize> 
+	 <Regular>Regular</Regular>
+	 <Small>Small</Small> 
+	 <TitlesFont>Titles Font</TitlesFont> 
+ 
+	</variables>   
+	
 <!--Stile Carosello -->
-	<subset subset="systemview" name="Carousel" displayName="Systems Carousel Style">
-	<include name="Vertical_wheel">./subsets/carosello/vertical_wheel.xml</include>
-	<include name="vertical">./subsets/carosello/vertical.xml</include>
-	<include name="Horizontal_wheel">./subsets/carosello/horizontal_wheel.xml</include>
-	<include name="horizontal">./subsets/carosello/horizontal.xml</include>
+	<subset subset="systemview" name="Carousel" displayName="${SystemsCarouselStyle}">
+	<include name="Vertical_wheel" displayName="${Vertical_wheel}">./subsets/carosello/vertical_wheel.xml</include>
+	<include name="vertical" displayName="${vertical}">./subsets/carosello/vertical.xml</include>
+	<include name="Horizontal_wheel" displayName="${Horizontal_wheel}">./subsets/carosello/horizontal_wheel.xml</include>
+	<include name="horizontal" displayName="${horizontal}">./subsets/carosello/horizontal.xml</include>
 	</subset>
 
+
 <!--Stile loghi Carosello -->	
-	<subset subset="Carousel_logos" name="Carousel logos" displayName="Systems Carousel logos style">
-	<include name="Logos">./subsets/loghi/logos.xml</include>
-	<include name="Text">./subsets/loghi/text.xml</include>
+	<subset subset="Carousel_logos" name="Carousel logos" displayName="${SystemsCarouseLogosStyle}">
+	<include name="Logos" displayName="${Logos}">./subsets/loghi/logos.xml</include>
+	<include name="Text" displayName="${Text}">./subsets/loghi/text.xml</include>
 	</subset>
 	
 <!--Stile Carosello giochi -->
-	<subset subset="Game Carousel source" name="Game Carousel source" displayName="Game Carousel source" appliesTo="gamecarousel">
-	<include name="text">./subsets/carosellogiochi/testo.xml</include>
-	<include name="marquee">./subsets/carosellogiochi/marquee.xml</include>
+	<subset subset="Game Carousel source" name="Game Carousel source" displayName="${GameCarouselSource}" appliesTo="gamecarousel">
+	<include name="text" displayName="${text}">./subsets/carosellogiochi/testo.xml</include>
+	<include name="marquee" displayName="${marquee}">./subsets/carosellogiochi/marquee.xml</include>
 	</subset>
 	
 	<!--Stile Carosello giochi -->
-	<subset subset="Game Carousel Style" name="Game Carousel Style" displayName="Game Carousel Style" appliesTo="gamecarousel">
-	<include name="Vertical">./subsets/carosellogiochi/vertical.xml</include>
-	<include name="Vertical_wheel">./subsets/carosellogiochi/wheel.xml</include>
+	<subset subset="Game Carousel Style" name="Game Carousel Style" displayName="${GameCarouselStyle}" appliesTo="gamecarousel">
+	<include name="Vertical" displayName="${vertical}">./subsets/carosellogiochi/vertical.xml</include>
+	<include name="Vertical_wheel" displayName="${Vertical_wheel}">./subsets/carosellogiochi/wheel.xml</include>
 	</subset>
 	
 	<!--Stile Carosello giochi -->
-	<subset subset="Gamelist Carousel Source" name="Gamelist Carousel Source" displayName="Gamelist Carousel Source" appliesTo="carousel, grid">
-	<include name="Box">./subsets/gamegrid/box.xml</include>
-	<include name="Marquee">./subsets/gamegrid/marquee.xml</include>
-	<include name="Image">./subsets/gamegrid/image.xml</include>
+	<subset subset="Gamelist Carousel Source" name="Gamelist Carousel Source" displayName="${GamelistCarouselSource}" appliesTo="carousel, grid">
+	<include name="Box" displayName="${Box}">./subsets/gamegrid/box.xml</include>
+	<include name="Marquee" displayName="${marquee}">./subsets/gamegrid/marquee.xml</include>
+	<include name="Image" displayName="${Image}">./subsets/gamegrid/image.xml</include>
 	</subset>
 
 <!--Stile layout -->	
-	<subset subset="Layout" name="Layout" displayName="Layout" >
+	<subset subset="Layout" name="Layout" displayName="${Layout}">
 	<include name="Default">./subsets/layout/layout-default.xml</include>
 	<include name="Inverted">./subsets/layout/layout-inverted.xml</include>
 	<include name="Dark">./subsets/layout/layout-dark.xml</include>
@@ -44,7 +88,7 @@
 	</subset>
 		
 <!--Sfondi -->
-	<subset subset="Background" name="Background" displayName="Background">
+	<subset subset="Background" name="Background" displayName="${Background}">
 	<include name="Retrowave">./subsets/sfondi/retrowave.xml</include>
 	<include name="Tunnel">./subsets/sfondi/tunnel.xml</include>
 	<include name="Linear">./subsets/sfondi/linear.xml</include>
@@ -65,7 +109,7 @@
 
 
 <!--Accento -->	
-	<subset subset="Accent color" name="Accent Color" displayName="Accent Color">
+	<subset subset="Accent color" name="Accent Color" displayName="${AccentColor}">
 	<include name="Dune">./subsets/colors/dune.xml</include>
 	<include name="Charcoal">./subsets/colors/charcoal.xml</include>
 	<include name="Snow">./subsets/colors/snow.xml</include>
@@ -81,80 +125,93 @@
 	</subset>	
 	
 <!--stile loghi apertura sistema -->	
-	<subset subset="Launch Sistems Logo" name="Launch Sistems Logo" displayName="Launch Systems Logo style">
-	<include name="Controllers">./subsets/intrologo/controllers.xml</include>
-	<include name="Logos">./subsets/intrologo/logos.xml</include>
-	<include name="Logo text">./subsets/intrologo/logotext.xml</include>
+	<subset subset="Launch Sistems Logo" name="Launch Sistems Logo" displayName="${LaunchSystemsLogoStyle}">
+	<include name="Controllers" displayName="${Controllers}">./subsets/intrologo/controllers.xml</include>
+	<include name="Logos" displayName="${Logos}">./subsets/intrologo/logos.xml</include>
+	<include name="Logo text" displayName="${Text}">./subsets/intrologo/logotext.xml</include>
 	</subset>
 
 <!--testo apertura sistema -->		
-	<subset subset="Launch Sistems Text" name="Launch Sistems Text" displayName="Launch Systems Text">
+	<subset subset="Launch Sistems Text" name="Launch Sistems Text" displayName="${LaunchSystemsText}">
 	<include name="Ready to Play">./subsets/intrologotext/readytoplay.xml</include>
 	<include name="Games">./subsets/intrologotext/games.xml</include>
 	<include name="Arcade Zone">./subsets/intrologotext/arcadezone.xml</include>
 	</subset>
 	
 <!--Informazioni di sistema extra  -->
-	<subset subset="systeminfoextra" name="systeminfoextra" displayName="Extra Systems Info">
-	<include name="yes">./subsets/info/yes.xml</include>
-	<include name="no">./subsets/animazioni/no.xml</include>
+	<subset subset="systeminfoextra" name="systeminfoextra" displayName="${ExtraSystemsInfo}">
+	<include name="yes" displayName="${yes}">./subsets/info/yes.xml</include>
+	<include name="no" displayName="${no}">./subsets/animazioni/no.xml</include>
 	</subset>
 	
 
 <!--animazioni -->
-	<subset subset="animations" name="Animations" displayName="Animations">
-	<include name="Yes">./subsets/animazioni/animations.xml</include>
-	<include name="No">./subsets/animazioni/noanimations.xml</include>
+	<subset subset="performance" name="performance" displayName="${performance}" appliesTo="Background">
+	<include name="no" displayName="${no}">./subsets/performance/no.xml</include>
+	<include name="yes" displayName="${yes}">./subsets/performance/yes.xml</include>
+	</subset>
+
+<!--animazioni -->
+	<subset subset="animations" name="Animations" displayName="${Animations}">
+	<include name="Yes" displayName="${yes}">./subsets/animazioni/animations.xml</include>
+	<include name="No" displayName="${no}">./subsets/animazioni/noanimations.xml</include>
 	</subset>
 
 <!--stile icona controller -->
-	<subset subset="Controller Icon" name="Controller Icon" displayName="Controller Icon">
+	<subset subset="Controller Icon" name="Controller Icon" displayName="${ControllerIcon}">
 	<include name="Arcade stick">./subsets/controllericon/arcade.xml</include>
 	<include name="Gamepad">./subsets/controllericon/gamepad.xml</include>
 	</subset> 	
 	
 <!--Riflessi -->	
-	<subset subset="Reflexions" name="Reflexions effect" displayName="Reflexions effect">
-	<include name="No">./subsets/reflexions/no.xml</include>
-	<include name="Yes">./subsets/reflexions/si.xml</include>
+	<subset subset="Reflexions" name="Reflexions effect" displayName="${ReflexionsEffect}">
+	<include name="No" displayName="${no}">./subsets/reflexions/no.xml</include>
+	<include name="Yes" displayName="${yes}">./subsets/reflexions/si.xml</include>
 	</subset>	
 	
 <!--stile rating -->
-	<subset subset="rating" name="Rating Style" displayName="Rating Style">
-	<include name="Heart">./subsets/rating/heart.xml</include>
-	<include name="Star">./subsets/rating/star.xml</include>
-	<include name="Hexagon">./subsets/rating/hexagon.xml</include>
-	<include name="Circle">./subsets/rating/circle.xml</include>
+	<subset subset="rating" name="Rating Style" displayName="${RatingStyle}">
+	<include name="Heart" displayName="${Heart}">./subsets/rating/heart.xml</include>
+	<include name="Star" displayName="${Star}">./subsets/rating/star.xml</include>
+	<include name="Hexagon" displayName="${Hexagon}">./subsets/rating/hexagon.xml</include>
+	<include name="Circle" displayName="${Circle}">./subsets/rating/circle.xml</include>
 	</subset> 	
 	
 	
 <!--anteprima video nella vista grid -->
-	<subset subset="video" name="Video on grid" displayName="Video on grid" appliesTo="carousel, grid">
-	<include name="No">./subsets/grid/novideo.xml</include>
-	<include name="Yes">./subsets/grid/video.xml</include>
+	<subset subset="video" name="Video on grid" displayName="${VideoOnGrid}" appliesTo="carousel, grid">
+	<include name="No" displayName="${no}">./subsets/grid/novideo.xml</include>
+	<include name="Yes" displayName="${yes}">./subsets/grid/video.xml</include>
 	</subset> 
 
 <!--Tipo Font descrizione sistemi -->	
-	<subset subset="System Description font" name="System Description font" displayName="System Description font">
+	<subset subset="System Description font" name="System Description font" displayName="${SystemDescriptionfont}">
 	<include name="Ubuntu Light">./subsets/descriptionfont/ubuntu.xml</include>
 	<include name="Roboto Regular">./subsets/descriptionfont/roboto.xml</include>
 	</subset> 
 
 <!--dimensione Font descrizione sistemi -->		
-	<subset subset="System Description font size" name="System Description font size" displayName="System Description font size">
-	<include name="Regular">./subsets/descriptiontext/regular.xml</include>
-	<include name="Small">./subsets/descriptiontext/small.xml</include>
+	<subset subset="System Description font size" name="System Description font size" displayName="${SystemDescriptionfontsize}">
+	<include name="Regular" displayName="${Regular}">./subsets/descriptiontext/regular.xml</include>
+	<include name="Small" displayName="${Small}">./subsets/descriptiontext/small.xml</include>
 	</subset> 
 
 <!--Font titoli -->	
-	<subset subset="Titles font" name="Titles font" displayName="Titles font">
+	<subset subset="Titles font" name="Titles font" displayName="${TitlesFont}">
 	<include name="Barcade">./subsets/titlefont/barcade.xml</include>
+	<include name="Nintendo">./subsets/titlefont/nintendo.xml</include>	
 	<include name="Snes">./subsets/titlefont/snes.xml</include>
+	<include name="Sega">./subsets/titlefont/sega.xml</include>
+	<include name="Capcom">./subsets/titlefont/capcom.xml</include>	
+	<include name="Atari">./subsets/titlefont/atari.xml</include>		
 	<include name="Retro party">./subsets/titlefont/retroparty.xml</include>
 	<include name="Retronoid">./subsets/titlefont/retronoid.xml</include>
-	<include name="Ninja Garden">./subsets/titlefont/ninjagarden.xml</include>
 	<include name="PacMania">./subsets/titlefont/pacmania.xml</include>
+	<include name="Retrowave">./subsets/titlefont/ninjagarden.xml</include>
 	</subset> 
+
+	
+
 </theme>
 
 

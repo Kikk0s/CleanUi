@@ -8,11 +8,12 @@
 		<view name="system"> 
     <carousel name="systemcarousel">
 
-        <logoScale>2</logoScale>    
+ 
       </carousel>  
 
 			<text name="logoText" >
-				<fontSize>0.065</fontSize>
+				<fontSize>0.06</fontSize>
+
 			 </text>
 		</view>	 
 						

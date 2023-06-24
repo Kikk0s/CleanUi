@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <variables lang="it">
+
+<!--Stile Carosello --> 
+	  <SystemsCarouselStyle>Stile Carosello Giochi</SystemsCarouselStyle>
+	  <Vertical_wheel>Ruota verticale</Vertical_wheel>
+	  <vertical>Verticale</vertical>
+	  <Horizontal_wheel>Ruota orizzontale</Horizontal_wheel>
+	  <horizontal>Orizzontale</horizontal> 
+  	 <SystemsCarouseLogosStyle>Stile loghi Carosello</SystemsCarouseLogosStyle>
+	 <Logos>Loghi</Logos>
+	 <Text>Testi</Text>
+
+	 <GameCarouselSource>Stile lista giochi GameCarousel</GameCarouselSource>
+	 <text>Testo</text>
+	 <marquee>Striscione</marquee>	 
+	 <GameCarouselStyle>Stile Carosello giochi</GameCarouselStyle>
+	 <GamelistCarouselSource>Stile lista giochi Carosello</GamelistCarouselSource>	 
+	 <Box>Box</Box>
+	 <Image>Immagine</Image>	 
+	 <Layout>Stile generale del tema</Layout>	 
+	 <Background>Sfondo</Background>	 
+	 <AccentColor>Colore d'accento</AccentColor>	 
+	 <LaunchSystemsLogoStyle>Stile logo schermata di lancio sistemi</LaunchSystemsLogoStyle>	 
+	 <Controllers>Immagine del controller</Controllers> 	 
+	 <LaunchSystemsText>Stile testo schermata di lancio sistemi</LaunchSystemsText>  	 
+	 <ExtraSystemsInfo>Informazioni extra sui sistemi</ExtraSystemsInfo> 	 
+	 <performance>Sistemi di fascia bassa (aumenta le performance)</performance>  	 
+	 <Animations>Animazioni</Animations>  	 
+	 <ControllerIcon>Stile icona dei Controllers</ControllerIcon>  	 
+	 <ReflexionsEffect>Riflessi</ReflexionsEffect>  	 
+	 <RatingStyle>Stile valutazione gioco</RatingStyle> 
+	 <Hearth>Cuore</Hearth> 
+	 <Star>Stella</Star> 
+	 <Hexagon>Esagono</Hexagon>
+	 <Circle>Cerchio</Circle>   	 	 
+	 <VideoOnGrid>Anteprima video nello stile griglia</VideoOnGrid> 
+	 <SystemDescriptionfont>Carattere descrizione sistemi</SystemDescriptionfont> 
+	 <SystemDescriptionfontsize>Grandezza carattere descrizione sistemi</SystemDescriptionfontsize> 
+	 <Regular>Normale</Regular>
+	 <Small>Piccolo</Small> 
+	 <TitlesFont>Font dei titoli</TitlesFont>
+  </variables>
+</theme>

@@ -249,7 +249,7 @@
       <helpsystem name="help">
          <fontPath>./tema/fonts/Ubuntu-Light.ttf</fontPath>
 	     <fontSize>0.02</fontSize>
-		 <pos>0.025 0.95</pos>
+		 <pos>0.025 0.96</pos>
          <textColor>${black}</textColor>
          <iconColor>${black}</iconColor>
       </helpsystem>
@@ -411,7 +411,7 @@
          <pos>0 0.0</pos>
          <size>1 1</size>
          <path>./tema/images/bg.png</path>
-		 <color>fffffff7</color>
+		 <color>${white}</color>
          <zIndex>1</zIndex>    
       </image>     
 	  
@@ -577,7 +577,7 @@
 		</image>    
 		
 		<text name="gridtile">
-			<color>${black}</color>
+			<color>${white}</color>
 			<backgroundColor>${transparent}</backgroundColor>
 			<fontSize>0.020</fontSize>
 			<fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
@@ -731,6 +731,186 @@
     </text>
 
   </customView>	
+
+<customView name="Carousel horizontal" inherits="grid" displayName="${carouselViewName}">
+	
+	<image name="system" extra="true">
+		<origin>0 0</origin>
+		<pos>0.01 0.06</pos>
+		<maxSize>0.25 0.1</maxSize>
+		 <color>${black}</color>
+		<zIndex>100</zIndex>            
+	</image>
+	
+	<text name="systemtext" extra="true">        
+		<size>0.35 0.1</size>
+		<pos>0.01 0.06</pos>
+		<color>${black}</color>
+		<fontSize>0.06</fontSize>
+		<forceUppercase>true</forceUppercase>
+		<autoScroll>horizontal</autoScroll>
+		 <zIndex>100</zIndex>            
+	</text>	
+	
+    <text name="md_name">
+      <color>ffffffff</color>
+      <pos>0 0.68</pos>
+      <size>1 0.10</size>
+      <alignment>center</alignment>
+      <glowColor>00000016</glowColor>
+      <glowSize>4</glowSize>
+    </text>
+    <imagegrid name="gamegrid">
+      <pos>0 0.01</pos>
+       <size>1 0.76</size>
+      <scrollDirection>horizontal</scrollDirection>
+      <autoLayout>5 1</autoLayout>
+      <autoLayoutSelectedZoom>1.30</autoLayoutSelectedZoom>
+      <centerSelection>true</centerSelection>
+      <scrollLoop>true</scrollLoop>
+    </imagegrid>
+    <gridtile name="default">
+      <padding>64 16</padding>
+      <imageSizeMode>maxSize</imageSizeMode>
+      <reflexion>0.24 0.0</reflexion>
+    </gridtile>
+    <gridtile name="selected">
+      <padding>64 16</padding>
+    </gridtile>
+    <text name="gridtile">
+      <visible>false</visible>
+    </text>
+
+  <image name="background" extra="true">
+       <tile>true</tile>
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 0.9</size>
+         <path>./tema/images/bg.png</path>
+		 <color>${white}</color>
+         <zIndex>1</zIndex>    
+      </image>     
+	  
+	  	  <image name="background3" extra="true">
+		   <tile>true</tile>
+			 <pos>0.00 0.9</pos>
+			 <size>1 0.1</size>
+			 <path>./tema/images/bg.png</path>
+			 <color>${white}</color>
+			 <zIndex>2</zIndex>    
+		  </image> 
+	 <!-- grafiche aggiuntive sfondo-->
+		
+	<image name="line2" extra="true">
+			<size>1 0.002</size>
+			<pos>0 0.77</pos>
+			<path>./tema/images/black.png</path>
+			 <color>${black}</color>
+			<zIndex>2</zIndex>					
+		</image>
+		
+	<image name="line3" extra="true">
+			<size>1 0.002</size>
+			<pos>0 0.94</pos>
+			<path>./tema/images/black.png</path>
+			 <color>${black}</color>
+			<zIndex>5</zIndex>				
+		</image>
+
+
+<!-- layout descrizione gioco -->	
+		<text name="md_description">
+			<color>${black}</color>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
+			<fontSize>0.02</fontSize>
+			<origin>0 0</origin>
+			<size>0.63 0.15</size>
+            <pos>0.35 0.78</pos>
+		</text>
+	<!-- rating gioco-->	
+      <rating name="md_rating">    
+         <pos>0.02 0.72</pos>
+         <size>0.02 0.02</size>
+		 <color>${black}</color>
+		 <zIndex>139</zIndex>
+    </rating>
+
+<!-- testo introduttivo sviluppatore gioco-->	
+      <image name="md_lbl_developer_icon" extra="true">
+		 <path>.\tema\icons\sviluppatore.svg</path>
+         <pos>0.02 0.783</pos>
+         <size>0.012 0</size>
+         <color>${black}</color>
+         <zIndex>3</zIndex> 
+      </image>
+	  <!-- sviluppatore gioco-->	
+      <text name="md_developer">
+		 <pos>0.04 0.78</pos>
+         <size>0.45 0</size>
+		 <fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
+		 <fontSize>0.02</fontSize>
+         <color>${black}</color>
+         <zIndex>3</zIndex>
+      </text>
+
+<!-- testo introduttivo genere gioco-->
+      <image name="md_lbl_genre_icon" extra="true">
+         <pos>0.02 0.823</pos>
+         <size>0.012 0</size>
+		 <path>.\tema\icons\genere.svg</path>
+         <color>${black}</color>
+         <zIndex>3</zIndex>                  
+      </image>
+	  	<!-- testo genere gioco-->
+      <text name="md_genre">
+		 <pos>0.04 0.82</pos>
+         <size>0.6 0</size>
+		 <fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
+		 <fontSize>0.02</fontSize>
+         <color>${black}</color>
+         <zIndex>3</zIndex>         
+      </text>
+
+     
+	<!-- testo introduttivo data di rilascio gioco-->	
+
+	  <image name="md_lbl_releasedate_icon" extra="true">
+		 <path>.\tema\icons\rilascio.svg</path>
+         <pos>0.02 0.863</pos>
+         <size>0.012 0</size>
+         <color>${black}</color>
+         <zIndex>3</zIndex> 
+      </image>
+<!-- data di rilascio gioco-->	
+	  <datetime name="md_releasedate">
+		 <pos>0.04 0.86</pos>
+         <size>0.6 0</size>
+		 <fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
+		 <fontSize>0.02</fontSize>
+         <color>${black}</color>
+         <zIndex>3</zIndex> 
+        </datetime>
+	  
+	  	<!-- testo introduttivo giocatori gioco-->
+	 <image name="md_lbl_players_icon" extra="true">
+		 <path>.\tema\icons\giocatori.svg</path>
+         <pos>0.02 0.903</pos>
+         <size>0.012 0</size>
+         <color>${black}</color>
+         <zIndex>3</zIndex> 
+      </image>
+	  
+	 <text name="md_players">
+		 <pos>0.04 0.90</pos>
+         <size>0.6 0</size>
+		 <fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
+		 <fontSize>0.02</fontSize>
+         <color>${black}</color>
+         <zIndex>3</zIndex> 
+      </text>
+
+  </customView>
 	
 <view name="basic, detailed, video,grid,gamecarousel">
 

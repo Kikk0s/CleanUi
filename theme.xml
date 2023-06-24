@@ -2,12 +2,13 @@
 <theme>
    <formatVersion>7</formatVersion>
    
+
 <!-- Configurazione tema --> 
    <include>./config.xml</include>
    <include>./views/gamecarousel.xml</include>
    <include>./tema/sistemi/${system.theme}.xml</include>
 
-	
+	 
 	<subset subset="Layout" name="Layout" displayName="Layout" >
 	<include name="Default">./subsets/layout/layout-default.xml</include>
 	<include name="Inverted">./subsets/layout/layout-inverted.xml</include>

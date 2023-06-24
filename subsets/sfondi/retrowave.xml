@@ -4,23 +4,45 @@
     <include>./config.xml</include>
   <view name="system">
 
-<video name="staticBackground">
+<image name="staticBackground" ifSubset="performance:yes">
+      <origin>0.5 0.5</origin>
+	  <pos>0.5 0.5</pos>
+	  <minSize>1 1</minSize>
+      <path>./subsets/sfondi/retrowave.jpg</path>
+	  <audio>false</audio>
+      <zIndex>4</zIndex>
+    </image>
+	
+<video name="staticBackground" ifSubset="performance:no">
       <origin>0.5 0.5</origin>
 	  <pos>0.5 0.5</pos>
 	  <minSize>1 1</minSize>
       <path>./subsets/sfondi/retrowave.mp4</path>
 	  <audio>false</audio>
       <zIndex>4</zIndex>
-    </video>	
+    </video>
+	
   </view>
-    <view name="detailed,video,gamecarousel,basic">  
-<video name="VideoBackground" extra="true">
+ 
+    <view name="detailed,video,gamecarousel,basic"> 
+
+<image name="VideoBackground" extra="true" ifSubset="performance:yes">
+      <origin>0.5 0.5</origin>
+	  <pos>0.5 0.5</pos>
+	  <minSize>1 1</minSize>
+      <path>./subsets/sfondi/retrowave.jpg</path>
+	  <audio>false</audio>
+      <zIndex>1</zIndex>
+    </image>
+	
+<video name="VideoBackground" extra="true" ifSubset="performance:no">
       <origin>0.5 0.5</origin>
 	  <pos>0.5 0.5</pos>
 	  <minSize>1 1</minSize>
       <path>./subsets/sfondi/retrowave.mp4</path>
 	  <audio>false</audio>
       <zIndex>1</zIndex>
-    </video>
+    </video>	
+
   </view>
 </theme>
