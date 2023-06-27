@@ -211,7 +211,7 @@
 					   <origin>0.5 0.5</origin>
 					   <pos>0.75 0.17</pos>
 					   <maxSize>0.25 0.1</maxSize>
-					   <color>${black}</color>
+					   <color>${white}</color>
 					   <zIndex>100</zIndex>            
 					</image>
 	</view>	
@@ -233,17 +233,26 @@
 					<text name="systemtext" extra="true">
 					  <size>0.50 0.2</size>
 					  <pos>0.5 0.10</pos>
-					 <color>${black}</color>
+					 <color>${white}</color>
 				     <fontSize>0.06</fontSize>
-				     <forceUppercase>true</forceUppercase>>
-					 <color>${black}</color>
+				     <forceUppercase>true</forceUppercase>
 					 <autoScroll>horizontal</autoScroll>
 					 <zIndex>100</zIndex>                       
-					</text>
+			</text>
+			
+      <helpsystem name="help">
+         <fontPath>./tema/fonts/Ubuntu-Light.ttf</fontPath>
+	     <fontSize>0.02</fontSize>
+		 <pos>0.025 0.95</pos>
+         <textColor>${white}</textColor>
+         <iconColor>${white}</iconColor>
+      </helpsystem>	
+
 	</view>		
 
+
 <!-- barra suggerimenti in basso -->
-   <view name="detailed,video,basic,grid,gamecarousel">
+   <view name="detailed,video,basic, gamecarousel">
       <helpsystem name="help">
          <fontPath>./tema/fonts/Ubuntu-Light.ttf</fontPath>
 	     <fontSize>0.02</fontSize>
@@ -410,16 +419,26 @@
          <pos>0.51 0.0</pos>
          <size>0.49 0.9</size>
          <path>./tema/images/bg.png</path>
-		 <color>${accent}</color>
+		 <color>${black}</color>
          <zIndex>2</zIndex>    
-      </image>     
+      </image>  
+
+      <image name="background2" extra="true">
+       <tile>true</tile>
+         <origin>0 0</origin>
+         <pos>0.0 0.9</pos>
+         <size>1 0.1</size>
+         <path>./tema/images/bg.png</path>
+		 <color>${black}</color>
+         <zIndex>2</zIndex>    
+      </image>    	  
 	  
 	  	  <image name="background3" extra="true">
 		   <tile>true</tile>
 			 <pos>0 0</pos>
 			 <size>1 1</size>
 			 <path>./tema/images/bg.png</path>
-			 <color>${dark_background_60}</color>
+			 <color>${accent_t}</color>
 			 <zIndex>1</zIndex>    
 		  </image> 
 	 <!-- grafiche aggiuntive sfondo-->
@@ -583,7 +602,7 @@
 		</image>    
 		
 		<text name="gridtile">
-			<color>${white}</color>
+			<color>${black}</color>
 			<backgroundColor>${transparent}</backgroundColor>
 			<fontSize>0.020</fontSize>
 			<fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
@@ -592,8 +611,8 @@
 			<size>1 0.24</size>
 		</text>
 		<text name="gridtile_selected">
-			<color>${white}</color>
-			<glowColor>${accent}</glowColor>
+			<color>${black}</color>
+			<glowColor>${white}</glowColor>
 			<fontSize>0.02</fontSize>
 			<forceUppercase>1</forceUppercase>
 			<glowSize>2</glowSize>
@@ -615,7 +634,7 @@
 
 <!-- layout descrizione gioco -->	
 		<text name="md_description">
-			<color>${black}</color>
+			<color>${white}</color>
 			<forceUppercase>0</forceUppercase>
 			<fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
 			<fontSize>0.02</fontSize>
@@ -627,7 +646,7 @@
       <rating name="md_rating">    
          <pos>0.9 0.28</pos>
          <size>0.02 0.02</size>
-		 <color>${black}</color>
+		 <color>${white}</color>
 		 <zIndex>3</zIndex>
     </rating>
 
@@ -636,7 +655,7 @@
 		 <path>.\tema\icons\sviluppatore.svg</path>
          <pos>0.53 0.283</pos>
          <size>0.012 0</size>
-         <color>${black}</color>
+         <color>${white}</color>
          <zIndex>3</zIndex> 
       </image>
 	  <!-- sviluppatore gioco-->	
@@ -645,7 +664,7 @@
          <size>0.6 0</size>
 		 <fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
 		 <fontSize>0.02</fontSize>
-         <color>${black}</color>
+         <color>${white}</color>
          <zIndex>3</zIndex>
       </text>
 
@@ -654,7 +673,7 @@
          <pos>0.53 0.313</pos>
          <size>0.012 0</size>
 		 <path>.\tema\icons\genere.svg</path>
-         <color>${black}</color>
+         <color>${white}</color>
          <zIndex>3</zIndex>                  
       </image>
 	  	<!-- testo genere gioco-->
@@ -663,7 +682,7 @@
          <size>0.6 0</size>
 		 <fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
 		 <fontSize>0.02</fontSize>
-         <color>${black}</color>
+         <color>${white}</color>
          <zIndex>3</zIndex>         
       </text>
 
@@ -674,7 +693,7 @@
 		 <path>.\tema\icons\rilascio.svg</path>
          <pos>0.53 0.343</pos>
          <size>0.012 0</size>
-         <color>${black}</color>
+         <color>${white}</color>
          <zIndex>3</zIndex> 
       </image>
 <!-- data di rilascio gioco-->	
@@ -683,7 +702,7 @@
          <size>0.6 0</size>
 		 <fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
 		 <fontSize>0.02</fontSize>
-         <color>${black}</color>
+         <color>${white}</color>
          <zIndex>3</zIndex> 
         </datetime>
 	  
@@ -692,7 +711,7 @@
 		 <path>.\tema\icons\giocatori.svg</path>
          <pos>0.53 0.373</pos>
          <size>0.012 0</size>
-         <color>${black}</color>
+         <color>${white}</color>
          <zIndex>3</zIndex> 
       </image>
 	  
@@ -701,7 +720,7 @@
          <size>0.6 0</size>
 		 <fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
 		 <fontSize>0.02</fontSize>
-         <color>${black}</color>
+         <color>${white}</color>
          <zIndex>3</zIndex> 
       </text>
 	</view>
@@ -762,8 +781,8 @@
          <fontPath>./tema/fonts/Ubuntu-Light.ttf</fontPath>
 	     <fontSize>0.02</fontSize>
 		 <pos>0.025 0.96</pos>
-         <textColor>${black}</textColor>
-         <iconColor>${black}</iconColor>
+         <textColor>${white}</textColor>
+         <iconColor>${white}</iconColor>
       </helpsystem>
 	
     <text name="md_name">
@@ -801,16 +820,26 @@
          <pos>0 0.77</pos>
          <size>1 0.9</size>
          <path>./tema/images/bg.png</path>
-		 <color>${accent}</color>
+		 <color>${black}</color>
          <zIndex>2</zIndex>    
-      </image>     
+      </image>  
+
+      <image name="background2" extra="true">
+       <tile>true</tile>
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 0.77</size>
+         <path>./tema/images/bg.png</path>
+		 <color>${accent_t}</color>
+         <zIndex>2</zIndex>    
+      </image>     	  
 	  
 	  	  <image name="background3" extra="true">
 		   <tile>true</tile>
 			 <pos>0.00 0.9</pos>
 			 <size>1 0.1</size>
 			 <path>./tema/images/bg.png</path>
-			 <color>${dark_background_60}</color>
+			 <color>${black}</color>
 			 <zIndex>1</zIndex>    
 		  </image> 
 	 <!-- grafiche aggiuntive sfondo-->
@@ -833,7 +862,7 @@
 
 <!-- layout descrizione gioco -->	
 		<text name="md_description">
-			<color>${black}</color>
+			<color>${white}</color>
 			<forceUppercase>0</forceUppercase>
 			<fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
 			<fontSize>0.02</fontSize>
@@ -845,7 +874,7 @@
       <rating name="md_rating">    
          <pos>0.02 0.72</pos>
          <size>0.02 0.02</size>
-		 <color>${accent}</color>
+		 <color>${black}</color>
 		 <zIndex>139</zIndex>
     </rating>
 
@@ -854,7 +883,7 @@
 		 <path>.\tema\icons\sviluppatore.svg</path>
          <pos>0.02 0.783</pos>
          <size>0.012 0</size>
-         <color>${black}</color>
+         <color>${white}</color>
          <zIndex>3</zIndex> 
       </image>
 	  <!-- sviluppatore gioco-->	
@@ -863,7 +892,7 @@
          <size>0.45 0</size>
 		 <fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
 		 <fontSize>0.02</fontSize>
-         <color>${black}</color>
+         <color>${white}</color>
          <zIndex>3</zIndex>
       </text>
 
@@ -872,7 +901,7 @@
          <pos>0.02 0.823</pos>
          <size>0.012 0</size>
 		 <path>.\tema\icons\genere.svg</path>
-         <color>${black}</color>
+         <color>${white}</color>
          <zIndex>3</zIndex>                  
       </image>
 	  	<!-- testo genere gioco-->
@@ -881,7 +910,7 @@
          <size>0.6 0</size>
 		 <fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
 		 <fontSize>0.02</fontSize>
-         <color>${black}</color>
+         <color>${white}</color>
          <zIndex>3</zIndex>         
       </text>
 
@@ -892,7 +921,7 @@
 		 <path>.\tema\icons\rilascio.svg</path>
          <pos>0.02 0.863</pos>
          <size>0.012 0</size>
-         <color>${black}</color>
+         <color>${white}</color>
          <zIndex>3</zIndex> 
       </image>
 <!-- data di rilascio gioco-->	
@@ -901,7 +930,7 @@
          <size>0.6 0</size>
 		 <fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
 		 <fontSize>0.02</fontSize>
-         <color>${black}</color>
+         <color>${white}</color>
          <zIndex>3</zIndex> 
         </datetime>
 	  
@@ -910,7 +939,7 @@
 		 <path>.\tema\icons\giocatori.svg</path>
          <pos>0.02 0.903</pos>
          <size>0.012 0</size>
-         <color>${black}</color>
+         <color>${white}</color>
          <zIndex>3</zIndex> 
       </image>
 	  
@@ -919,7 +948,7 @@
          <size>0.6 0</size>
 		 <fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
 		 <fontSize>0.02</fontSize>
-         <color>${black}</color>
+         <color>${white}</color>
          <zIndex>3</zIndex> 
       </text>
 
