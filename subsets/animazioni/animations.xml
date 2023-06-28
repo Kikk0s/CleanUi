@@ -107,7 +107,7 @@
 			</storyboard>
 		</image>
 		
-	  		<image name="logo" ifSubset="Carousel:horizontal">
+	  		<image name="logo" ifSubset="Carousel:horizontal|Horizontal_wheel">
 		<linearSmooth>true</linearSmooth>
 			<storyboard event="activate">
 				<animation property="opacity" from="0" to="1" duration="150" mode="Linear"/>
@@ -148,7 +148,7 @@
 			</storyboard>
 		</image>
 		
-		 		<image name="logoText" ifSubset="Carousel:horizontal">
+		 		<image name="logoText" ifSubset="Carousel:horizontal|Horizontal_wheel">
 		<linearSmooth>true</linearSmooth>
 			<storyboard event="activate">
 				<animation property="opacity" from="0" to="1" duration="150" mode="Linear"/>

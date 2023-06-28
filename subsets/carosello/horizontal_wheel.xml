@@ -8,11 +8,14 @@
 <view name="system">
     <carousel name="systemcarousel">
         <type>horizontal_wheel</type>
-        <pos>0 0</pos>
-		<origin>0 0</origin>
+        <pos>0.5 0</pos>
+		<origin>0.5 0</origin>
         <logoAlignment>center</logoAlignment>		
         <size>1 0.49</size>
-        <logoSize>0.30 0.205</logoSize>		
+        <logoSize>0.27 0.205</logoSize>
+        <logoScale>1.3</logoScale>    
+		<logoRotation>7.8</logoRotation>
+		<logoRotationOrigin>0.5 25</logoRotationOrigin>		
         <maxLogoCount>3</maxLogoCount>
 		<zIndex>138</zIndex>
 		<systemInfoDelay>700</systemInfoDelay>
