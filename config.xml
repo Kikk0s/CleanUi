@@ -31,7 +31,7 @@
 	 <ControllerIcon>Controller Icon</ControllerIcon>  	 
 	 <ReflexionsEffect>Reflexions Effect</ReflexionsEffect>  	 
 	 <RatingStyle>Rating Style</RatingStyle> 
-	 <Hearth>Hearth</Hearth> 
+	 <Heart>Heart</Heart> 
 	 <Star>Star</Star> 
 	 <Hexagon>Hexagon</Hexagon>
 	 <Circle>Circle</Circle>   	 	 
@@ -41,7 +41,10 @@
 	 <Regular>Regular</Regular>
 	 <Small>Small</Small> 
 	 <TitlesFont>Titles Font</TitlesFont> 
- 
+	 <Basic>Basic</Basic> 
+	 <Full>Full</Full> 		 
+	 
+
 	</variables>   
 	
 <!--Stile Carosello -->
@@ -153,7 +156,8 @@
 
 <!--animazioni -->
 	<subset subset="animations" name="Animations" displayName="${Animations}">
-	<include name="Yes" displayName="${yes}">./subsets/animazioni/animations.xml</include>
+	<include name="Basic" displayName="${Basic}">./subsets/animazioni/animations.xml</include>
+	<include name="Full" displayName="${Full}">./subsets/animazioni/animationsfull.xml</include>
 	<include name="No" displayName="${no}">./subsets/animazioni/noanimations.xml</include>
 	</subset>
 

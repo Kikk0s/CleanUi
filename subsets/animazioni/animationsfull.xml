@@ -58,15 +58,22 @@
 	  <storyboard>
 			 <animation property="origin" from="0 -1" to="0 -1" duration="1000" mode="EaseOutCubic"/>
 			 <animation property="origin" from="0 -1" to="0 0" begin="1000" duration="900" mode="EaseOutCubic"/>
+			 
 	  </storyboard>
     </image>
 		 
+ <!--	 <image name="effect" extra="true">
+		  <storyboard>
+				<animation property="scale" from="1" to="1.01" begin="2150" duration="300" autoreverse="true" repeat="forever" mode="easeIn"/>
+		  </storyboard>
+    </image> -->
 	
 	
 		 <!-- info extra sistemi-->
 	<text name="systemInfo"> 
    <storyboard>
 			<animation property="opacity" from="0.0" to="1" duration="2150" mode="EaseInCubic"/>
+			<animation property="opacity" from="0.6" to="1" begin="2150" duration="500" mode="EaseInCubic" autoReverse="true" repeat="forever"/>
 	</storyboard>
     </text>	
 	
@@ -86,6 +93,8 @@
 			<storyboard event="activate">
 				<animation property="opacity" from="0" to="1" duration="150" mode="Linear"/>
 				<animation property="opacity" from="1" to="0.8" begin="1150" duration="1000" mode="EaseIn" autoReverse="true" repeat="forever"/>
+				<animation property="scale" from="1" to="1.05" begin="2150" duration="500" autoreverse="true" repeat="forever" mode="easeIn"/>
+				<!-- <animation property="offsetY" to="0.01" begin="2150" duration="300" autoreverse="true" repeat="forever" mode="easeIn"/> -->
 			</storyboard>
 			<storyboard event="scroll">
 				<animation property="x" to="-0.5" begin="1500" duration="320" mode="EaseInCubic"/>
@@ -106,6 +115,7 @@
 			<storyboard event="activate">
 				<animation property="opacity" from="0" to="1" duration="150" mode="Linear"/>
 				<animation property="opacity" from="1" to="0.8" begin="1150" duration="1000" mode="EaseIn" autoReverse="true" repeat="forever"/>
+				<animation property="scale" from="1" to="1.05" begin="2150" duration="500" autoreverse="true" repeat="forever" mode="easeIn"/>
 			</storyboard>
 			<storyboard event="scroll">
 				<animation property="y" to="-0.5" begin="1500" duration="320" mode="EaseInCubic"/>
@@ -127,6 +137,7 @@
 			<storyboard event="activate">
 				<animation property="opacity" from="0" to="1" duration="150" mode="Linear"/>
 				<animation property="opacity" from="1" to="0.8" begin="1150" duration="1000" mode="EaseIn" autoReverse="true" repeat="forever"/>
+				<animation property="scale" from="1" to="1.05" begin="2150" duration="500" autoreverse="true" repeat="forever" mode="easeIn"/>
 			</storyboard>
 			<storyboard event="scroll">
 				<animation property="x" to="-0.5" begin="1500" duration="320" mode="EaseInCubic"/>
@@ -147,6 +158,7 @@
 			<storyboard event="activate">
 				<animation property="opacity" from="0" to="1" duration="150" mode="Linear"/>
 				<animation property="opacity" from="1" to="0.8" begin="1150" duration="1000" mode="EaseIn" autoReverse="true" repeat="forever"/>
+				<animation property="scale" from="1" to="1.05" begin="2150" duration="500" autoreverse="true" repeat="forever" mode="easeIn"/>
 			</storyboard>
 			<storyboard event="scroll">
 				<animation property="y" to="-0.5" begin="1500" duration="320" mode="EaseInCubic"/>
@@ -218,11 +230,13 @@
 		<image name="system" extra="true">		
 		<storyboard>
 			<animation property="offsetX" from="-1" to="0" duration="2000" mode="easeOut"/>
+			<animation property="scale" from="1" to="1.05" begin="2000" duration="500" autoreverse="true" repeat="forever" mode="easeIn"/>
 		</storyboard>				
 	</image>
 			<text name="systemtext" extra="true">		
 		<storyboard>
 			<animation property="offsetX" from="-1" to="0" duration="2000" mode="easeOut"/>
+			<animation property="scale" from="1" to="1.05" begin="2000" duration="500" autoreverse="true" repeat="forever" mode="easeIn"/>
 		</storyboard>				
 	</text>
 </view> 

@@ -105,7 +105,7 @@
 	<view name="system">
 
     <carousel name="systemcarousel">
-        <color>ffffffE6</color>
+        <color>ffffffCC</color>
       </carousel>
 	  
 	<carousel name="systemcarousel" ifSubset="Background:FanArt">
@@ -280,22 +280,13 @@
 			 <size>0.95 0.64</size>
 			 <alignment>center</alignment>                       
 		  </textlist>
-		  <!-- sfondo lista giochi -->
+		  <!-- sfondo lista giochi -->  
 		  <image name="background" extra="true">
-			 <tile>true</tile>
-			 <pos>0 0.0</pos>
-			 <size>1 0.9</size>
-			 <path>./tema/images/bg.png</path>
-			 <color>fffffff7</color>
-			<zIndex>1</zIndex> 
-		</image>
-		  
-		  <image name="background2" extra="true">
 		   <tile>true</tile>
-			 <pos>0.00 0.9</pos>
-			 <size>1 0.1</size>
+			 <pos>0.00 0</pos>
+			 <size>1 1</size>
 			 <path>./tema/images/bg.png</path>
-			 <color>fffffff7</color>
+			 <color>ffffffcc</color>
 			 <zIndex>2</zIndex>    
 		  </image>  
 		<!-- grafiche aggiuntive sfondo-->
@@ -343,7 +334,7 @@
 			  <pos>0.50 0.0</pos>
 			 <size>0.50 0.90</size>
 			 <path>./tema/images/bg.png</path>
-			 <color>ffffffcc</color>
+			 <color>ffffffF7</color>
 			 <cornerSize>0.05</cornerSize>
 			 <zIndex>2</zIndex>    
 		  </image>   	  
@@ -353,7 +344,7 @@
 			 <pos>0.00 0.0</pos>
 			 <size>0.5 0.90</size>
 			 <path>./tema/images/bg.png</path>
-			 <color>fffffff7</color>
+			 <color>ffffffCC</color>
 			 <zIndex>2</zIndex>    
 		  </image>   
 		  
@@ -362,7 +353,7 @@
 			 <pos>0.00 0.9</pos>
 			 <size>1 0.1</size>
 			 <path>./tema/images/bg.png</path>
-			 <color>fffffff7</color>
+			 <color>ffffffCC</color>
 			 <zIndex>2</zIndex>    
 		  </image>  
 

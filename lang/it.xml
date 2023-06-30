@@ -33,7 +33,7 @@
 	 <ControllerIcon>Stile icona dei Controllers</ControllerIcon>  	 
 	 <ReflexionsEffect>Riflessi</ReflexionsEffect>  	 
 	 <RatingStyle>Stile valutazione gioco</RatingStyle> 
-	 <Hearth>Cuore</Hearth> 
+	 <Heart>Cuore</Heart> 
 	 <Star>Stella</Star> 
 	 <Hexagon>Esagono</Hexagon>
 	 <Circle>Cerchio</Circle>   	 	 
@@ -43,5 +43,7 @@
 	 <Regular>Normale</Regular>
 	 <Small>Piccolo</Small> 
 	 <TitlesFont>Font dei titoli</TitlesFont>
+	 <Basic>Base</Basic> 
+	 <Full>Complete</Full> 	
   </variables>
 </theme>
