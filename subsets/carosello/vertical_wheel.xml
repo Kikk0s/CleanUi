@@ -25,9 +25,9 @@
 		<origin>0 0</origin>
         <logoAlignment>center</logoAlignment> 
         <size>0.49 1</size>
-        <logoScale>2</logoScale>    
+        <logoScale>1.3</logoScale>    
         <logoSize>0.15 0.15</logoSize>
-        <maxLogoCount>3</maxLogoCount>
+        <maxLogoCount>5</maxLogoCount>
 		<zIndex>138</zIndex>
 		<systemInfoDelay>700</systemInfoDelay>
       </carousel>  
