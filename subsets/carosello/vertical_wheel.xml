@@ -5,20 +5,7 @@
   <!-- Configurazione tema --> 
    <include>./config.xml</include>
 
-<view name="system">
-    <carousel name="systemcarousel" ifSubset="Reflexions effect:Yes"> 
-        <type>vertical_wheel</type>
-        <pos>0 0</pos>
-		<origin>0 0</origin>
-        <logoAlignment>center</logoAlignment> 
-        <size>0.49 1</size>
-        <logoSize>0.22 0.155</logoSize>
-        <logoScale>1.3</logoScale>    
-        <maxLogoCount>3</maxLogoCount>
-		<zIndex>138</zIndex>
-		<systemInfoDelay>700</systemInfoDelay>
-      </carousel>  
-
+<view name="system"> 
     <carousel name="systemcarousel" ifSubset="Reflexions effect:No">
         <type>vertical_wheel</type>
         <pos>0 0</pos>
@@ -31,7 +18,20 @@
 		<zIndex>138</zIndex>
 		<systemInfoDelay>700</systemInfoDelay>
       </carousel>  
-	  
+	
+    <carousel name="systemcarousel" ifSubset="Reflexions effect:Yes"> 
+        <type>vertical_wheel</type>
+        <pos>0 0</pos>
+		<origin>0 0</origin>
+        <logoAlignment>center</logoAlignment> 
+        <size>0.49 1</size>
+       <logoSize>0.15 0.15</logoSize>
+        <logoScale>2</logoScale>    
+        <maxLogoCount>3</maxLogoCount>
+		<zIndex>138</zIndex>
+		<systemInfoDelay>700</systemInfoDelay>
+      </carousel> 
+	
 <image name="Background2" extra="true">
       <size>0.511 1</size>
       <pos>0.489 0</pos>

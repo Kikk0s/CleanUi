@@ -614,7 +614,7 @@
 		</imagegrid>
         <gridtile name="default">
 			<backgroundImage>./tema/images/bg.png</backgroundImage>
-			<backgroundColor>${black}</backgroundColor>
+			<backgroundColor>${transparent}</backgroundColor>
 		</gridtile>
 
 <!-- layout descrizione gioco -->	
@@ -714,17 +714,16 @@
   <customView name="Carousel" inherits="grid" displayName="${carouselViewName}">
     <text name="md_name">
       <color>ffffffff</color>
-      <pos>0 0.75</pos>
+      <pos>0 0.80</pos>
       <size>0.5 0.10</size>
-		  <fontSize>0.04</fontSize>
       <alignment>center</alignment>
       <glowColor>00000016</glowColor>
 	  <fontSize>0.03</fontSize>
       <glowSize>4</glowSize>
     </text>
     <imagegrid name="gamegrid">
-      <pos>0 0.15</pos>
-       <size>0.5 0.75</size>
+      <pos>0 0</pos>
+       <size>0.5 0.90</size>
       <scrollDirection>horizontal</scrollDirection>
       <autoLayout>3 1</autoLayout >
       <autoLayoutSelectedZoom>1.50</autoLayoutSelectedZoom>
