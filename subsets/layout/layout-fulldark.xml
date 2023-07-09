@@ -708,6 +708,7 @@
       <size>0.5 0.10</size>
       <alignment>center</alignment>
       <glowColor>00000016</glowColor>
+	  <fontSize>0.03</fontSize>
       <glowSize>4</glowSize>
     </text>
     <imagegrid name="gamegrid">
@@ -759,6 +760,7 @@
       <size>1 0.10</size>
       <alignment>center</alignment>
       <glowColor>00000016</glowColor>
+	  <fontSize>0.03</fontSize>
       <glowSize>4</glowSize>
     </text>
     <imagegrid name="gamegrid">
@@ -961,4 +963,290 @@
 </view>
 
 
+		<!-- Impostazioni per piccoli schermi--> 
+
+		<view name="menu" ifSubset="SmallScreen:yes">
+			<menuText name="menutitle">
+			  <fontSize>0.06</fontSize>
+			</menuText>
+		<!-- Menu batocera tutti i testi--> 
+		<text name="systemInfo">
+					<pos>0.0 0.61</pos>
+					<fontSize>0.035</fontSize>
+		</text>	
+		<menuText name="menufooter">
+					<fontSize>0.02</fontSize>
+		</menuText>
+		<menuText name="menutext">
+			  <fontSize>0.035</fontSize>
+		</menuText>
+		<menuTextSmall name="menutextsmall">
+					<fontSize>0.035</fontSize>
+		</menuTextSmall>
+		
+		</view>
+
+<view name="system" ifSubset="SmallScreen:yes"> 
+
+	  
+<!-- Descrizione Sistema -->	
+		
+		<text name="Descrizione" extra="true"> 
+			<fontSize>0.03</fontSize>
+		</text>
+<!-- barra suggerimenti in basso -->
+	  <helpsystem name="help">   
+		  <textColor>${transparent}</textColor>
+         <iconColor>${transparent}</iconColor>
+      </helpsystem>
+	  
+	<text name="Descrizione" extra="true" ifSubset="Carousel:Vertical_wheel|vertical">    
+			<size>0.49 0.72</size>
+			<pos>0.50 0.175</pos>
+	</text>	
+
+	<text name="Descrizione" extra="true" ifSubset="Carousel:Horizontal_wheel|horizontal"> 
+			<size>0.9 0.28</size>
+			<pos>0.05 0.63</pos>
+	</text>	
+
+	<text name="systemInfo" ifSubset="Carousel:Horizontal_wheel|horizontal">
+			 <pos>0.05 0.92</pos>
+			 <size>0.5 0.069</size>	
+	</text> 
+	
+	<text name="systemInfo" ifSubset="Carousel:Vertical_wheel|vertical">   
+			 <pos>0.5 0.92</pos>
+			 <size>0.5 0.069</size>	
+	</text> 
+
+<text name="systemInfoEx" extra="true">
+
+		<color>${transparent}</color>   
+    </text>	
+
+	<image name="controllersinfo" extra="true">
+		<color>${transparent}</color>   
+		</image>	
+</view> 		
+
+<!-- barra suggerimenti in basso -->
+   	<view name="detailed,video,basic,grid,gamecarousel" ifSubset="SmallScreen:yes">   
+	   <helpsystem name="help">		
+		 <textColor>${transparent}</textColor>
+         <iconColor>${transparent}</iconColor>
+      </helpsystem>
+   </view>
+
+<!-- lista giochi caratteristiche testo -->
+
+	<view name="basic,detailed,video" ifSubset="SmallScreen:yes"> 
+		<textlist name="gamelist">      
+			<fontSize>0.03</fontSize>
+		</textlist>  
+	</view> 
+
+<view name="detailed,video,gamecarousel" ifSubset="SmallScreen:yes">    
+	
+	  <!-- layout descrizione gioco -->	
+		
+ <!-- rating gioco-->	
+      <rating name="md_rating">    
+         <pos>0.40 0.93</pos>
+		 <size>0.05 0.05</size>
+		 <color>${white}</color>    
+    </rating>
+
+<!-- testo introduttivo sviluppatore gioco-->	
+      <image name="md_lbl_developer_icon" extra="true">
+		<autoScroll>horizontal</autoScroll>
+         <pos>0.51 0.1</pos>
+         <size>0.03 0</size>
+      </image>
+	  <!-- sviluppatore gioco-->	
+      <text name="md_developer">
+		 <pos>0.55 0.1</pos>
+         <size>0.3 0.05</size>
+		 <fontSize>0.03</fontSize>
+      </text>
+
+<!-- testo introduttivo genere gioco-->
+      <image name="md_lbl_genre_icon" extra="true">
+         <color>${transparent}</color>                  
+      </image>
+	  	<!-- testo genere gioco-->
+      <text name="md_genre">
+		 <color>${transparent}</color>       
+      </text>
+
+     
+	<!-- testo introduttivo data di rilascio gioco-->	
+
+	  <image name="md_lbl_releasedate_icon" extra="true">
+         <pos>0.51 0.15</pos>
+         <size>0.03 0</size>
+      </image>
+<!-- data di rilascio gioco-->	
+	  <datetime name="md_releasedate">
+		 <pos>0.55 0.15</pos>
+         <size>0.3 0</size>
+		 <fontSize>0.03</fontSize>
+        </datetime>
+	  
+	  	<!-- testo introduttivo giocatori gioco-->
+	 <image name="md_lbl_players_icon" extra="true">
+		 <color>${transparent}</color>
+      </image>
+	  
+	 <text name="md_players">
+		 <color>${transparent}</color>
+      </text>		
+		
+		<text name="md_description">    
+			<fontSize>0.03</fontSize>
+		</text>
+			
+</view>
+   
+<view name="grid" ifSubset="SmallScreen:yes">
+
+      <rating name="md_rating">    
+         <pos>0.40 0.93</pos>
+		 <size>0.05 0.05</size>
+		 <color>${white}</color>    
+    </rating>
+
+<!-- testo introduttivo sviluppatore gioco-->	
+      <image name="md_lbl_developer_icon" extra="true">
+         <pos>0.53 0.283</pos>
+         <size>0.03 0</size>
+      </image>
+	  <!-- sviluppatore gioco-->	
+      <text name="md_developer">
+		<autoScroll>horizontal</autoScroll>
+		 <pos>0.57 0.28</pos>
+         <size>0.3 0.03</size>
+		 <fontSize>0.03</fontSize>
+      </text>
+
+<!-- testo introduttivo genere gioco-->
+      <image name="md_lbl_genre_icon" extra="true">
+         <color>${transparent}</color>               
+      </image>
+	  	<!-- testo genere gioco-->
+      <text name="md_genre">
+         <color>${transparent}</color>          
+      </text>
+
+     
+	<!-- testo introduttivo data di rilascio gioco-->	
+
+	  <image name="md_lbl_releasedate_icon" extra="true">
+         <pos>0.53 0.343</pos>
+         <size>0.03 0</size>
+      </image>
+<!-- data di rilascio gioco-->	
+	  <datetime name="md_releasedate">
+		 <pos>0.57 0.34</pos>
+         <size>0.3 0</size>
+		 <fontSize>0.03</fontSize>
+        </datetime>
+	  
+	  	<!-- testo introduttivo giocatori gioco-->
+	 <image name="md_lbl_players_icon" extra="true">
+         <color>${transparent}</color>  
+      </image>
+	  
+	 <text name="md_players">
+         <color>${transparent}</color>  
+      </text>
+
+		<text name="md_description" >    
+			<fontSize>0.03</fontSize>
+		</text>
+	</view>
+	
+  <customView name="Carousel" inherits="grid" displayName="${carouselViewName}">
+  
+    <gridtile name="default"  ifSubset="SmallScreen:yes"> 
+      <padding>16 16</padding>
+      <imageSizeMode>maxSize</imageSizeMode>
+      <reflexion>0.24 0.0</reflexion>
+    </gridtile>
+    <gridtile name="selected"  ifSubset="SmallScreen:yes"> 
+      <padding>16 16</padding>
+    </gridtile>
+
+  </customView>
+  
+   <customView name="Carousel horizontal" inherits="grid" displayName="${carouselViewName}" ifSubset="SmallScreen:yes">
+			
+		<gridtile name="default"> 
+		  <padding>16 16</padding>
+		  <imageSizeMode>maxSize</imageSizeMode>
+		  <reflexion>0.24 0.0</reflexion>
+		</gridtile>
+		<gridtile name="selected"> 
+		  <padding>16 16</padding>
+		</gridtile>
+<!-- layout descrizione gioco -->	
+
+		<text name="md_description">    
+			<fontSize>0.03</fontSize>
+		</text>
+		
+      <rating name="md_rating">    
+         <pos>0.42 0.95</pos>
+		 <size>0.04 0.04</size>
+		 <color>${white}</color>
+    </rating>
+
+
+<!-- testo introduttivo sviluppatore gioco-->	
+      <image name="md_lbl_developer_icon" extra="true">
+         <pos>0.02 0.783</pos>
+         <size>0.03 0</size>
+      </image>
+	  <!-- sviluppatore gioco-->	
+      <text name="md_developer">
+		<autoScroll>horizontal</autoScroll>
+		 <pos>0.06 0.78</pos>
+         <size>0.25 0</size>
+		 <fontSize>0.03</fontSize>
+      </text>
+
+<!-- testo introduttivo genere gioco-->
+      <image name="md_lbl_genre_icon" extra="true">
+         <color>${transparent}</color>                 
+      </image>
+	  	<!-- testo genere gioco-->
+      <text name="md_genre">
+         <color>${transparent}</color>     
+      </text>
+
+     
+	<!-- testo introduttivo data di rilascio gioco-->	
+
+	  <image name="md_lbl_releasedate_icon" extra="true">
+		 <path>.\tema\icons\rilascio.svg</path>
+         <pos>0.02 0.863</pos>
+         <size>0.03 0</size>
+      </image>
+<!-- data di rilascio gioco-->	
+	  <datetime name="md_releasedate">
+		 <pos>0.06 0.86</pos>
+         <size>0.25 0</size>
+		 <fontSize>0.03</fontSize>
+        </datetime>
+	  
+	  	<!-- testo introduttivo giocatori gioco-->
+	 <image name="md_lbl_players_icon" extra="true">
+         <color>${transparent}</color>
+      </image>
+	  
+	 <text name="md_players">
+         <color>${transparent}</color>
+      </text>
+
+  </customView>
 </theme>

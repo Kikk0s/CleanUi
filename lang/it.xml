@@ -45,5 +45,6 @@
 	 <TitlesFont>Font dei titoli</TitlesFont>
 	 <Basic>Base</Basic> 
 	 <Full>Complete</Full> 	
+	 <SmallScreen>Ottimizza per piccoli schermi</SmallScreen> 
   </variables>
 </theme>

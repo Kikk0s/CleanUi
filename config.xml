@@ -42,10 +42,17 @@
 	 <Small>Small</Small> 
 	 <TitlesFont>Titles Font</TitlesFont> 
 	 <Basic>Basic</Basic> 
-	 <Full>Full</Full> 		 
-	 
-
+	 <Full>Full</Full> 	
+	 <SmallScreen>Tiny screen</SmallScreen> 			 
 	</variables>   
+
+<!--Schermo piccolo -->
+	<subset subset="SmallScreen" name="SmallScreen" displayName="${SmallScreen}">
+	<include name="no" displayName="${no}">./subsets/screen/no.xml</include>
+	<include name="yes" displayName="${yes}">./subsets/screen/yes.xml</include>
+	</subset>
+
+
 	
 <!--Stile Carosello -->
 	<subset subset="systemview" name="Carousel" displayName="${SystemsCarouselStyle}">
@@ -64,14 +71,14 @@
 	
 <!--Stile Carosello giochi -->
 	<subset subset="Game Carousel source" name="Game Carousel source" displayName="${GameCarouselSource}" appliesTo="gamecarousel">
-	<include name="text" displayName="${text}">./subsets/carosellogiochi/testo.xml</include>
 	<include name="marquee" displayName="${marquee}">./subsets/carosellogiochi/marquee.xml</include>
+	<include name="text" displayName="${text}">./subsets/carosellogiochi/testo.xml</include>
 	</subset>
 	
 	<!--Stile Carosello giochi -->
 	<subset subset="Game Carousel Style" name="Game Carousel Style" displayName="${GameCarouselStyle}" appliesTo="gamecarousel">
-	<include name="Vertical" displayName="${vertical}">./subsets/carosellogiochi/vertical.xml</include>
 	<include name="Vertical_wheel" displayName="${Vertical_wheel}">./subsets/carosellogiochi/wheel.xml</include>
+	<include name="Vertical" displayName="${vertical}">./subsets/carosellogiochi/vertical.xml</include>
 	</subset>
 	
 	<!--Stile Carosello giochi -->
@@ -156,8 +163,8 @@
 
 <!--animazioni -->
 	<subset subset="animations" name="Animations" displayName="${Animations}">
-	<include name="Basic" displayName="${Basic}">./subsets/animazioni/animations.xml</include>
 	<include name="Full" displayName="${Full}">./subsets/animazioni/animationsfull.xml</include>
+	<include name="Basic" displayName="${Basic}">./subsets/animazioni/animations.xml</include>
 	<include name="No" displayName="${no}">./subsets/animazioni/noanimations.xml</include>
 	</subset>
 
@@ -169,8 +176,8 @@
 	
 <!--Riflessi -->	
 	<subset subset="Reflexions" name="Reflexions effect" displayName="${ReflexionsEffect}">
-	<include name="No" displayName="${no}">./subsets/reflexions/no.xml</include>
 	<include name="Yes" displayName="${yes}">./subsets/reflexions/si.xml</include>
+	<include name="No" displayName="${no}">./subsets/reflexions/no.xml</include>
 	</subset>	
 	
 <!--stile rating -->
