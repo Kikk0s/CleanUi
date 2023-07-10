@@ -75,11 +75,12 @@
        <color>${black}</color>
     </image>
 	
-    <text name="label">
+	 <text name="label">  
       <color>${accent}</color>
-      <fontSize>0.03</fontSize>
+      <fontSize>0.05</fontSize>
 	  <zIndex>8</zIndex>
     </text>
+	
 	
 	 <text name="label" ifSubset="Layout:Full Light">
       <color>${black}</color>
