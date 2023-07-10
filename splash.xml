@@ -104,7 +104,7 @@
 
 		<text name="label">
 		  <color>${accent}</color>
-		  <fontSize>0.06</fontSize>		 
+		  <fontSize>0.03</fontSize>		 
 		  <zIndex>8</zIndex>
 		</text>
 		
