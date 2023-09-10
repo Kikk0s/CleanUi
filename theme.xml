@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<theme>
+<theme defaultView="Carousel">
    <formatVersion>7</formatVersion>
    
 
@@ -7,6 +7,7 @@
    <include>./config.xml</include>
    <include>./views/gamecarousel.xml</include>
    <include>./tema/sistemi/${system.theme}.xml</include>
+
 
 	 
 	<subset subset="Layout" name="Layout" displayName="Layout" >

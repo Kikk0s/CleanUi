@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+		<text name="DataRilascio" extra="true">
+			<text>1997</text>
+		</text>
+		<text name="Produttore" extra="true">
+			<text>International Games System</text>
+		</text>
+		<text name="nomesistema_nu" extra="true">
+			<text> IGS PolyGame Master</text>
+		</text>
+		<text name="Descrizione" extra="true">
+			<text>The IGS PolyGame Master is an arcade system released by IGS in 1997. Designed to rival the SNK Neo Geo MVS, it borrows many design elements from the MVS, such as a cartridge system. Later on in the IGS PGM life cycle, some games were released in both cartridge form and single PCB form, similar to the MVS single PCB games. In 2007, the successor to the IGS PGM, the IGS PolyGame Master 2, was released. IGS also allowed Cave to release games on a custom single PCB version of the PGM, known as the CAVE IGS PGM Hardware.
+The IGS PGM uses JAMMA pinout with a fourth button, similar to a 1-slot Neo Geo MVS.
+The CPU is a Motorola 68000 running at 20 MHz, sound CPU is a Z80 running at 8.468 MHz, and the sound chip is an ICS2115, which affords the IGS PGM 32-channel PCM audio.
+The small push button should bring the test menu and the brown switch erase the contents of the NVRAM. Use this to reset to factory defaults or reset scores if they save.
+The battery on the IGS PGM is a Varta 3/V60R (NiMH, Alkaline) Metal hydride battery Electrochemistry.			
+			</text>
+			<text lang="pl">IGS PolyGame Master to system zręcznościowy wydany przez IGS w 1997 roku. Zaprojektowany jako rywal SNK Neo Geo MVS , zapożycza wiele elementów konstrukcyjnych z MVS, takich jak system kartridży. W dalszej części cyklu życia IGS PGM niektóre gry zostały wydane zarówno w formie kartridży, jak i pojedynczych płytek PCB, podobnie jak gry MVS z pojedynczą płytką PCB. W 2007 roku wypuszczono następcę IGS PGM , IGS PolyGame Master 2 . IGS zezwoliło także Cave na wydawanie gier na niestandardowej wersji PGM z pojedynczą płytką PCB, znanej jako CAVE IGS PGM Hardware .
+IGS PGM wykorzystuje pinout JAMMA z czwartym przyciskiem, podobnie jak 1-slotowy Neo Geo MVS .
+Procesor to Motorola 68000 pracujący z częstotliwością 20 MHz, procesor dźwięku to Z80 pracujący z częstotliwością 8,468 MHz, a układ dźwiękowy to ICS2115, który zapewnia 32-kanałowy dźwięk PCM IGS PGM.
+Mały przycisk powinien wywołać menu testowe, a brązowy przełącznik skasować zawartość pamięci NVRAM. Użyj tej opcji, aby przywrócić ustawienia fabryczne lub zresetować wyniki, jeśli zostały zapisane.
+Bateria w IGS PGM to bateria wodorkowa Varta 3/V60R ​​(NiMH, alkaliczna) 			
+			</text>
+			<text lang="fr">L' IGS PolyGame Master est un système d'arcade lancé par IGS en 1997. Conçu pour rivaliser avec le SNK Neo Geo MVS , il emprunte de nombreux éléments de conception au MVS, comme un système de cartouches. Plus tard dans le cycle de vie d'IGS PGM , certains jeux ont été publiés à la fois sous forme de cartouche et sous forme de PCB unique, similaire aux jeux MVS à PCB unique. En 2007, le successeur de l' IGS PGM , l' IGS PolyGame Master 2 , est sorti. IGS a également permis à Cave de sortir des jeux sur une version personnalisée à PCB unique du PGM, connue sous le nom de matériel CAVE IGS PGM .
+L'IGS PGM utilise le brochage JAMMA avec un quatrième bouton, similaire à un Neo Geo MVS à 1 emplacement .
+Le processeur est un Motorola 68000 fonctionnant à 20 MHz, le processeur sonore est un Z80 fonctionnant à 8,468 MHz et la puce sonore est une ICS2115, qui offre l'audio PCM à 32 canaux IGS PGM.
+Le petit bouton poussoir devrait amener le menu test et l'interrupteur marron effacer le contenu de la NVRAM. Utilisez-le pour réinitialiser les paramètres d'usine ou réinitialiser les scores s'ils sont enregistrés.
+La batterie de l'IGS PGM est une batterie à hydrure métallique Varta 3/V60R ​​(NiMH, alcaline)			
+			
+			</text>
+			<text lang="ru">IGS PolyGame Master — аркадная система, выпущенная IGS в 1997 году. Созданная для конкуренции с SNK Neo Geo MVS , она заимствовала у MVS многие элементы дизайна, такие как система картриджей. Позже в жизненном цикле IGS PGM некоторые игры были выпущены как в форме картриджей, так и в форме одной печатной платы, аналогично играм MVS с одной печатной платой. В 2007 году был выпущен преемник IGS PGM — IGS PolyGame Master 2. IGS также позволила Cave выпускать игры на специальной версии PGM с одной печатной платой, известной как CAVE IGS PGM Hardware
+IGS PGM использует распиновку JAMMA с четвертой кнопкой, аналогично Neo Geo MVS с 1 слотом .
+Центральный процессор — Motorola 68000, работающий на частоте 20 МГц, звуковой процессор — Z80, работающий на частоте 8,468 МГц, а звуковой чип — ICS2115, который обеспечивает 32-канальный звук PCM IGS PGM.
+Маленькая кнопка должна вызвать тестовое меню, а коричневый переключатель стирает содержимое NVRAM. Используйте это для возврата к заводским настройкам или сброса оценок, если они сохранились.
+В IGS PGM используется металлогидридная батарея Varta 3/V60R ​​(NiMH, щелочная). 			
+			</text>
+			<text lang="it">L' IGS PolyGame Master è un sistema arcade rilasciato da IGS nel 1997. Progettato per rivaleggiare con SNK Neo Geo MVS , prende in prestito molti elementi di design dall'MVS, come un sistema a cartuccia. Più avanti nel ciclo di vita di IGS PGM , alcuni giochi furono rilasciati sia sotto forma di cartuccia che sotto forma di PCB singolo, simili ai giochi MVS a PCB singolo. Nel 2007 è stato rilasciato il successore di IGS PGM , IGS PolyGame Master 2 .IGS ha anche consentito a Cave di rilasciare giochi su una versione PCB singola personalizzata del PGM, nota come CAVE IGS PGM Hardware.
+Il PGM IGS utilizza la piedinatura JAMMA con un quarto pulsante, simile a un Neo Geo MVS a 1 slot .
+La CPU è un Motorola 68000 che funziona a 20 MHz, la CPU audio è una Z80 che funziona a 8.468 MHz e il chip audio è un ICS2115, che fornisce l'audio PCM a 32 canali IGS PGM.
+Il piccolo pulsante dovrebbe portare al menu test e l'interruttore marrone cancellare il contenuto della NVRAM. Utilizzalo per ripristinare le impostazioni di fabbrica o reimpostare i punteggi se vengono salvati.
+La batteria dell'IGS PGM è una batteria Varta 3/V60R ​​(NiMH, alcalina) all'idruro di metallo.		
+			</text>
+		</text>
+	</view>
+</theme>

@@ -52,7 +52,6 @@
 	<include name="yes" displayName="${yes}">./subsets/screen/yes.xml</include>
 	</subset>
 
-
 	
 <!--Stile Carosello -->
 	<subset subset="systemview" name="Carousel" displayName="${SystemsCarouselStyle}">
@@ -90,15 +89,16 @@
 
 <!--Stile layout -->	
 	<subset subset="Layout" name="Layout" displayName="${Layout}">
+	<include name="Dark">./subsets/layout/layout-dark.xml</include>
 	<include name="Default">./subsets/layout/layout-default.xml</include>
 	<include name="Inverted">./subsets/layout/layout-inverted.xml</include>
-	<include name="Dark">./subsets/layout/layout-dark.xml</include>
 	<include name="Full Dark">./subsets/layout/layout-fulldark.xml</include>
 	<include name="Full Light">./subsets/layout/layout-fullight.xml</include>
 	</subset>
 		
 <!--Sfondi -->
 	<subset subset="Background" name="Background" displayName="${Background}">
+	<include name="FanArt">./subsets/sfondi/FanArt.xml</include>
 	<include name="Retrowave">./subsets/sfondi/retrowave.xml</include>
 	<include name="Tunnel">./subsets/sfondi/tunnel.xml</include>
 	<include name="Linear">./subsets/sfondi/linear.xml</include>
@@ -113,7 +113,6 @@
 	<include name="Sci-Fi">./subsets/sfondi/scifi.xml</include>
 	<include name="Smoke">./subsets/sfondi/smoke.xml</include>
 	<include name="Triangles">./subsets/sfondi/triangles.xml</include>
-	<include name="FanArt">./subsets/sfondi/FanArt.xml</include>
 	<include name="Random game videos">./subsets/sfondi/video.xml</include>
 	</subset>
 
@@ -191,8 +190,8 @@
 	
 <!--anteprima video nella vista grid -->
 	<subset subset="video" name="Video on grid" displayName="${VideoOnGrid}" appliesTo="carousel, grid">
-	<include name="No" displayName="${no}">./subsets/grid/novideo.xml</include>
 	<include name="Yes" displayName="${yes}">./subsets/grid/video.xml</include>
+	<include name="No" displayName="${no}">./subsets/grid/novideo.xml</include>
 	</subset> 
 
 <!--Tipo Font descrizione sistemi -->	

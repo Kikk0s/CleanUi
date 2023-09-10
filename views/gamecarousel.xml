@@ -6,25 +6,14 @@
 
  <view name="gamecarousel">
     <gamecarousel name="gamecarousel">
-      <pos>0.02 0.25</pos>
-      <size>0.5 0.7</size>
-	   <logoSize>0.15 0.12</logoSize>
-      <scrollSound>./tema/sounds/Move.wav</scrollSound>	  
-      <zIndex>101</zIndex>
+
     </gamecarousel> 
 	<text name="gamecarouselLogoText">
         <color>${black}</color>
-		<fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
-	     <fontSize>0.03</fontSize>	
-		<pos>0.02 0.25</pos>
-		<size>0.5 0.7</size>
-		<lineSpacing>1.0</lineSpacing>		
-		 <zIndex>102</zIndex>
-		 <forceUppercase>false</forceUppercase>
     </text>
 	
 	<text name="gamecarouselLogoText" ifSubset="Layout:Full Light">
-        <color>${white}</color>
+        <color>${black}</color>
     </text>
 	
 	<text name="gamecarouselLogoText" ifSubset="Layout:Inverted">
