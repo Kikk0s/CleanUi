@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+		<text name="DataRilascio" extra="true">
+			<text>2001</text>
+		</text>
+		<text name="Produttore" extra="true">
+			<text>NAMCO</text>
+		</text>
+		<text name="nomesistema_nu" extra="true">
+			<text>NAMCO 2X6</text>
+		</text>
+		<text name="Descrizione" extra="true">
+			<text>The Namco System 246 is a development of the Sony PlayStation 2 technology as a basis for an arcade system board. It was released in December 2000 on its first game Bloody Roar 3. Like the Sega NAOMI, it is widely licensed for use by other manufacturers. Games such as Battle Gear 3 and Capcom Fighting Evolution are examples of System 246-based arcade games that are not Namco products.</text>
+			<text lang="pl">Namco System 246 to rozwinięcie technologii PlayStation 2 będące podstawą do wykonania płyty głównej zręcznościowej. Został użyty w 2001 roku w pierwszej grze Ridge Racer V. Podobnie jak Sega NAOMI , jest szeroko licencjonowany do użytku przez innych producentów. Gry takie jak Battle Gear 3 i Capcom Fighting Evolution to przykłady gier zręcznościowych opartych na Systemie 246, które nie są produkowane przez Namco.</text>
+			<text lang="fr">Namco System 246 est un développement de la technologie PlayStation 2 servant de base à la création d'une carte mère d'arcade. Il a été utilisé en 2001 avec le premier jeu Ridge Racer V. Comme le Sega NAOMI , il est largement autorisé à être utilisé par d'autres fabricants. Des jeux tels que Battle Gear 3 et Capcom Fighting Evolution sont des exemples de jeux d'arcade basés sur le Système 246 qui ne sont pas produits par Namco.</text>
+			<text lang="ru">Namco System 246 — это развитие технологии PlayStation 2 как основа для создания материнской платы для игровых автоматов. Он использовался в 2001 году в первой игре Ridge Racer V. Как и Sega NAOMI , она широко лицензирована для использования другими производителями. Такие игры, как Battle Gear 3 и Capcom Fighting Evolution , являются примерами аркадных игр, основанных на System 246, которые не производятся Namco.</text>
+			<text lang="it">Namco System 246 è uno sviluppo della tecnologia della PlayStation 2 come base per realizzare una scheda madre arcade. È stata impiegata nel 2001 col primo gioco Ridge Racer V. Come il Sega NAOMI, è ampiamente concesso in licenza per l'utilizzo da parte di altri produttori. Giochi come Battle Gear 3 e Capcom Fighting Evolution sono esempi di giochi arcade basati sul System 246 i quali non sono prodotti da Namco.</text>
+		</text>
+	</view>
+</theme>

@@ -43,7 +43,8 @@
 	 <TitlesFont>Titles Font</TitlesFont> 
 	 <Basic>Basic</Basic> 
 	 <Full>Full</Full> 	
-	 <SmallScreen>Tiny screen</SmallScreen> 			 
+	 <BigVideo>Big video preview</BigVideo>
+	 <InsideImage>Video preview inside image frame</InsideImage> 	
 	</variables>   
 
 <!--Schermo piccolo -->
@@ -190,7 +191,8 @@
 	
 <!--anteprima video nella vista grid -->
 	<subset subset="video" name="Video on grid" displayName="${VideoOnGrid}" appliesTo="carousel, grid">
-	<include name="Yes" displayName="${yes}">./subsets/grid/video.xml</include>
+	<include name="BigVideo" displayName="${BigVideo}">./subsets/grid/bigvideo.xml</include>	
+	<include name="InsideImage" displayName="${InsideImage}">./subsets/grid/video.xml</include>
 	<include name="No" displayName="${no}">./subsets/grid/novideo.xml</include>
 	</subset> 
 

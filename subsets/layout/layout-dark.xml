@@ -714,7 +714,7 @@
   <customView name="Carousel" inherits="grid" displayName="${carouselViewName}">
     <text name="md_name">
       <color>ffffffff</color>
-      <pos>0 0.80</pos>
+      <pos>0 0.85</pos>
       <size>0.5 0.10</size>
       <alignment>center</alignment>
       <glowColor>00000016</glowColor>
@@ -730,6 +730,8 @@
       <centerSelection>true</centerSelection>
       <scrollLoop>true</scrollLoop>
     </imagegrid>
+	
+	
     <gridtile name="default">
       <padding>64 16</padding>
       <imageSizeMode>maxSize</imageSizeMode>

@@ -45,6 +45,8 @@
 	 <TitlesFont>Font dei titoli</TitlesFont>
 	 <Basic>Base</Basic> 
 	 <Full>Complete</Full> 	
-	 <SmallScreen>Ottimizza per piccoli schermi</SmallScreen> 
+	 <SmallScreen>Ottimizza per piccoli schermi</SmallScreen>
+	 <BigVideo>Anteprima in riquadro grande</BigVideo>
+	 <InsideImage>Anteprima dentro l'immagine</InsideImage> 	 
   </variables>
 </theme>

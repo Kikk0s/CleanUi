@@ -1,0 +1,41 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+ 
+ 	<include>./config.xml</include>
+ 
+ <!-- Anteprima video nella vista grid-->  
+ <customView name="Carousel" inherits="grid" displayName="${carouselViewName}">
+   <video name="md_video">
+			 <origin>0.5 0.5</origin>
+			 <pos>0.255 0.48</pos>
+			 <size>0.5 0.665</size>
+			 <delay>1.2</delay>
+			 <zIndex>50</zIndex>
+			 <effect>size</effect>				 
+			 <showSnapshotNoVideo>false</showSnapshotNoVideo>
+			 <showSnapshotDelay>false</showSnapshotDelay>
+		  </video>         
+  </customView>
+  
+   <customView name="Carousel horizontal" inherits="grid" displayName="${carouselViewName}">
+   <video name="md_video">
+			 <origin>0.5 0.5</origin>
+			 <pos>0.50 0.35</pos>
+			 <size>0.52 0.6916</size>
+			 <delay>1.2</delay>
+			 <zIndex>50</zIndex>
+			 <effect>size</effect>			 
+			 <showSnapshotNoVideo>false</showSnapshotNoVideo>
+			 <showSnapshotDelay>false</showSnapshotDelay>
+		  </video>         
+  </customView>
+  
+    <view name="grid">
+  	<imagegrid name="gamegrid">
+    <showVideoAtDelay>1200</showVideoAtDelay>
+	</imagegrid>
+  </view>
+  
+</theme>

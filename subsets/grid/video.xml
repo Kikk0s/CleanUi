@@ -6,12 +6,7 @@
  	<include>./config.xml</include>
  
  <!-- Anteprima video nella vista grid-->  
-  <customView name="grid">
-    <imagegrid name="gamegrid">
-      <showVideoAtDelay>1200</showVideoAtDelay>
-    </imagegrid>
-  </customView>
-  
+
     <view name="grid">
   	<imagegrid name="gamegrid">
     <showVideoAtDelay>1200</showVideoAtDelay>
