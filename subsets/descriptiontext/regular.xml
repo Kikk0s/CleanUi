@@ -9,7 +9,11 @@
 			<fontSize>0.065</fontSize>
 		</text>
 
-		<text name="Descrizione" extra="true" ifSubset="systeminfoextra:yes">
+		<text name="Descrizione" extra="true" ifSubset="systeminfoextra:CleanUi">
+			<fontSize>0.025</fontSize>
+		</text>
+		
+		<text name="Descrizione" extra="true" ifSubset="systeminfoextra:Classic">
 			<fontSize>0.025</fontSize>
 		</text>
 		
@@ -18,7 +22,11 @@
 		</text>
 		
 		<!-- informazioni numero di rom presenti in un sistema -->
-	<text name="systemInfo" ifSubset="systeminfoextra:yes">     
+	<text name="systemInfo" ifSubset="systeminfoextra:CleanUi">     
+			 <fontSize>0.06</fontSize>
+			</text> 
+	
+	<text name="systemInfo" ifSubset="systeminfoextra:Classic">     
 			 <fontSize>0.06</fontSize>
 			</text> 
 			

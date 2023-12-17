@@ -37,7 +37,11 @@
 			 </text>
 			 
 <!-- informazioni numero di rom presenti in un sistema -->
-	<text name="systemInfo" ifSubset="systeminfoextra:yes">     
+	<text name="systemInfo" ifSubset="systeminfoextra:CleanUi">     
+			 <fontPath>./tema/fonts/barcadenobarital.ttf</fontPath>
+			</text> 
+			
+	<text name="systemInfo" ifSubset="systeminfoextra:Classic">     
 			 <fontPath>./tema/fonts/barcadenobarital.ttf</fontPath>
 			</text> 
 			

@@ -11,9 +11,9 @@
 	  <Horizontal_wheel>Ruota orizzontale</Horizontal_wheel>
 	  <horizontal>Orizzontale</horizontal> 
   	 <SystemsCarouseLogosStyle>Stile loghi Carosello</SystemsCarouseLogosStyle>
-	 <Logos>Loghi</Logos>
+	 <Logos>CleanUi</Logos>
+	 <Classic>Classici</Classic>
 	 <Text>Testi</Text>
-
 	 <GameCarouselSource>Stile lista giochi GameCarousel</GameCarouselSource>
 	 <text>Testo</text>
 	 <marquee>Striscione</marquee>	 
@@ -25,7 +25,7 @@
 	 <Background>Sfondo</Background>	 
 	 <AccentColor>Colore d'accento</AccentColor>	 
 	 <LaunchSystemsLogoStyle>Stile logo schermata di lancio sistemi</LaunchSystemsLogoStyle>	 
-	 <Controllers>Immagine del controller</Controllers> 	 
+	 <Controllers>Controllers CleanUI</Controllers> 	 
 	 <LaunchSystemsText>Stile testo schermata di lancio sistemi</LaunchSystemsText>  	 
 	 <ExtraSystemsInfo>Informazioni extra sui sistemi</ExtraSystemsInfo> 	 
 	 <performance>Sistemi di fascia bassa (aumenta le performance)</performance>  	 
@@ -47,6 +47,11 @@
 	 <Full>Complete</Full> 	
 	 <SmallScreen>Ottimizza per piccoli schermi</SmallScreen>
 	 <BigVideo>Anteprima in riquadro grande</BigVideo>
-	 <InsideImage>Anteprima dentro l'immagine</InsideImage> 	 
+	 <InsideImage>Anteprima dentro l'immagine</InsideImage> 
+	 <Logos>CleanUi</Logos>
+	 <Classic>Loghi Classici</Classic>
+	 <Controllersimg>Controllers classico</Controllersimg>
+	 <LogosCleanUI>Loghi CleanUi</LogosCleanUI> 
+	 <LogosClassic>Loghi Classici</LogosClassic> 	 	 
   </variables>
 </theme>

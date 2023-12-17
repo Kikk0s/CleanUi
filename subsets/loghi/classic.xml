@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <!-- Configurazione tema --> 
+   <include>./config.xml</include>
+
+	<view name="system">
+
+		 
+		<image name="logo">
+					<path>./tema/loghi/classic/${system.theme}.png</path>
+				</image>
+	</view>	  
+
+	<view name="detailed, video,gamecarousel,basic">
+					<image name="system" extra="true">        
+					   <path>./tema/loghi/classic/${system.theme}.png</path>           
+					</image>	
+	</view>	
+
+	<view name="grid">
+					<image name="system" extra="true">
+					   <path>./tema/loghi/classic/${system.theme}.png</path>           
+					</image>
+	</view>	
+</theme>

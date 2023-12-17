@@ -10,7 +10,6 @@
 	 <Horizontal_wheel>Horizontal_wheel</Horizontal_wheel>
 	 <horizontal>Horizontal</horizontal>	 
 	 <SystemsCarouseLogosStyle>Systems Carouse Logos Style</SystemsCarouseLogosStyle>
-	 <Logos>Logos</Logos>
 	 <Text>Text</Text>
 	 <GameCarouselSource>Game Carousel Source</GameCarouselSource>
 	 <text>Text</text>
@@ -22,8 +21,7 @@
 	 <Layout>Layout</Layout>	 
 	 <Background>Background</Background>	 
 	 <AccentColor>AccentColor</AccentColor>	 
-	 <LaunchSystemsLogoStyle>Launch Systems Logo Style</LaunchSystemsLogoStyle>	 
-	 <Controllers>Controllers</Controllers> 	 
+	 <LaunchSystemsLogoStyle>Launch Systems Logo Style</LaunchSystemsLogoStyle>	  
 	 <LaunchSystemsText>Launch Systems Text</LaunchSystemsText>  	 
 	 <ExtraSystemsInfo>Extra Systems Info</ExtraSystemsInfo> 	 
 	 <performance>Low end hardware (RPI3 and lower)</performance>  	 
@@ -44,7 +42,13 @@
 	 <Basic>Basic</Basic> 
 	 <Full>Full</Full> 	
 	 <BigVideo>Big video preview</BigVideo>
-	 <InsideImage>Video preview inside image frame</InsideImage> 	
+	 <InsideImage>Video preview inside image frame</InsideImage>
+	 <Logos>CleanUi</Logos>
+	 <Classic>Classic</Classic>
+	 <Controllersimg>Controllers Classic image</Controllersimg>
+	 <Controllers>Controllers CleanUi</Controllers> 
+	 <LogosCleanUI>CleanUi Logos</LogosCleanUI> 
+	 <LogosClassic>Classic Logos</LogosClassic> 		 
 	</variables>   
 
 <!--Schermo piccolo -->
@@ -65,7 +69,8 @@
 
 <!--Stile loghi Carosello -->	
 	<subset subset="Carousel_logos" name="Carousel logos" displayName="${SystemsCarouseLogosStyle}">
-	<include name="Logos" displayName="${Logos}">./subsets/loghi/logos.xml</include>
+	<include name="CleanUi" displayName="${Logos}">./subsets/loghi/cleanui.xml</include>
+	<include name="Classic" displayName="${Classic}">./subsets/loghi/classic.xml</include>
 	<include name="Text" displayName="${Text}">./subsets/loghi/text.xml</include>
 	</subset>
 	
@@ -137,7 +142,9 @@
 <!--stile loghi apertura sistema -->	
 	<subset subset="Launch Sistems Logo" name="Launch Sistems Logo" displayName="${LaunchSystemsLogoStyle}">
 	<include name="Controllers" displayName="${Controllers}">./subsets/intrologo/controllers.xml</include>
-	<include name="Logos" displayName="${Logos}">./subsets/intrologo/logos.xml</include>
+	<include name="Controllersimg" displayName="${Controllersimg}">./subsets/intrologo/controllersimg.xml</include>
+	<include name="Logos CleanUI" displayName="${LogosCleanUI}">./subsets/intrologo/logos.xml</include>
+	<include name="Logos Classic" displayName="${LogosClassic}">./subsets/intrologo/logosclassic.xml</include>
 	<include name="Logo text" displayName="${Text}">./subsets/intrologo/logotext.xml</include>
 	</subset>
 
@@ -150,7 +157,8 @@
 	
 <!--Informazioni di sistema extra  -->
 	<subset subset="systeminfoextra" name="systeminfoextra" displayName="${ExtraSystemsInfo}">
-	<include name="yes" displayName="${yes}">./subsets/info/yes.xml</include>
+	<include name="CleanUi" displayName="${Logos}">./subsets/info/clean.xml</include>
+	<include name="Classic" displayName="${Classic}">./subsets/info/classic.xml</include>
 	<include name="no" displayName="${no}">./subsets/animazioni/no.xml</include>
 	</subset>
 	

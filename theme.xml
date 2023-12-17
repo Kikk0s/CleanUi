@@ -6,6 +6,8 @@
 <!-- Configurazione tema --> 
    <include>./config.xml</include>
    <include>./views/gamecarousel.xml</include>
+   <include>./views/hud.xml</include>
+   <include>./views/cabinet.xml</include>
    <include>./tema/sistemi/${system.theme}.xml</include>
 
 
@@ -17,5 +19,268 @@
 	<include name="Full Dark">./subsets/layout/layout-fulldark.xml</include>
 	<include name="Full Light">./subsets/layout/layout-fullight.xml</include>
 	</subset>
+	
+
+	
+ <customView name="Hud" inherits="grid" displayName="${carouselViewName}">
+
+ <text name="md_name">
+      <color>${black}</color>
+	   <size>0.5 0.10</size>
+	  <origin>0.02 0.89</origin>
+      <pos>0.02 0.85</pos>
+      <glowColor>${white}</glowColor>
+	  <alignment>center</alignment>  
+	  <fontPath>./tema/fonts/barcadenobarital.ttf</fontPath>
+	  <fontSize>0.03</fontSize>
+      <glowSize>1</glowSize>
+    </text> 
+
+    <!-- <image name="artback" extra="true">
+      <size>1 1</size>
+      <pos>-0.49 0</pos>
+      <origin>0 0</origin>
+      <path>./tema/sfondisistemi/${system.theme}.jpg</path>
+      <zIndex>1</zIndex>
+	  <storyboard>
+				<animation property="opacity" from="0.1" to="0.1" duration="5000" mode="easeIn" autoReverse="true" repeat="forever"/>
+	  </storyboard>	
+    </image> -->
+	
+	<image name="Char" extra="true">
+      <maxSize>0.3 0.5</maxSize>
+      <pos>0 0.45</pos>
+      <origin>0 0</origin>
+	  <path>./tema/characters/default.png</path>
+	  <path>./tema/characters/${system.theme}.png</path>
+      <zIndex>6</zIndex>
+	  	  <storyboard>
+			<animation property="offsetX" from="-1" to="0" begin="0" duration="2000" mode="easeOut"/>
+			<animation property="scale" from="1" to="1.05" begin="2000" duration="500" autoreverse="true" repeat="forever" mode="easeIn"/>
+	  </storyboard>
+    </image>
+	
+	<image name="hud" extra="true">
+			 <pos>0 0</pos>
+			 <size>1 1</size>		
+				<path>./tema/images/hud2.png</path>
+				<zIndex>4</zIndex>				
+			</image>
+	
+	<image name="onair" extra="true">
+			 <pos>0 0</pos>
+			 <size>1 1</size>		
+				<path>./tema/images/onair.png</path>
+				<color>${accent}</color>
+				<zIndex>9</zIndex>
+	  <storyboard>
+				<animation property="opacity" from="0.3" to="1" duration="1000" mode="easeIn" autoReverse="true" repeat="forever"/>
+	  </storyboard>						
+			</image>
+	
+		<image name="hudglow" extra="true">
+			 <pos>0.0 0</pos>
+			 <size>1 1</size>
+			<color>${accent_t}</color>
+				<path>./tema/images/hudglow2.png</path>
+				<zIndex>5</zIndex>
+	  <storyboard>
+				<animation property="opacity" from="0.5" to="1" duration="1000" mode="easeIn" autoReverse="true" repeat="forever"/>
+	  </storyboard>						
+			</image>
+		
+		<image name="back" extra="true">
+			<origin>0.5 0.5</origin>
+			 <pos>0.05 0.55</pos>
+			 <maxSize>0.03 0.05</maxSize>
+			<color>${accent}</color>
+				<path>./tema/images/back_h.png</path>
+				<zIndex>7</zIndex>
+	  <storyboard>
+			<animation property="scale" from="1" to="1.05" begin="2000" duration="500" autoreverse="true" repeat="forever" mode="easeIn"/>
+	  </storyboard>						
+			</image>
+		
+		<image name="next" extra="true">
+			<origin>0.5 0.5</origin>
+			 <pos>0.45 0.55</pos>
+			 <maxSize>0.03 0.05</maxSize>
+			<color>${accent}</color>
+				<path>./tema/images/next_h.png</path>
+				<zIndex>7</zIndex>
+	  <storyboard>
+			<animation property="scale" from="1" to="1.05" begin="2000" duration="500" autoreverse="true" repeat="forever" mode="easeIn"/>
+	  </storyboard>						
+			</image>
+
+		   <image name="crtvideo" extra="true">
+			 <origin>0.5 0.5</origin>
+			 <pos>0.255 0.521</pos>
+			 <size>0.28 0.36</size>
+			  <tile>true</tile>
+			  <path>./subsets/effetti/crt.png</path>
+			  <zIndex>3</zIndex>
+			</image>
+			
+		<image name="md_marquee">
+			 <origin>0.5 0.5</origin>
+			 <pos>0.25 0.15</pos>
+			 <maxSize>0.25 0.15</maxSize>
+			 <default>./tema/images/marquee.png</default>
+			 <zIndex>4</zIndex>
+	  <storyboard>
+			<animation property="opacity" from="0.8" to="1" duration="3000" mode="easeIn" autoReverse="true" repeat="forever"/>
+	  </storyboard>					 
+		  </image>   
+ 
+		  <video name="md_video">
+			 <effect>size</effect>	
+			 <origin>0.5 0.5</origin>
+			 <pos>0.255 0.521</pos>
+			 <size>0.28 0.36</size>
+			 <delay>0</delay>
+			 <zIndex>2</zIndex>         
+			 <showSnapshotNoVideo>false</showSnapshotNoVideo>
+			 <showSnapshotDelay>false</showSnapshotDelay>
+			 <default>./subsets/sfondi/novideo.mp4</default>
+		  </video>
+   
+	   <imagegrid name="gamegrid">
+		   <size>0 0</size>
+		</imagegrid>
+
+	   <text name="gridtile">
+		  <visible>false</visible>
+		</text>	
+ </customView>	
+
+<customView name="Cabinet" inherits="grid" displayName="${carouselViewName}">
+
+ 
+ <text name="md_name">
+      <color>${accent}</color>
+	   <size>0.5 0.10</size>
+	  <origin>0.02 0.93</origin>
+      <pos>0.02 0.93</pos>
+      <glowColor>${black}</glowColor>
+	  <alignment>center</alignment>  
+	  <fontPath>./tema/fonts/barcadenobarital.ttf</fontPath>
+	  <fontSize>0.03</fontSize>
+      <glowSize>4</glowSize>
+    </text> 
+
+     <image name="Char" extra="true">
+      <maxSize>0.3 0.5</maxSize>
+      <pos>0 0.45</pos>
+      <origin>0 0</origin>
+	  <path>./tema/characters/default.png</path>
+	  <path>./tema/characters/${system.theme}.png</path>
+      <zIndex>5</zIndex>
+	  	  <storyboard>
+			<animation property="offsetX" from="-1" to="0" begin="0" duration="2000" mode="easeOut"/>
+			<animation property="scale" from="1" to="1.05" begin="2000" duration="500" autoreverse="true" repeat="forever" mode="easeIn"/>
+	  </storyboard>
+    </image>
+	
+		<image name="marqueeback" extra="true">
+		     <color>${menubg}</color>
+			 <pos>0 0.001</pos>
+			 <size>1 1</size>		
+				<path>./tema/images/marqueeback.png</path>
+				<zIndex>2</zIndex>				
+			</image>
+	
+	<image name="cabinet" extra="true">
+			 <pos>0 0.001</pos>
+			 <size>1 1</size>		
+				<path>./tema/images/arcadenew.png</path>
+				<zIndex>4</zIndex>				
+			</image>
+			
+		<image name="cabinetglow" extra="true">
+			 <pos>0.0 0</pos>
+			 <size>1 1</size>
+			<color>${accent_t}</color>
+				<path>./tema/images/arcadeglow.png</path>
+				<zIndex>4</zIndex>
+	  <storyboard>
+				<animation property="opacity" from="0.5" to="1" duration="1000" mode="easeIn" autoReverse="true" repeat="forever"/>
+	  </storyboard>				
+			</image>
+		
+		<image name="back" extra="true">
+			<origin>0.5 0.5</origin>
+			 <pos>0.03 0.55</pos>
+			 <maxSize>0.03 0.05</maxSize>
+			<color>${accent_t}</color>
+				<path>./tema/images/back.png</path>
+				<zIndex>6</zIndex>
+	  <storyboard>
+			<animation property="scale" from="1" to="1.05" begin="2000" duration="500" autoreverse="true" repeat="forever" mode="easeIn"/>
+	  </storyboard>				
+			</image>
+		
+		<image name="next" extra="true">
+			<origin>0.5 0.5</origin>
+			 <pos>0.48 0.55</pos>
+			 <maxSize>0.03 0.05</maxSize>
+			<color>${accent_t}</color>
+				<path>./tema/images/next.png</path>
+				<zIndex>6</zIndex>
+	  <storyboard>
+			<animation property="scale" from="1" to="1.05" begin="2000" duration="500" autoreverse="true" repeat="forever" mode="easeIn"/>
+	  </storyboard>				
+			</image>
+
+		   <image name="crtvideo" extra="true">
+			 <origin>0.5 0.5</origin>
+			 <pos>0.255 0.521</pos>
+			 <size>0.26 0.34</size>
+			  <tile>true</tile>
+			  <path>./subsets/effetti/crt.png</path>
+			  <zIndex>3</zIndex>
+			</image>
+			
+		<image name="crtmarquee" extra="true">
+			 <origin>0.5 0.5</origin>
+			 <pos>0.255 0.22</pos>
+			 <size>0.32 0.15</size>
+			  <tile>true</tile>
+			  <path>./subsets/effetti/crt.png</path>
+			  <zIndex>3</zIndex>
+			</image>	
+
+		<image name="md_marquee">
+			 <origin>0.5 0.5</origin>
+			 <pos>0.26 0.22</pos>
+			 <maxSize>0.30 0.13</maxSize>
+			 <default>./tema/images/marquee.png</default>
+			 <zIndex>2</zIndex> 
+	  <storyboard>
+			<animation property="opacity" from="0.5" to="1" duration="1000" mode="easeIn" autoReverse="true" repeat="forever"/>
+	  </storyboard>			 
+		  </image>   
+ 
+		  <video name="md_video">
+			 <effect>size</effect>	
+			 <origin>0.5 0.5</origin>
+			 <pos>0.255 0.521</pos>
+			 <size>0.26 0.34</size>
+			 <delay>0</delay>
+			 <zIndex>2</zIndex>         
+			 <showSnapshotNoVideo>false</showSnapshotNoVideo>
+			 <showSnapshotDelay>false</showSnapshotDelay>
+			 <default>./subsets/sfondi/novideo.mp4</default>
+		  </video>
+   
+	   <imagegrid name="gamegrid">
+		   <size>0 0</size>
+		   <autoLayout>0 0</autoLayout >
+		</imagegrid>
+
+	   <text name="gridtile">
+		  <visible>false</visible>
+		</text>	
+ </customView> 
 
 </theme>

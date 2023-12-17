@@ -10,4 +10,6 @@
 		<path>./tema/controllers/${system.theme}.svg</path>
 </image>
 </view>
+
+
 </theme>

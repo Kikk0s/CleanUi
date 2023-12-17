@@ -229,7 +229,7 @@
 	 <!-- grafiche aggiuntive sfondo-->
 		<image name="system" extra="true">		
 		<storyboard>
-			<animation property="offsetX" from="-1" to="0" duration="2000" mode="easeOut"/>
+			<animation property="offsetX" from="1" to="0" duration="2000" mode="easeOut"/>
 			<animation property="scale" from="1" to="1.05" begin="2000" duration="500" autoreverse="true" repeat="forever" mode="easeIn"/>
 		</storyboard>				
 	</image>
@@ -338,6 +338,9 @@
 	<animation property="opacity" from="1" to="0" duration="300" mode="EaseInCubic" begin="1000"/>
 		</storyboard>
 		</text>
+
+	
 </view>
+
 
 </theme>

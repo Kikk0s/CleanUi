@@ -7,12 +7,14 @@
   <customView name="Carousel" inherits="grid" displayName="${carouselViewName}">
     <imagegrid name="gamegrid">
 	<imageSource>thumbnail</imageSource> <!-- text, image, thumbnail, marquee -->
+	<default>./tema/images/box3def.png</default>
     </imagegrid>
   </customView>
   
   <view name="grid">
   	<imagegrid name="gamegrid">
 	<imageSource>thumbnail</imageSource> <!-- text, image, thumbnail, marquee -->
+	<default>./tema/images/box3def.png</default>
 	</imagegrid>
   </view>
 	  

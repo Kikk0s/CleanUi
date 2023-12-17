@@ -7,7 +7,7 @@
 
 <view name="basic, detailed, video,grid,gamecarousel">
  <image name="logoIntroSistemi" extra="true">
-		<path>./tema/loghi/${system.theme}.svg</path>
+		<path>./tema/loghi/cleanui/${system.theme}.svg</path>
 </image>
 </view>
 </theme>

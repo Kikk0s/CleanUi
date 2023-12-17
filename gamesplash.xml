@@ -2,7 +2,7 @@
 <theme>
   <formatVersion>7</formatVersion>
   
-	<!-- Configurazione tema --> 
+	<!-- Configurazione tema-->
    <include>./config.xml</include>
   
   <view name="splash">
@@ -80,7 +80,7 @@
       <fontSize>0.05</fontSize>
 	  <zIndex>8</zIndex>
     </text>
-	
+
 	
 	 <text name="label" ifSubset="Layout:Full Light">
       <color>${black}</color>
@@ -89,6 +89,5 @@
 	 <text name="label" ifSubset="Layout:Full Dark">
       <color>${white}</color>
     </text>
-	
   </view>
 </theme>

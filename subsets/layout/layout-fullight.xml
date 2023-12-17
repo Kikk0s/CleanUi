@@ -161,7 +161,7 @@
 	
 <!-- loghi emulatori -->
 	<image name="logo">
-				<color>${black}</color>		
+				<!-- <color>${black}</color> -->		
 			</image>
 			
 		
@@ -203,7 +203,7 @@
 					<image name="system" extra="true">        
 					   <pos>0.05 0.1</pos>
 					   <maxSize>0.25 0.1</maxSize>
-					   <color>${black}</color>
+					   <!-- <color>${black}</color> -->
 					   <zIndex>100</zIndex>            
 					</image>	
 	</view>	
@@ -213,7 +213,7 @@
 					   <origin>0.5 0.5</origin>
 					   <pos>0.75 0.17</pos>
 					   <maxSize>0.25 0.1</maxSize>
-					   <color>${black}</color>
+					   <!-- <color>${black}</color> -->
 					   <zIndex>100</zIndex>            
 					</image>
 	</view>	
@@ -399,12 +399,22 @@
       <image name="background" extra="true">
        <tile>true</tile>
          <origin>0 0</origin>
-         <pos>0 0.0</pos>
+         <pos>0.0 0.0</pos>
          <size>1 1</size>
          <path>./tema/images/bg.png</path>
 		 <color>${white}</color>
          <zIndex>1</zIndex>    
       </image>     
+ 
+	 
+	  	  <image name="background3" extra="true">
+		   <tile>true</tile>
+			 <pos>0.00 0.9</pos>
+			 <size>1 0.1</size>
+			 <path>./tema/images/bg.png</path>
+			 <color>${white}</color>
+			 <zIndex>2</zIndex>    
+		  </image> 
 	  
 
 	 <!-- grafiche aggiuntive sfondo-->
@@ -692,6 +702,17 @@
 	</view>
 	
   <customView name="Carousel" inherits="grid" displayName="${carouselViewName}">
+  
+        <image name="background" extra="true">
+       <tile>true</tile>
+         <origin>0 0</origin>
+         <pos>0.0 0.0</pos>
+         <size>1 1</size>
+         <path>./tema/images/bg.png</path>
+		 <color>${white}</color>
+         <zIndex>1</zIndex>    
+      </image>     
+  
     <text name="md_name">
       <color>ffffffff</color>
       <pos>0 0.80</pos>

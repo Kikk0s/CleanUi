@@ -2,7 +2,11 @@
 <theme>
 	<formatVersion>7</formatVersion>
 	<view name="system">
-		<text name="Descrizione" extra="true" ifSubset="systeminfoextra:yes">
+		<text name="Descrizione" extra="true" ifSubset="systeminfoextra:CleanUi">
+			<fontPath>./tema/fonts/RobotoRegular.ttf</fontPath>
+		</text>
+
+		<text name="Descrizione" extra="true" ifSubset="systeminfoextra:Classic">
 			<fontPath>./tema/fonts/RobotoRegular.ttf</fontPath>
 		</text>
 		
