@@ -156,6 +156,9 @@
 			  <zIndex>140</zIndex>
 			</image>	
 	
+			<image name="controllersinfo" extra="true" subset="systeminfoextra:Classic"> 
+			<color>ffffffF7</color>
+			</image>	
 
 	
 	
@@ -936,6 +939,10 @@
 	<origin>0.5 0.5</origin>
 	<zIndex>140</zIndex>
 	<opacity>0</opacity>
+	</image>
+	
+	<image name="logoIntroSistemi" extra="true" ifSubset="Launch Sistems Logo:Controllersimg"> 
+			<color>ffffffF7</color>
 	</image>
 
  <text name="testoIntroSistemi" extra="true">
